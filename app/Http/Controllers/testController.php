@@ -7,6 +7,9 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use DB;
 use Auth;
+use App\User;
+use App\Profile;
+
 
 class testController extends Controller
 {
@@ -19,7 +22,8 @@ class testController extends Controller
     {
      if (Auth::check()) {
     // The user is logged in...
-        return 'the user is verified';
+        //$user = Auth::user();
+        return view('prac.hhh');
     }else{
         return 'the user is not verified';
     }
@@ -32,7 +36,12 @@ class testController extends Controller
      */
     public function create()
     {
-        //
+        if(Auth::check()){
+
+            return view('prac.test');
+        }else{
+            return redirect('/');
+        }
     }
 
     /**
@@ -44,6 +53,21 @@ class testController extends Controller
     public function store(Request $request)
     {
         //
+        if(Auth::check()){
+
+            $user=Auth::user();
+
+            $pro = new Profile;
+
+            $pro->user_id = $user->id;
+            $pro->about = $request->about;
+            $pro->country= $request->country;
+            $pro->language= $request->language;
+
+            $pro->save();
+            return $user->name." this the of the user ".$request->about;
+
+        }
     }
 
     /**

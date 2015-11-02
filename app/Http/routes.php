@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('testing','testController');
+
 Route::get('about','testController@index');
 
 // Authentication routes...
