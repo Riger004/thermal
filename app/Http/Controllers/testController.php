@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 use DB;
 use Auth;
 use App\User;
-use App\Profile;
+use App\Profiles;
 
 
 class testController extends Controller
@@ -37,8 +37,10 @@ class testController extends Controller
     public function create()
     {
         if(Auth::check()){
+            $user=Auth::user();
+            return view('prac.profile',compact('user'));
+            //return Auth::user();
 
-            return view('prac.test');
         }else{
             return redirect('/');
         }
@@ -50,22 +52,18 @@ class testController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Requests\profileRequest $request)
     {
         //
         if(Auth::check()){
 
             $user=Auth::user();
 
-            $pro = new Profile;
+            $user->profiles()->create($request->all());
 
-            $pro->user_id = $user->id;
-            $pro->about = $request->about;
-            $pro->country= $request->country;
-            $pro->language= $request->language;
+            //profiles::create(["user_id"=>"$user->id"],$request->all());
 
-            $pro->save();
-            return $user->name." this the of the user ".$request->about;
+            return 'done';
 
         }
     }

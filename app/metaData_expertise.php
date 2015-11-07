@@ -4,15 +4,17 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class metaData_expertise extends Model
+class metadata_expertise extends Model
 {
-    //name of the table
-    protected $table='metadata_expertise';
+    //table name
+    protected $table='metadata_expertises';
 
-    //primary key
-    protected $primaryKey='expertise_id';
+    //primaryKey
+    protected $primaryKey='id';
 
-    public function category_expertise(){
-		return $this->belongsTo('App\Category','f_category_id');    	
+    protected $fillable=['expertise_name'];
+
+    public function category(){
+    	return $this->belongsTo('App\category','id');
     }
 }

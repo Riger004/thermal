@@ -4,15 +4,17 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class metaData_alsodeliver extends Model
+class metadata_alsodeliver extends Model
 {
-    //name of the table
-    protected $table='metadata_alsodeliver';
+     //table name
+    protected $table='metadata_alsodelivers';
 
-    //primary key
-    protected $primaryKey='deliver_id';
+    //primaryKey
+    protected $primaryKey='id';
 
-    public function category_alsoDeliver(){
-		return $this->belongsTo('App\Category','f_category_id');    	
+    protected $fillable=['deliver_name'];
+
+    public function category(){
+    	return $this->belongsTo('App\category','id');
     }
 }

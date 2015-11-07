@@ -9,15 +9,17 @@ class Comment extends Model
     //name of the table
     protected $table='comments';
 
-    //primary key
-    protected $primaryKey='comment_id';
+    //name of the primaryKey
+    protected $table=['gig_id','profile_id'];
 
+    protected $fillable=['comment_description'];
 
-    public function comment_byProfile(){
-    	return $this->belongsTo('App\Profile','f_profile_id');
+    public function profile(){
+    	return $this->belongsTo('App\profiles','id');
     }
 
-    public function comment_onGig(){
-    	return $this->belongsTo('App\Gig_Table','f_gig_id');
+    public function gig(){
+    	return $this->bolongsTo('App\Gig','id');
     }
+
 }

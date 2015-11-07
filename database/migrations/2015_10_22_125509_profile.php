@@ -16,12 +16,12 @@ class Profile extends Migration
         Schema::create('profiles',function(Blueprint $table){
             $table->increments('id');
             $table->integer('user_id')->unsigned();
-            $table->longText('about')->nullable();
             $table->string('country')->nullable();
             $table->string('language')->nullable();
             $table->string('profile_pic')->nullable();
             $table->time('recent_delivery')->nullable();
             $table->double('avg_response_time')->nullable();
+            $table->longText('about')->nullable();
             $table->timestamps();
 
             //foreign key constrain

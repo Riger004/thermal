@@ -4,18 +4,18 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class tags extends Model
+class gig_photo extends Model
 {
     //name of the table
-    protected $table='tags';
+    protected $table='gig_photos';
 
-
-    //primaryKey
     protected $primaryKey='id';
 
-    protected $fillable=['names'];
+    protected $fillable=['path'];
 
-    public function gig(){
+
+    public function gig_gal(){
 		return $this->belongsTo('App\Gig','id');    	
     }
+
 }

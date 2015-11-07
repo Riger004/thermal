@@ -4,30 +4,32 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+class category extends Model
 {
-    //name of the table
-	protected $table='category';
+    //table name
+    protected $table='categories';
 
-    //primary key
-	protected $primaryKey='category_id';
+    //primaryKey
+    protected $primaryKey='id';
 
-	public function gig_table(){
-		return $this->belongsTo('App\Gig_table','f_gig_id');
-	}
+    protected $fillable=['main_cat','sub_cat','platform'];
 
 
-	public function metadata_expertise(){
-		return $this->hasOne('App\metaData_expertise','f_category_id');    	
-	}
+    public function gig(){
+    	return $this->belongsTo('App\Gig','id');
+    }
 
+    public function expertise(){
+    	return $this->hasOne('App\metadata_expertise','category_id');
+    }
 
-	public function metadata_service(){
-		return $this->hasOne('App\metaData_service','f_category_id');    	
-	}
+    public function service(){
+    	return $this->hasMany('App\metadata_service','category_id');
+    }
 
-	public function metadata_alsoDeliver(){
-		return $this->hasOne('App\metadata_alsodeliver','f_category_id');    	
-	}
+    public function deliver(){
+    	return $this->hasMany('App\metadata_alsodeliver','category_id');
+    }
+
 
 }

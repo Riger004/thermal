@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('gig', function () {
+    return view('prac.gigg_creation');
+});
+
 Route::resource('testing','testController');
 
 Route::get('about','testController@index');

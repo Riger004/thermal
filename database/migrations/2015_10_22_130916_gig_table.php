@@ -19,7 +19,6 @@ class GigTable extends Migration
             $table->string('title',250);
             $table->longText('description');
             $table->string('video')->nullable();
-            $table->string('gig_gallery')->nullable();
             $table->float('rating');
             // within how many days the gig_creator will complete the task
             $table->integer('duration');

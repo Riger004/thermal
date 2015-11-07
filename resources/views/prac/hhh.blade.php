@@ -1,8 +1,16 @@
 <html>
 <head>
-	<title>path</title>
+	<meta charset="UTF-8">
+	<title>project flyer</title>
+	<link rel="stylesheet"  href="/css/app.css">
+	<link rel="stylesheet"  href="/js/libs.css">
 </head>
 <body>
-	<a href="/testing/create">if you want to enter data into database.</a>
+	<h1>
+		<a href="/testing/create">if you want to enter data into database.</a>
+	</h1>
+	 <div class="container">
+
+	 </div>
 </body>
 </html>

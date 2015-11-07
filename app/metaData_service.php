@@ -4,15 +4,19 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class metaData_service extends Model
+class metadata_service extends Model
 {
-    //name of the table
-    protected $table='metadata_service';
+     //table name
+    protected $table='metadata_services';
 
-    //primary key
-    protected $primaryKey='service_id';
+    //primaryKey
+    protected $primaryKey='id';
 
-    public function category_service(){
-		return $this->belongsTo('App\Category','f_category_id');    	
+    protected $fillable=['service_name'];
+
+    public function category(){
+    	return $this->belongsTo('App\category','id');
     }
+
+    
 }
