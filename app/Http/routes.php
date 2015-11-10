@@ -12,10 +12,20 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('prac.home');
 });
 
-Route::get('gig', function () {
+
+Route::get('master', function () {
+    return view('prac.master');
+});
+
+Route::get('gigg', function () {
+    return view('prac.gigg');
+});
+
+
+Route::get('gigg_create', function () {
     return view('prac.gigg_creation');
 });
 
