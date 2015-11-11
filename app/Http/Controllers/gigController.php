@@ -10,8 +10,7 @@ use Auth;
 use App\User;
 use App\Profiles;
 
-
-class testController extends Controller
+class gigController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -20,14 +19,8 @@ class testController extends Controller
      */
     public function index()
     {
-     if (Auth::check()) {
-    // The user is logged in...
-        //$user = Auth::user();
-        return view('prac.hhh');
-    }else{
-        return 'the user is not verified';
+        //
     }
-}
 
     /**
      * Show the form for creating a new resource.
@@ -36,13 +29,11 @@ class testController extends Controller
      */
     public function create()
     {
+        //
         if(Auth::check()){
-            $user=Auth::user();
-            return view('prac.profile',compact('user'));
-            //return Auth::user();
-
+            return view('prac.gigg_creation');            
         }else{
-            return redirect('/');
+            return view('/');
         }
     }
 
@@ -52,20 +43,9 @@ class testController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Requests\profileRequest $request)
+    public function store(Request $request)
     {
         //
-        if(Auth::check()){
-
-            $user=Auth::user();
-
-            $user->profiles()->create($request->all());
-
-            //profiles::create(["user_id"=>"$user->id"],$request->all());
-
-            return 'done';
-
-        }
     }
 
     /**
@@ -74,15 +54,9 @@ class testController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($user_id)
+    public function show($id)
     {
-        if(Auth::check()){
-            $user=Auth::user();
-
-            $data=Profiles::where(compact('user_id'))->first();
-
-            return view('show.profile',compact('data','user'));
-        }
+        //
     }
 
     /**

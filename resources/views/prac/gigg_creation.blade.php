@@ -6,8 +6,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css"/>
-    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="/css/foundation.css"/>
+    <link rel="stylesheet" href="/css/custom.css"/>
     <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -114,7 +114,8 @@
 {{--gig title--}}
 
 
-<form>
+<form method="POST" action="/gigs" enctype="multipart/form-data" class="col-md-6">
+    {{ csrf_field() }}
     <div class="row">
 
         <div class="small-3 columns">

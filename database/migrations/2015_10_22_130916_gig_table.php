@@ -23,6 +23,9 @@ class GigTable extends Migration
             // within how many days the gig_creator will complete the task
             $table->integer('duration');
             $table->float('amount');
+            $table->string('main_cat');
+            $table->string('sub_cat');
+            $table->string('expertise');
             $table->timestamps();
 
             $table->foreign('profile_id')->references('id')->on('profiles')->onDelete('cascade');

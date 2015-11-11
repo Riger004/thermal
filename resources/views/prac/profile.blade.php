@@ -4,7 +4,7 @@
 </head>
 <body>
 	<div class='container'>
-		{!! Form::open(array('route' => 'testing.store')) !!}
+		{!! Form::open(array('route' => 'profile.store')) !!}
 		
 		<div class="row">
 			<label for="country">Country</label><br />

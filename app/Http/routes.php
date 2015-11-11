@@ -15,13 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('gig', function () {
-    return view('prac.gigg_creation');
-});
 
-Route::resource('testing','testController');
+Route::resource('profile','testController');
 
 Route::get('about','testController@index');
+
+
 
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
@@ -49,3 +48,9 @@ Route::get('auth/facebook/callback', 'Auth\AuthController@handleProviderCallback
 //auth for google
 Route::get('auth/google', 'Auth\AuthController@redirectToProvider_google');
 Route::get('auth/google/callback', 'Auth\AuthController@handleProviderCallback_google');
+
+
+
+Route::get('{user_id}','testController@show');
+Route::resource('gigs','gigController');
+

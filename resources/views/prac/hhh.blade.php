@@ -7,7 +7,7 @@
 </head>
 <body>
 	<h1>
-		<a href="/testing/create">if you want to enter data into database.</a>
+		<a href="/profile/create">if you want to enter data into database.</a>
 	</h1>
 	 <div class="container">
 
