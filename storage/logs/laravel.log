@@ -2263,6 +2263,7 @@ Stack trace:
 #39 /home/vagrant/sites/thermal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(87): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #40 /home/vagrant/sites/thermal/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #41 {main}  
+
 [2015-11-10 20:06:27] local.ERROR: exception 'InvalidArgumentException' with message 'Route [testing.store] not defined.' in /home/vagrant/sites/thermal/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:296
 Stack trace:
 #0 /home/vagrant/sites/thermal/vendor/laravelcollective/html/src/FormBuilder.php(943): Illuminate\Routing\UrlGenerator->route('testing.store')

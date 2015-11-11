@@ -12,8 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('prac.home');
 });
+
 
 
 Route::resource('profile','testController');

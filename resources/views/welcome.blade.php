@@ -39,8 +39,6 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
-                <a href="auth/register">Sign in</a></br>
-                <a href="auth/login">Log in</a>
             </div>
         </div>
     </body>
