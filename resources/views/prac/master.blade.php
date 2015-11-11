@@ -133,13 +133,14 @@
             <div class="signup-panel left-solid">
                 <p class="welcome">Registered Users</p>
 
-                <form>
+                <form method="POST" action="auth/login" enctype="multipart/form-data">
+                    {{ csrf_field() }}
                     <div class="row collapse">
                         <div class="small-2  columns">
                             <span class="prefix"><i class="fi-torso-female"></i></span>
                         </div>
                         <div class="small-10  columns">
-                            <input type="text" placeholder="username">
+                            <input type="email" name="email"  placeholder="email" value="{{ old('email') }}">
                         </div>
                     </div>
                     <div class="row collapse">
@@ -147,11 +148,12 @@
                             <span class="prefix"><i class="fi-lock"></i></span>
                         </div>
                         <div class="small-10 columns ">
-                            <input type="text" placeholder="password">
+                             <input type="password" name="password" id="password" placeholder="password">
                         </div>
                     </div>
+                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
-                <a href="#" class="button ">Log In </a>
+              
             </div>
         </div>
 
