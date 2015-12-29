@@ -129,7 +129,7 @@
 
 <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="login or sign up" aria-hidden="true" role="dialog">
     <div class="row">
-        <div class="large-6 columns auth-plain">
+        <div class="large-6 columns auth-plain small-centered text-center">
             <div class="signup-panel left-solid">
                 <p class="welcome">Registered Users</p>
 
@@ -151,21 +151,19 @@
                              <input type="password" name="password" id="password" placeholder="password">
                         </div>
                     </div>
-                     <button type="submit" class="btn btn-primary">Login</button>
+                     <button type="submit" class="btn btn-primary ">Login</button>
+
+                     <button href="#" class="facebook radius button split"> <span></span>sign in with facebook</button>
+
+                     <button href="#" class="google radius button split"> <span></span>sign in with google +</button>
+
+
                 </form>
               
             </div>
         </div>
 
-        <div class="large-6 columns auth-plain">
-            <div class="signup-panel newusers">
-                <p class="welcome"> Not a member yet?</p>
-
-                <p>By creating an account with us, you will be able to move through the checkout process faster, view
-                    and track your orders, and more.</p><br>
-                <a href="#" class="button ">Sign Up</a></br>
-            </div>
-        </div>
+        
 
     </div>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
