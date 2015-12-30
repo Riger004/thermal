@@ -153,12 +153,11 @@
                     </div>
                      <button type="submit" class="btn btn-primary ">Login</button>
 
-                     <button href="#" class="facebook radius button split"> <span></span>sign in with facebook</button>
-
-                     <button href="#" class="google radius button split"> <span></span>sign in with google +</button>
-
-
                 </form>
+
+                <a href="auth/facebook" class="facebook radius button split"> <span></span>sign in with facebook</a>
+
+                <a href="auth/google" class="google radius button split"> <span></span>sign in with google +</a>
               
             </div>
         </div>
