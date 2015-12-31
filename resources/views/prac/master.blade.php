@@ -151,7 +151,17 @@
                              <input type="password" name="password" id="password" placeholder="password">
                         </div>
                     </div>
-                     <button type="submit" class="btn btn-primary ">Login</button>
+                     <button type="submit" class="btn  success radius expand ">LOGIN </button>
+
+                     <div class="row collapse" data-equalizer>
+                     	 <div class="small-6 columns text-left " data-equalizer-watch>
+	                     	
+    						  <input class="inline" type="checkbox" id="ch"  > <label class="inline" for="ch" ><p><span class="subheader">Remember me! </span></p></label> 
+	                     </div>
+	                      <div class="small-6 columns text-right " data-equalizer-watch>
+	                      	<p class="forPass"> <a  href="#"><span   style="color:green;">Forgot Password ?</span></a> </p>
+	                      </div>
+	                 </div>
 
                 </form>
 

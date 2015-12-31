@@ -195,3 +195,17 @@
   font-weight: 200;
  
 }
+
+
+
+input.inline, label.inline {
+  vertical-align:middle;
+   margin-top:0px;
+  margin-bottom:0px;
+  
+}
+
+.forPass{
+margin-top: 13px;
+
+}
