@@ -19,7 +19,7 @@ Route::get('/', function () {
 //temp registration route
 
 Route::get('/register', function () {
-    return view('prac.register');
+    return view('auth.register');
 });
 
 
