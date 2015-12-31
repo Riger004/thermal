@@ -27,7 +27,9 @@
 
 
 
-
+.reveal-modal{
+    background-color: hsla(0, 0%, 100%, 0.92);
+}
 
 /*for gig title placeholder
 
@@ -197,15 +199,17 @@
 }
 
 
-
+/*for remember me & forgot pass*/
 input.inline, label.inline {
   vertical-align:middle;
-   margin-top:0px;
+  margin-top:0px;
   margin-bottom:0px;
   
 }
 
 .forPass{
-margin-top: 13px;
+  margin-top: 13px;
 
 }
+
+

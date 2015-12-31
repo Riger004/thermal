@@ -127,7 +127,7 @@
 
 <!-- modal content -->
 
-<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="login or sign up" aria-hidden="true" role="dialog">
+<div id="myModal" class="reveal-modal " data-reveal aria-labelledby="login or sign up" aria-hidden="true" role="dialog" style="display: none">
     <div class="row">
         <div class="large-6 columns auth-plain small-centered text-center">
             <div class="signup-panel left-solid">
