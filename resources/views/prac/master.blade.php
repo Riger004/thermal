@@ -23,7 +23,7 @@
         <ul class="title-area">
 
             <li class="name">
-                <h1><a href="#">FiverrLike</a></h1>
+                <h1><a href="pro">FiverrLike</a></h1>
             </li>
             <li class="toggle-topbar menu-icon">
                 <a href="#"><span>MENU</span></a>
@@ -235,6 +235,7 @@
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
+
 
 <script>
     $(document).foundation();
