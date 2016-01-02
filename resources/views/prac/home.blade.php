@@ -10,34 +10,55 @@
 
 
 
-<div class="row pad_top ">
+<!-- slider starts -->
 
-    <!-- profile display-->
-    <div class="large-4 small-12 columns">
-
-        <img src="img/lgC.jpg">
+<div id="owl-demo" class="owl-carousel owl-theme">
 
 
-        <div class="hide-for-small panel">
-            <h4>User Name</h4>
-            <h6> class="subheader small-text">Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec
-                dignissim
-                nibh fermentum odio ornare sagittis.</h6>
-        </div>
+      <div class="item"><img src="img/fullimage4.jpg" alt="Mirror Edge"></div>
+      <div class="item"><img src="img/fullimage5.jpg" alt="Mirror Edge"></div>
+      <div class="item"><img src="img/fullimage6.jpg" alt="Mirror Edge"></div>
+      <div class="item"><img src="img/fullimage7.jpg" alt="Mirror Edge"></div>
+ 
+</div>
 
 
-        <a href="#">
-            <div class="panel callout radius">
-                <h6>99&nbsp; items in your cart</h6>
+
+ <div class="row homeHero">
+
+            <div  class="small-12 columns small-centered text-center heroText " >
+
+                    <span class="ProName"><b>What do you need done?</b><br><b>Find it on Fiverr</b></span> <br>
+
+                    <span class="ProRate">Browse. Buy. Done. </span> 
+                     
+                
             </div>
-        </a>
-    </div>
+ </div>
 
 
+<!-- slider ends -->
+
+
+
+<div class="row pad_top panel ">
+
+   
     <!-- gigg display-->
-    <div class="large-8 columns ">
-        <div class="row">
-            <div class="large-4 small-6 columns ">
+    <div class="large-12 columns ">
+
+
+
+        <div class="row tredPad">
+                <div class="small-12 columns small-centered text-center">
+                <h3><b>Most Recent Services</b></h3>
+                <h6><b>Choose from our most recent services</b></h6>
+                </div>
+
+
+        </div>
+        <div class="row recent">
+            <div class="large-3 small-6 columns ">
                 <div class="item">
                     <img src="img/profile.jpg">
 
@@ -49,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="large-4 small-6 columns  ">
+            <div class="large-3 small-6 columns  ">
                 <div class="item">
                     <img src="img/mdA.jpg">
                 </div>
@@ -60,7 +81,7 @@
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-4 small-6 columns ">
+            <div class="large-3 small-6 columns ">
 
                 <div class="item">
                     <img src="img/lgC.jpg">
@@ -71,7 +92,7 @@
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-4 small-6 columns ">
+            <div class="large-3 small-6 columns ">
 
                 <div class="item">
                     <img src="img/lgB.jpg">
@@ -82,27 +103,30 @@
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-4 small-6 columns ">
-                <div class="item">
-                    <img src="img/smA.jpg">
+            
+        </div>
+
+
+
+
+
+
+<!-- featured giggs -->
+
+
+
+
+
+        <div class="row tredPad ">
+                <div class="small-12 columns small-centered text-center feaGigg">
+                    <h3><b>Featured Giggs</b></h3>
+                    <h6><b>Noteworthy Services</b></h6>
                 </div>
 
-                <div class="panel">
-                    <h5>Item Name</h5>
-                    <h6 class="subheader">$000.00</h6>
-                </div>
-            </div>
-            <div class="large-4 small-6 columns ">
-                <div class="item">
-                    <img src="/img/lgB.jpg">
-                </div>
 
-                <div class="panel">
-                    <h5>Item Name</h5>
-                    <h6 class="subheader">$000.00</h6>
-                </div>
-            </div>
-            <div class="large-4 small-6 columns ">
+        </div>
+        <div class="row ">
+            <div class="large-3 small-6 columns ">
                 <div class="item">
                     <img src="img/profile.jpg">
 
@@ -113,7 +137,8 @@
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-4 small-6 columns  ">
+
+            <div class="large-3 small-6 columns  ">
                 <div class="item">
                     <img src="img/mdA.jpg">
                 </div>
@@ -124,7 +149,7 @@
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-4 small-6 columns ">
+            <div class="large-3 small-6 columns ">
 
                 <div class="item">
                     <img src="img/lgC.jpg">
@@ -135,7 +160,185 @@
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
+            <div class="large-3 small-6 columns ">
+
+                <div class="item">
+                    <img src="img/lgB.jpg">
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            
         </div>
+
+
+
+        <!-- two -->
+
+
+
+        <div class="row ">
+            <div class="large-3 small-6 columns ">
+                <div class="item">
+                    <img src="img/profile.jpg">
+
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+
+            <div class="large-3 small-6 columns  ">
+                <div class="item">
+                    <img src="img/mdA.jpg">
+                </div>
+
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            <div class="large-3 small-6 columns ">
+
+                <div class="item">
+                    <img src="img/lgC.jpg">
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            <div class="large-3 small-6 columns ">
+
+                <div class="item">
+                    <img src="img/lgB.jpg">
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <!-- three -->
+
+
+        <div class="row ">
+            <div class="large-3 small-6 columns ">
+                <div class="item">
+                    <img src="img/profile.jpg">
+
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+
+            <div class="large-3 small-6 columns  ">
+                <div class="item">
+                    <img src="img/mdA.jpg">
+                </div>
+
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            <div class="large-3 small-6 columns ">
+
+                <div class="item">
+                    <img src="img/lgC.jpg">
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            <div class="large-3 small-6 columns ">
+
+                <div class="item">
+                    <img src="img/lgB.jpg">
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- four -->
+
+
+
+        <div class="row ">
+            <div class="large-3 small-6 columns ">
+                <div class="item">
+                    <img src="img/profile.jpg">
+
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+
+            <div class="large-3 small-6 columns  ">
+                <div class="item">
+                    <img src="img/mdA.jpg">
+                </div>
+
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            <div class="large-3 small-6 columns ">
+
+                <div class="item">
+                    <img src="img/lgC.jpg">
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            <div class="large-3 small-6 columns ">
+
+                <div class="item">
+                    <img src="img/lgB.jpg">
+                </div>
+
+                <div class="panel">
+                    <h5>Item Name</h5>
+                    <h6 class="subheader">$000.00</h6>
+                </div>
+            </div>
+            
+        </div>
+
+
+
 
         <div class="row">
             <div class="large-12 columns">
@@ -156,6 +359,35 @@
         </div>
     </div>
 </div>
+
+
+
+<script src="js/vendor/jquery.js"></script>
+<script >
+        $(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 400,
+      paginationSpeed : 500,
+      singleItem:true,
+      autoPlay : 2000
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});   
+
+
+
+</script>
 
 
 

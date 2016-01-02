@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/custom.css"/>
     <link rel="stylesheet" href="css/foundation-icons.css" />
+    <!-- Basic stylesheet -->
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+	 
+	 <!-- Default Theme -->
+	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
     <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -235,6 +240,7 @@
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
+<script src="owl-carousel/owl.carousel.js"></script>
 
 
 <script>
