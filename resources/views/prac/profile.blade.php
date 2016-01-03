@@ -321,8 +321,204 @@
 
 
 
+
+
+
+
 			</div>
 </div>
+
+
+
+
+<!-- reviews starts -->
+
+
+<div class="row giggs panel clearfix">
+
+
+			<div class="small-12 columns  ">
+
+
+					<div class="row giggPadd ">
+						<div class="small-12 columns  ">
+								<p><h4><b>Mr. Name Of Person's Reviews </b></h4></p>
+						</div>
+					</div>
+
+					
+
+			        <div class="row" >
+
+			        		<div class="small-6 columns ">
+
+			        				
+											<div class="row panel callout radius">
+												
+												<div class="small-12 large-12 columns testimonial">
+													<div class="quote text-justify">
+														<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
+													</div>
+													<div class="student">
+														<div > <img class="photo" src="img/profile.jpg"></div>
+														<p>John Doe</p>
+														<p>Important person, some Company</p>
+													</div>
+													<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
+												</div>
+												
+											</div>   
+
+
+											<div class="row panel callout radius">
+												
+												<div class="small-12 large-12 columns testimonial">
+													<div class="quote text-justify">
+														<p>Lorem ipsum dolor i, sit amet ullamcorper purus dui sit amet augue. Donec aliquet diam ut neque mattis, eu tristique sem rutrum.</p>
+													</div>
+													<div class="student">
+														<div > <img class="photo" src="img/profile.jpg"></div>
+														<p>John Doe</p>
+														<p>Important person, some Company</p>
+													</div>
+													<div><span class="right "><h4 class="subheader"><small>9 Days ago</small></h4></span></div>
+												</div>
+												
+											</div>
+
+
+
+											<div class="row panel callout radius">
+												
+												<div class="small-12 large-12 columns testimonial">
+													<div class="quote text-justify">
+														<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
+													</div>
+													<div class="student">
+														<div > <img class="photo" src="img/profile.jpg"></div>
+														<p>John Doe</p>
+														<p>Important person, some Company</p>
+													</div>
+													<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
+												</div>
+												
+											</div>   
+
+
+
+                                            <div class="row panel callout radius">
+												
+												<div class="small-12 large-12 columns testimonial">
+													<div class="quote text-justify">
+														<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
+													</div>
+													<div class="student">
+														<div > <img class="photo" src="img/profile.jpg"></div>
+														<p>John Doe</p>
+														<p>Important person, some Company</p>
+													</div>
+													<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
+												</div>
+												
+											</div>   
+
+
+			        		</div>
+
+
+
+
+			        		<div class="small-6 columns " data-equalizer-watch >
+
+			        				
+											<div class="row panel callout radius">
+												
+												<div class="small-12 large-12 columns testimonial">
+													<div class="quote text-justify">
+														<p>Lorem ipsum dolor i, sit amet ullamcorper purus dui sit amet augue. Donec aliquet diam ut neque mattis, eu tristique sem rutrum.</p>
+													</div>
+													<div class="student">
+														<div > <img class="photo" src="img/profile.jpg"></div>
+														<p>John Doe</p>
+														<p>Important person, some Company</p>
+													</div>
+													<div><span class="right "><h4 class="subheader"><small>9 Days ago</small></h4></span></div>
+												</div>
+												
+											</div>
+
+
+											<div class="row panel callout radius">
+												
+												<div class="small-12 large-12 columns testimonial">
+													<div class="quote text-justify">
+														<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
+													</div>
+													<div class="student">
+														<div > <img class="photo" src="img/profile.jpg"></div>
+														<p>John Doe</p>
+														<p>Important person, some Company</p>
+													</div>
+													<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
+												</div>
+												
+											</div>
+
+
+
+											<div class="row panel callout radius">
+												
+												<div class="small-12 large-12 columns testimonial">
+													<div class="quote text-justify">
+														<p>Lorem ipsum dolor i, sit amet ullamcorper purus dui sit amet augue. Donec aliquet diam ut neque mattis, eu tristique sem rutrum.</p>
+													</div>
+													<div class="student">
+														<div > <img class="photo" src="img/profile.jpg"></div>
+														<p>John Doe</p>
+														<p>Important person, some Company</p>
+													</div>
+													<div><span class="right "><h4 class="subheader"><small>9 Days ago</small></h4></span></div>
+												</div>
+												
+											</div>
+
+
+
+											<div class="row panel callout radius">
+												
+												<div class="small-12 large-12 columns testimonial">
+													<div class="quote text-justify">
+														<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
+													</div>
+													<div class="student">
+														<div > <img class="photo" src="img/profile.jpg"></div>
+														<p>John Doe</p>
+														<p>Important person, some Company</p>
+													</div>
+													<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
+												</div>
+												
+											</div>      
+
+
+
+											
+
+							
+			        		</div>
+
+			        </div>
+
+
+
+
+
+			</div>
+
+
+</div>
+
+<!-- reviews ends -->
 
 
 
