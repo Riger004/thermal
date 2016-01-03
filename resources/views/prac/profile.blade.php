@@ -112,6 +112,8 @@
 
 												<a href="#" class="button success radius">Contact </a>
 
+												<a href="#" data-reveal-id="myModal1" class="button secondary radious right">Edit Info</a>
+
 
 
 										</div> 
@@ -145,6 +147,78 @@
 				</div>
 
 		</div>
+
+
+
+
+
+
+<!-- modal content -->
+
+<div id="myModal1" class="reveal-modal " data-reveal aria-labelledby="login or sign up" aria-hidden="true" role="dialog" style="display: none">
+    <div class="row">
+        <div class="large-8 columns auth-plain small-centered text-center">
+            <div class="signup-panel left-solid">
+                <p class="welcome">Edit Personal Information</p>
+
+                <form method="POST" action="auth/login" enctype="multipart/form-data">
+                    {{ csrf_field() }}
+                    <div class="row ">
+						    <div class="large-12 columns ">
+						      <label><h5 class="subheader"> About information</h5>
+						        <!-- <input type="textbox" class="info" placeholder="Previous info showen from database" /> -->
+						        <textarea class="info" placeholder="Previous info showen from databases"></textarea>
+						      </label>
+						    </div>
+					 </div>
+
+					 <div class="row">
+						    <div class="large-12 columns  ">
+						      <label><h5 class="subheader">Upload New Profile Picture</h5></label>
+						        <input type="file" name="pic" class="fileUp" accept="image/*">
+						       <!--  <button class="file-upload">            
+  									<input type="file" class="file-input">Choose File
+  								</button> -->
+						      
+						    </div>
+					 </div>
+                   
+
+					<div class="row editEmail"><div class="small-12  columns "><label><h5 class="subheader">New Email Address</h5></label></div></div>
+                   	<div class="row collapse">
+                        <div class="small-2  columns">
+
+                        
+                            <span class="prefix"><i class="fi-torso-female"></i></span>
+                        </div>
+                        <div class="small-10  columns">
+                            <input type="email" name="New email"  placeholder="Previous email" value="{{ old('email') }}">
+                        </div>
+                    </div>
+                    <div class="row editEmail"><div class="small-12  columns "><label><h5 class="subheader">New Language</h5></label></div></div>
+                    <div class="row ">
+						    <div class="large-12 columns ">
+						        <input type="text" class="" placeholder="Previous Language" />
+						    </div>
+					 </div>
+
+
+                </form>
+
+                <a href="#" class="button success radious">Save</a>
+
+            </div>
+        </div>
+
+        
+
+    </div>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+
+<!--modal content ends here-->
+
 
 
 
