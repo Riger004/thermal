@@ -31,8 +31,13 @@
 
 	<div class="row">
 		<div class="small-12 columns  ">
+			@if(isset($profile->profile_pic))
 			<div class="ProPic" style="background-image:url('{{$profile->profile_pic}} ')">
 			</div>
+			@else
+			<div class="ProPic" style="background-image">
+			</div>
+			@endif
 		</div>
 
 	</div>
