@@ -13,23 +13,13 @@ class profiles extends Model
     protected $primaryKey='id';
 
 
-    protected $fillable = ['country', 'language','profile_pic','recent_delivery','avg_response_time','about'];
+    protected $fillable = ['country', 'language','profile_pic','recent_delivery','avg_response_time','about','short_info'];
 
     public function users(){
     	return $this->belongsTo('App\User','id');
     }
 
-    public function gigs(){
-    	return $this->hasMany('App\Gig','profile_id');
-    }
-
-    public function comments(){
-    	return $this->hasMany('App\Comment','profile_id');
-    }
-
-    public function hire(){
-    	return $this->hasMany('App\hire','profile_id');
-    }
+   
 
 
 

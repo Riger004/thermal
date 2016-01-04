@@ -14,11 +14,12 @@
 		     <div class="row">
 
 		       <div class="small-12 columns small-centered text-center heroText">
-		        <span class="ProName">Mr. NameOf Person</span> <br>
-
-		        <span class="ProRate">Rating: 5.0 /5.0 </span> 
-		        <span class="ProReview"> 12 Reviews </span> 
-
+		        <span class="ProName">{{$user->name}}</span> <br>
+		        @if(isset($profile))
+		        <span class="ProReview">{{$profile->short_info}}</span>
+		        @else 
+		        <span class="ProReview"> Describe yourself in one line?</span> 
+		        @endif
 
 		       	
 		       </div>
@@ -53,23 +54,17 @@
 									   					<div class="small-12 columns">
 
 															   <!-- details about service provided by person -->
-																  <h4><b>About Mr. Name Of Person</b></h4>
+																  <h4><b>About Mr. {{$user->name}}</b></h4>
 																  
-																  <p>	Love writing of all kinds! </p>
-
-																	<p>I will help you with: <br>
-
-																	Gaming Articles <br>
-																	Press Releases <br>
-																	Blog Articles <br>
-																	Academic Help <br>
-																	Fashion Articles <br>
-																	Assignments <br>
-																	Tech Articles <br>
-																	SEO Content and Much More :) <br>
-																	
-																  	
+																  @if(isset($profile))
+																  <p>	
+																	{{$profile->about}}
 																  </p>
+																  @else
+																  	<P>
+																  		This is where you make your pitch to potential buyers. Describe your background, your passion and your personality.
+																  	</P>
+																  @endif
 
 														</div>
 												</div>
@@ -80,10 +75,15 @@
 														<div class="small-6 columns">
 															
 																<ul class="no-bullet">
-																	
-																		<li class="fi-mountains"> Location: England </li>
-																		<li class="fi-compass"> Avg. Response Time: 14 Hrs. </li>
-																		<li class="fi-checkbox"> Email Verified </li>
+																		@if(isset($profile))
+																			<li class="fi-mountains"> Location: {{$profile->country}} </li>
+																		@else
+																			<li class="fi-mountains"> Location: please set your location </li>
+																		@endif
+																		@if(isset($profile->avg_response_time))
+																		<li class="fi-compass"> Avg. Response Time: {{$profile->avg_response_time}} </li>
+																		@endif
+																		<li class="fi-checkbox"> Email: {{$user->email}} Verified </li>
 
 																</ul>
 
@@ -92,10 +92,14 @@
 														<div class="small-6 columns">
 															
 																<ul class="no-bullet">
-																	
-																		<li class="fi-megaphone"> Speaks: English </li>
-																		<li class="fi-clipboard-notes"> Recent Delivery: About 7 Hours Ago </li>
-																		
+																		@if(isset($profile->language))
+																		<li class="fi-megaphone"> Speaks: {{$profile->language}} </li>
+																		@else
+																		<li class="fi-megaphone"> Speaks: please set your language </li>
+																		@endif
+																		@if(isset($profile->recent_delivery))
+																		<li class="fi-clipboard-notes"> Recent Delivery: {{$profile->recent_delivery}} </li>
+																		@endif
 																</ul>
 
 														</div>

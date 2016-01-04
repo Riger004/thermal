@@ -17,10 +17,10 @@ class Hire extends Migration
             $table->increments('id');
 
             //the person who has been hired
-            $table->integer('gig_id')->unsigned();
+            $table->integer('gig_id')->index();
             
             //the person who has hired the above person
-            $table->integer('profile_id')->unsigned();
+            $table->integer('profile_id')->index();
             
             $table->longText('job_description');
             $table->timestamps();

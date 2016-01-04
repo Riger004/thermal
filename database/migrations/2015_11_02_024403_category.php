@@ -15,14 +15,13 @@ class Category extends Migration
         //
         Schema::create('categories',function(Blueprint $table){
             $table->increments('id');
-            $table->integer('gig_id')->unsigned();
+            $table->integer('gig_id')->index();
             $table->string('main_cat');
             $table->string('sub_cat');
             $table->string('platform');
             $table->timestamps();
 
 
-            $table->foreign('gig_id')->references('id')->on('gigs')->onDelete('cascade');
         });
     }
 

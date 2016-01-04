@@ -15,11 +15,11 @@ class MedataExpertise extends Migration
         //
         Schema::create('metadata_expertises',function(Blueprint $table){
             $table->increments('id');
-            $table->integer('category_id')->unsigned();
+            $table->integer('category_id')->index();
             $table->string('expertise_name');
             $table->timeStamps();
 
-            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
+            
         });
 
     }

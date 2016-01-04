@@ -32,7 +32,8 @@ Route::get('pro', function () {
 
 
 
-Route::resource('profile','testController');
+//Route::resource('profile','testController');
+Route::resource('profile','profileController');
 
 Route::get('about','testController@index');
 

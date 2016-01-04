@@ -15,7 +15,7 @@ class GigTable extends Migration
         //
         Schema::create('gigs',function(Blueprint $table){
             $table->increments('id');
-            $table->integer('profile_id')->unsigned();
+            $table->integer('profile_id')->index();
             $table->string('title',250);
             $table->longText('description');
             $table->string('video')->nullable();
@@ -28,7 +28,7 @@ class GigTable extends Migration
             $table->string('expertise');
             $table->timestamps();
 
-            $table->foreign('profile_id')->references('id')->on('profiles')->onDelete('cascade');
+           
 
         });
     }
