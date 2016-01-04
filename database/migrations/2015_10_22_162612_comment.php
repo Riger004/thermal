@@ -14,8 +14,8 @@ class Comment extends Migration
     {
         //
         Schema::create('comments',function(Blueprint $table){
-            $table->integer('gig_id');
-            $table->integer('profile_id');
+            $table->integer('gig_id')->index();
+            $table->integer('profile_id')->index();
             $table->primary(['gig_id' , 'profile_id']);
             $table->longText('comment_description')->nullable();
             $table->timestamps();

@@ -41,7 +41,8 @@ Route::get('create', function () {
 
 
 
-Route::resource('profile','testController');
+//Route::resource('profile','testController');
+Route::resource('profile','profileController');
 
 Route::get('about','testController@index');
 

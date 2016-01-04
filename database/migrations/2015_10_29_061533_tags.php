@@ -15,11 +15,11 @@ class Tags extends Migration
         //
         Schema::create('tags',function(Blueprint $table){
             $table->increments('id');
-            $table->integer('gig_id')->unsigned();
+            $table->integer('gig_id')->index();
             $table->text('names');
             $table->timestamps();
 
-            $table->foreign('gig_id')->references('id')->on('gigs')->onDelete('cascade');
+           
         });
     }
 

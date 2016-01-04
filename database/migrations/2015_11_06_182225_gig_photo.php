@@ -15,10 +15,7 @@ class GigPhoto extends Migration
         //
         Schema::create('gig_photos',function(Blueprint $table){
             $table->increments('id');
-            $table->integer('gig_id')->unsigned();
-
-            //relation constrain
-            $table->foreign('gig_id')->references('id')->on('gigs')->onDelete('cascade');
+            $table->integer('gig_id')->index();
 
             $table->string('path');
             $table->timestamps();
