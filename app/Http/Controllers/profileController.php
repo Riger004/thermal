@@ -57,14 +57,32 @@ class profileController extends Controller
     public function store(Request $request)
     {
         $user=Auth::user();
+
+        $this->validate($request, [
+            'country' => 'string|max:50',
+            'language' => 'string|max:50',
+            'phone_num' => 'numeric',
+            'profile_pic' => 'max:3000|mimes:jpeg,bmp,png',
+            'about' => 'max:500',
+            'short_info' => 'max:255',
+            ]);
+
+
+        $file=$request->file('profile_pic');
+
+        $file_name=time().$file->getClientOriginalName();
+
+        $file->move('fivver/photos',$file_name);
+
         $user->profiles()->create([
                 'country'=>$request->country,
                 'language'=>$request->language,
                 'phone_num'=>$request->phone_num,
+                'profile_pic'=>"/fivver/photos/{$file_name}",
                 'about'=>$request->about,
                 'oneLine_descrip'=>$request->oneLine_descrip,
             ]);
-        return 'here in the store' ;
+        return redirect()->back() ;
     }
 
     /**
@@ -75,11 +93,7 @@ class profileController extends Controller
      */
     public function show($name)
     {
-        $user=User::where('name',$name)->first();
-
-        //return view('show.profile',compact('user'));
-
-        //return $user;
+        
     }
 
     /**
