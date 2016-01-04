@@ -23,14 +23,6 @@ Route::get('/register', function () {
 });
 
 
-// temp profile
-
-
-Route::get('pro', function () {
-    return view('prac.profile');
-});
-
-
 
 //Route::resource('profile','testController');
 Route::resource('profile','profileController');

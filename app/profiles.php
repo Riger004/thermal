@@ -13,7 +13,7 @@ class profiles extends Model
     protected $primaryKey='id';
 
 
-    protected $fillable = ['country', 'language','profile_pic','recent_delivery','avg_response_time','about','short_info'];
+    protected $fillable = ['country', 'language','phone_num','profile_pic','recent_delivery','avg_response_time','about','short_info'];
 
     public function users(){
     	return $this->belongsTo('App\User','id');
