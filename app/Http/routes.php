@@ -24,10 +24,19 @@ Route::get('/register', function () {
 
 
 // temp profile
+Route::get('/home', function () {
+    return view('prac.home');
+});
+
 
 
 Route::get('pro', function () {
     return view('prac.profile');
+});
+
+
+Route::get('create', function () {
+    return view('prac.gigg_creation');
 });
 
 

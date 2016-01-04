@@ -28,7 +28,7 @@
         <ul class="title-area">
 
             <li class="name">
-                <h1><a href="pro">FiverrLike</a></h1>
+                <h1><a href="home">FiverrLike</a></h1>
             </li>
             <li class="toggle-topbar menu-icon">
                 <a href="#"><span>MENU</span></a>
@@ -77,7 +77,7 @@
 
 
                 <li class="has-dropdown ">
-                    <a href="#" >Profile Options</a>
+                    <a href="#" >&nbsp;&nbsp;Profile Options&nbsp;&nbsp;</a>
                     <ul class="dropdown">
                         
                         
@@ -85,14 +85,22 @@
                             <a href="#">DashBoard</a>
                         </li>
                         <li class="divider"></li>
+
+                         <li>
+                            <a href="create">My Giggs</a>
+                        </li>
+
+                        <li class="divider"></li>
+
                         <li>
-                            <a href="#">Create Giggs</a>
+                            <a href="create">Create Giggs</a>
                         </li>
                         <li class="divider"></li>
                         
                         <li>
-                            <a href="#">My Profile</a>
+                            <a href="pro">My Profile</a>
                         </li>
+                        <li class="divider"></li>
 
                         <li>
                             <a href="#">Log Out</a>

@@ -48,6 +48,7 @@
   border-bottom: thin solid gray;
 }
 
+
 .f-dropdown li a{
 
   margin-right: 15px !important;
@@ -57,6 +58,9 @@
   font-size: x-large;
 
 }
+
+
+
 
 
 .ww{
@@ -536,4 +540,27 @@ h2 {
 .feaGigg{
 
 	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+/*giggs creation*/
+
+.giggsCr{
+
+  padding-top: 50px;
+}
+
+.title input{
+  min-height: 80px;
+  font-size: large;
+}
+
+.tabs dd.active > a, .tabs .tab-title.active > a {
+  background-color: #E3F6CE;
 }
