@@ -34,100 +34,189 @@
                 <a href="#"><span>MENU</span></a>
             </li>
         </ul>
-        <section class="top-bar-section">
+
+        <!-- first row -->
+
+
+        <section class="top-bar-section ">
 
 
             <ul class="left">
-                <li class="divider"></li>
-                <li class="has-dropdown">
-                    <a href="#">Main Item 1</a>
-                    <ul class="dropdown">
-                        <li><label>Section Name</label></li>
-                        <li class="has-dropdown">
-                            <a class="" href="#">Has Dropdown, Level 1</a>
-                            <ul class="dropdown">
-                                <li>
-                                    <a href="#">Dropdown Options</a>
-                                </li>
-                                <li>
-                                    <a href="#">Dropdown Options</a>
-                                </li>
-                                <li>
-                                    <a href="#">Level 2</a>
-                                </li>
-                                <li>
-                                    <a href="#">Subdropdown Option</a>
-                                </li>
-                                <li>
-                                    <a href="#">Subdropdown Option</a>
-                                </li>
-                                <li>
-                                    <a href="#">Subdropdown Option</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Dropdown Option</a>
-                        </li>
-                        <li>
-                            <a href="#">Dropdown Option</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><label>Section Name</label></li>
-                        <li>
-                            <a href="#">Dropdown Option</a>
-                        </li>
-                        <li>
-                            <a href="#">Dropdown Option</a>
-                        </li>
-                        <li>
-                            <a href="#">Dropdown Option</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">See all ?</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="#">Main Item 2</a>
-                </li>
-                <li class="divider"></li>
-                <li class="has-dropdown">
-                    <a href="#">Main Item 3</a>
-                    <ul class="dropdown">
-                        <li>
-                            <a href="#">Dropdown Option</a>
-                        </li>
-                        <li>
-                            <a href="#">Dropdown Option</a>
-                        </li>
-                        <li>
-                            <a href="#">Dropdown Option</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">See all ?</a>
-                        </li>
-                    </ul>
-                </li>
+            	
+
+                
+                
+                
             </ul>
 
 
-            <!-- log in area -->
+          
             <ul class="right">
-                <li><a href="#" data-reveal-id="myModal">Login</a></li>
-                <li class=""><a class="signup" href="register" >Signup</a></li>
+
+
+            <li><a href="#" data-dropdown="hoverN" data-options="is_hover:true; hover_timeout:100"><i class="fi-megaphone ico"></i></a></li>
+	            	<ul id="hoverN" class="content f-dropdown ww text-left" data-dropdown-content>
+						  <li class="ww">Notifications</li>
+						  
+					</ul>
+
+
+            	<li><a href="#" data-dropdown="hoverS" data-options="is_hover:true; hover_timeout:100"><i class="fi-shopping-cart ico"></i></a></li>
+	            	<ul id="hoverS" class="content f-dropdown ww text-left" data-dropdown-content>
+						  <li class="ww">Shopping Cart</li>
+						  
+					</ul>
+           
+
+
+            	<li><a href="#" data-dropdown="hoverM" data-options="is_hover:true; hover_timeout:100"><i class="fi-mail ico"></i></a></li>
+	            	<ul id="hoverM" class="content f-dropdown ww text-left" data-dropdown-content>
+						  <li class="ww">Messages</li>
+						  
+					</ul>
+
+
+                <li class="has-dropdown ">
+                    <a href="#" >Profile Options</a>
+                    <ul class="dropdown">
+                        
+                        
+                        <li>
+                            <a href="#">DashBoard</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Create Giggs</a>
+                        </li>
+                        <li class="divider"></li>
+                        
+                        <li>
+                            <a href="#">My Profile</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Log Out</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+
+
+				<li><a href="#" data-reveal-id="myModal">Login&nbsp;&nbsp;</a></li>
+
+                <li class=""><a class="signup button success radious" href="register" >Sign Up</a></li>
 
             </ul>
 
         </section>
+
+		        
+
     </nav>
 
 
 </div>
 <!--</div>-->
+
+<div class="row">
+		<div class="small-12 columns">
+<dl class="sub-nav text-center">
+  
+
+  <dd>
+  		<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:100">University Students</a>
+
+<ul id="hover1" class="content f-dropdown text-left" data-dropdown-content>
+  <li><a href="#">Presentations and infographics</a></li>
+  <li><a href="#">Creative Writing</a></li>
+  <li><a href="#">Resumes and cover letter</a></li>
+  <li><a href="#">Research and summaries</a></li>
+  <li><a href="#">Virtual Assistant</a></li>
+</ul>
+
+  </dd>
+
+
+  <dd>
+  		<a href="#" data-dropdown="hover2" data-options="is_hover:true; hover_timeout:100">Graphics and design</a>
+
+<ul id="hover2" class="content f-dropdown text-left" data-dropdown-content>
+  <li><a href="#">Social Media design</a></li>
+  <li><a href="#">Photoshop editing</a></li>
+  <li><a href="#">Presentations and infographics</a></li>
+  <li><a href="#">T-shirt design</a></li>
+  <li><a href="#">Logo design</a></li>
+</ul>
+
+  </dd>
+
+
+   <dd>
+  		<a href="#" data-dropdown="hover3" data-options="is_hover:true; hover_timeout:100">Online Marketing</a>
+
+<ul id="hover3" class="content f-dropdown text-left" data-dropdown-content>
+  <li><a href="#">SEO</a></li>
+  <li><a href="#">Social Marketing</a></li>
+  <li><a href="#">Blog mentions</a></li>
+  <li><a href="#">Reviews</a></li>
+  <li><a href="#">Video marketing</a></li>
+  <li><a href="#">Fan Pages</a></li>
+  <li><a href="#">Domain Research</a></li>
+  <li><a href="#">Web analytics</a></li>
+</ul>
+
+  </dd>
+
+
+
+  <dd>
+  		<a href="#" data-dropdown="hover4" data-options="is_hover:true; hover_timeout:100">Writing</a>
+
+<ul id="hover4" class="content f-dropdown text-left" data-dropdown-content>
+  <li><a href="#">Creative Writing</a></li>
+  <li><a href="#">Articles and Blog posts</a></li>
+  <li><a href="#">Resumes and cover letter</a></li>
+  <li><a href="#">Research and summaries</a></li>
+  <li><a href="#">Legal Writing</a></li>
+</ul>
+
+  </dd>
+  
+
+  <dd>
+  		<a href="#" data-dropdown="hover5" data-options="is_hover:true; hover_timeout:100">Programming and Tech</a>
+
+<ul id="hover5" class="content f-dropdown text-left" data-dropdown-content>
+  <li><a href="#">WordPress</a></li>
+  <li><a href="#">Web programming</a></li>
+  <li><a href="#">Ecommerce</a></li>
+  <li><a href="#">Website builder</a></li>
+  <li><a href="#">Support and IT</a></li>
+  <li><a href="#">Databases</a></li>
+</ul>
+
+  </dd>
+
+  <dd>
+  		<a href="#" data-dropdown="hover6" data-options="is_hover:true; hover_timeout:100">Business</a>
+
+<ul id="hover6" class="content f-dropdown text-left" data-dropdown-content>
+  <li><a href="#">Business plan</a></li>
+  <li><a href="#">Presentations</a></li>
+  <li><a href="#">Virtual Assistant</a></li>
+  
+</ul>
+
+  </dd>
+
+  <dd><a href="#">Other</a></dd>
+ 
+</dl>
+
+		</div>
+</div>
+
+
 
 
 <!-- modal content -->
@@ -240,6 +329,7 @@
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
+ <script src="js/foundation/foundation.topbar.js"></script>
 <script src="owl-carousel/owl.carousel.js"></script>
 
 
