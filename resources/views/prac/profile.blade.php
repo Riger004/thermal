@@ -1,6 +1,6 @@
 
 
-@extends('prac.master')
+@extends('prac.Demomaster')
 
 
 @section('title', 'Home')

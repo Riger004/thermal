@@ -6,15 +6,25 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>FiverrLike | @yield('title')</title>
-    <link rel="stylesheet" href="css/foundation.css"/>
+  <!--   <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/custom.css"/>
-    <link rel="stylesheet" href="css/foundation-icons.css" />
+    <link rel="stylesheet" href="css/foundation-icons.css" /> -->
+
+<!-- new sass -->
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/custom.css"/> 
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+
     <!-- Basic stylesheet -->
 	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
 	 
 	 <!-- Default Theme -->
 	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
-    <script src="js/vendor/modernizr.js"></script>
+
+<!--  <script src="js/vendor/modernizr.js"></script> -->
+   
+
 </head>
 <body>
 <!--<div class="row">-->
@@ -22,13 +32,14 @@
 
 <!--<div class="row">-->
 <div class="contain-to-grid">
+
     <nav class="top-bar" data-topbar role="navigation">
 
 
         <ul class="title-area">
 
             <li class="name">
-                <h1><a href="home">FiverrLike</a></h1>
+                <h1><a href="/">FiverrLike</a></h1>
             </li>
             <li class="toggle-topbar menu-icon">
                 <a href="#"><span>MENU</span></a>
@@ -337,7 +348,13 @@
 <!--</div>-->
 <!--</div>-->
 
-<script src="js/vendor/jquery.js"></script>
+
+
+<script src="js/all.js"></script>
+<script src="owl-carousel/owl.carousel.js"></script>
+
+
+<!-- <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
  <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.magellan.js"></script>
@@ -351,7 +368,7 @@
     
 
 </script>
-
+ -->
 
 
 

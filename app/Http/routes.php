@@ -29,7 +29,9 @@ Route::get('/', function () {
     return view('prac.home');
 });
 
-
+Route::get('/create', function () {
+    return view('prac.gigg_creation');
+});
 
 
 

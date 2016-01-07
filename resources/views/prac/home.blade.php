@@ -1,4 +1,4 @@
-@extends('prac.master')
+@extends('prac.Demomaster')
 
 
 @section('title', 'Home')
@@ -15,8 +15,8 @@
 <div id="owl-demo" class="owl-carousel owl-theme">
 
 
+      <div class="item"><img src="img/fullimage3.jpg" alt="Mirror Edge"></div>
       <div class="item"><img src="img/fullimage4.jpg" alt="Mirror Edge"></div>
-      <div class="item"><img src="img/fullimage5.jpg" alt="Mirror Edge"></div>
       <div class="item"><img src="img/fullimage6.jpg" alt="Mirror Edge"></div>
       <div class="item"><img src="img/fullimage7.jpg" alt="Mirror Edge"></div>
  
@@ -28,9 +28,9 @@
 
             <div  class="small-12 columns small-centered text-center heroText " >
 
-                    <span class="ProName"><b>What do you need done?</b><br><b>Find it on Fiverr</b></span> <br>
+                    <span class="ProName"><b>What do you need done?</b><hr> <span class="brand"><b>Find it on <span style="color:#22BB5B">Fiverr</span></b></span></span> <br>
 
-                    <span class="ProRate">Browse. Buy. Done. </span> 
+                    <span class="ProRate"><span class=" browse">Browse</span><span   class="buy">&nbsp;Buy&nbsp;</span><span class="done">Done</span> </span> 
                      
                 
             </div>
@@ -360,36 +360,5 @@
     </div>
 </div>
 
-
-
-<script src="js/vendor/jquery.js"></script>
-<script >
-        $(document).ready(function() {
- 
-  $("#owl-demo").owlCarousel({
- 
-      navigation : false, // Show next and prev buttons
-      slideSpeed : 400,
-      paginationSpeed : 500,
-      singleItem:true,
-      autoPlay : 2000
- 
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
-  });
- 
-});   
-
-
-
-</script>
-
-
-
-
 @stop
+

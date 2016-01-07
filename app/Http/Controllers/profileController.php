@@ -62,7 +62,7 @@ class profileController extends Controller
             'country' => 'string|max:50',
             'language' => 'string|max:50',
             'phone_num' => 'numeric',
-            'profile_pic' => 'max:3000|mimes:jpeg,bmp,png',
+            'profile_pic' => 'max:3000|mimes:jpeg,jpg,bmp,png',
             'about' => 'max:500',
             'short_info' => 'max:255',
             ]);

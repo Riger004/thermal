@@ -1,4 +1,13 @@
 
+/*
+
+1st color:  #4CA8E5;
+2nd color:#8A99F5 ;
+3rd color : #FDEECF ;
+*/
+
+
+
 /*for navigation*/
 
 /*.top-bar-section li a:not(.button) {
@@ -11,10 +20,61 @@
 
 */
 /*navigation ends*/
+.top-bar {
+    position: relative;
+    z-index: 10000;
+}
+/*.vv{
+   position: relative;
+    z-index: 100;
+}
+.vv :first-child li a {
+   
+    z-index: 1000 !important;
+}
+.vv  :not(:first-child) li a{
+  
+    z-index: 1300 !important;
+}
+*/
+.v1 {
+     position: relative;
+    z-index: 1300 !important;
+}
+
+
+.v2 {
+  position: relative;
+    z-index: 130 !important ;
+}
+.zz li a{
+  color:#065234;  //p1
+  
+}
+
+.topbarPa{
+  margin-right: 15px;
+}
 .contain-to-grid .top-bar {
     min-height: 3.5rem;
     margin: 0 auto;
     padding-top: .5rem;
+}
+
+
+.vv{
+  position: relative;
+  z-index: 10;
+  color: #8A99F5 !important ;
+  font-size: small;
+}
+
+.vv :not(:first-child) a{
+  border-left: 1px dotted #4CA8E5 ; //p3
+}
+
+.vertical :not(:last-child) a{
+  border-bottom:1px dotted #4CA8E5 ;
 }
 
 
@@ -144,36 +204,61 @@
 .split.button {
   width: 100%; }
   .split.button.facebook {
-    background: #3b5998;
-    text-transform: uppercase; }
-    .split.button.facebook span {
-      background: #2d4373; }
+    /*background: #3b5998;*/
+    text-transform: uppercase;
+     border-color: #3b5998;
+    color:#3b5998;
+     }
+  
       .split.button.facebook span:after {
         border: none;
         font-family: "foundation-icons";
         content: "\f1c4";
         font-size: 2rem;
-        line-height: 0.25rem;
-        margin-left: -0.7rem; }
+        line-height: 0.30rem;
+        padding-right: 40px;
+        vertical-align: middle;
+
+
+        }
   
+  .login a{
+    font-size: x-large;
+  }
+
+  #exampleModal11{
+
+  }
   .split.button.google {
-    background: #d50f25;
-    text-transform: uppercase; }
-    .split.button.google span {
-      background: #a50c1d; }
+   /* background: #d50f25;*/
+    text-transform: uppercase; 
+     color:#d50f25;
+     border-color: #d50f25;
+       }
+  
       .split.button.google span:after {
         border: none;
         font-family: "foundation-icons";
         content: "\f1ca";
         font-size: 2rem;
-        line-height: 0.25rem;
-        margin-left: -0.7rem; }
+       padding-right: 40px;
+        line-height: 0.30rem;
+         vertical-align: middle;
+
+         }
   .split.button.left-icon {
     text-align: right; }
     .split.button.left-icon span {
       left: 0; }
 
 
+
+.prefix{
+
+
+ font-size: xx-large;
+ color: #054242;                                              //p1
+}
 
 /*footer */
 
@@ -289,7 +374,8 @@ input.inline, label.inline {
 }
 
 .forPass{
-    margin-top: 13px;
+    font-size: small;
+    color: green;
 
 }
 
@@ -297,6 +383,18 @@ input.inline, label.inline {
 
 /*profile page*/
 
+
+
+.browse{
+  color:  #DFFEFE;                                                   //p2
+}
+.buy{
+  color: #9EDBFA;                                                   //p3
+}
+
+.done{
+  color:   #054242;                                                 //p1
+}
 
 .ProHero{
 
@@ -317,16 +415,18 @@ input.inline, label.inline {
 
 }
 .ProName{
-	font-family: cursive;
-    font-size: 300%;
-    font-weight: bolder;
-
+	
+    font-size: 450%;
+    font-weight: 900;
+    line-height: 130%;
+    color: #DFFEFE;
 
 }
 .ProRate{
 
     font-weight: bold;
     font-size: large;
+
 }
 
 .ProReview{
@@ -519,11 +619,10 @@ h2 {
 .homeHero{
     position:absolute;
     z-index:3;
-    top:18rem; /* change to whatever you want */
+    top:15rem; /* change to whatever you want */
     left:25%; /* change to whatever you want */
-    right:auto; /* change to whatever you want */
-    bottom:auto; /* change to whatever you want */
-    width: 50%
+    width: 50%;
+   
 }
 
 
@@ -563,4 +662,134 @@ h2 {
 
 .tabs dd.active > a, .tabs .tab-title.active > a {
   background-color: #E3F6CE;
+}
+
+
+
+/* for small and medium screen */
+@media screen and (max-width: 63.9375em) {
+
+ 
+
+.heroText{
+  padding-top: 0px;
+  padding-bottom: 80px;
+  line-height: 40px;
+  color: white;
+
+}
+
+
+
+
+
+.ProName{
+  
+    font-size: 170%;
+    font-weight: 700;
+    line-height: 90%;
+
+}
+
+.homeHero{
+   
+    top:9rem; /* change to whatever you want */
+   
+}
+
+
+
+
+
+}
+
+
+
+
+/*small sccreen only*/
+
+
+@media screen and (max-width: 40em) {
+
+ 
+
+
+
+.ProName{
+  
+    font-size: 100%;
+    font-weight: 900;
+    line-height: 20%;
+ 
+}
+
+
+.ProRate{
+
+    font-size: small;
+}
+
+
+
+}
+
+
+
+
+
+
+/*mediam to large*/
+
+
+@media screen and (min-width: 63.9375em) and (max-width: 74.9375em) {
+
+
+
+.heroText{
+  padding-top: 0px;
+  padding-bottom: 80px;
+  line-height: 40px;
+  color: white;
+
+}
+
+
+
+
+
+.ProName{
+  
+    font-size: 300%;
+    font-weight: 700;
+    line-height: 90%;
+
+}
+
+.homeHero{
+   
+    top:12rem; /* change to whatever you want */
+   
+}
+
+
+
+}
+
+
+
+
+/*large to xlarge*/
+
+
+@media screen and (min-width: 1200px) and (max-width: 1633px) {
+
+
+.homeHero{
+   
+    top:4rem; /* change to whatever you want */
+   
+}
+
+
+
 }
