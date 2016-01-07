@@ -29,6 +29,10 @@ Route::get('/', function () {
     return view('prac.home');
 });
 
+
+
+
+
 Route::get('/create', function () {
     return view('prac.gigg_creation');
 });
@@ -53,7 +57,7 @@ Route::post('auth/login', 'Auth\AuthController@postLogin');
 Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
 // Registration routes...
-Route::get('auth/register', 'Auth\AuthController@getRegister');
+//Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 // Password reset link request routes...
@@ -76,6 +80,5 @@ Route::get('auth/google/callback', 'Auth\AuthController@handleProviderCallback_g
 
 
 
-Route::get('{user_id}','testController@show');
-Route::resource('gigs','gigController');
+
 

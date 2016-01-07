@@ -62,26 +62,67 @@ class profileController extends Controller
             'country' => 'string|max:50',
             'language' => 'string|max:50',
             'phone_num' => 'numeric',
-            'profile_pic' => 'max:3000|mimes:jpeg,jpg,bmp,png',
+            'profile_pic' => 'max:3000|mimes:jpeg,bmp,png,jgp',
             'about' => 'max:500',
             'short_info' => 'max:255',
             ]);
 
+        $file_name="";
+        if($request->file('profile_pic')!==null){
+            $file=$request->file('profile_pic');
 
-        $file=$request->file('profile_pic');
+            $file_name=time().$file->getClientOriginalName();
 
-        $file_name=time().$file->getClientOriginalName();
+            $file->move('fivver/photos',$file_name);
+        }
 
-        $file->move('fivver/photos',$file_name);
+        $profile=profiles::where('user_id',$user->id)->first();
 
-        $user->profiles()->create([
+        if($profile===null){
+            $user->profiles()->create([
                 'country'=>$request->country,
                 'language'=>$request->language,
                 'phone_num'=>$request->phone_num,
                 'profile_pic'=>"/fivver/photos/{$file_name}",
                 'about'=>$request->about,
-                'oneLine_descrip'=>$request->oneLine_descrip,
-            ]);
+                'short_info'=>$request->short_info,
+                ]);
+        }else{
+            if($request->country){
+                $user->profiles()->update([
+                    'country'=>$request->country,
+                    ]);
+            }
+            if($request->language){
+                $user->profiles()->update([
+                    'language'=>$request->language,
+                    ]);
+            }
+            if($request->phone_num){
+                $user->profiles()->update([
+                    'phone_num'=>$request->phone_num,
+                    ]);
+            }
+            
+            if($request->file('profile_pic')){
+                $user->profiles()->update([
+                    'profile_pic'=>"/fivver/photos/{$file_name}",
+                    ]);
+            }
+            if($request->about){
+                $user->profiles()->update([
+                    'update'=>$request->about,
+                    ]);
+            }
+
+            if($request->short_info){
+                $user->profiles()->update([
+                    'short_info'=>$request->short_info,
+                    ]);
+            }
+            
+
+        }
         return redirect()->back() ;
     }
 

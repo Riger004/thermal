@@ -92,4 +92,4 @@
         <button type="submit">Register</button>
     </div>
 </form> -->
-<?php echo $__env->make('prac.master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php echo $__env->make('prac.Demomaster', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

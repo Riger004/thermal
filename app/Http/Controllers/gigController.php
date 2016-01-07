@@ -3,12 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use DB;
-use Auth;
-use App\User;
-use App\Profiles;
 
 class gigController extends Controller
 {
@@ -30,11 +27,6 @@ class gigController extends Controller
     public function create()
     {
         //
-        if(Auth::check()){
-            return view('prac.gigg_creation');            
-        }else{
-            return view('/');
-        }
     }
 
     /**
