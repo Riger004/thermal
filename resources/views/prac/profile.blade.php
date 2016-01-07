@@ -27,34 +27,34 @@
 
 
 <!-- profile pic and details starts here -->
-<div class="cont">
+<div class="cont column row">
 
-	<div class="row">
-		<div class="small-12 columns  ">
+	<div class="column row">
+		
 			@if(isset($profile->profile_pic))
-			<div class="ProPic" style="background-image:url('{{$profile->profile_pic}} ')">
+			<div class="ProPic " style="background-image:url('{{$profile->profile_pic}} ')">
 			</div>
 			@else
-			<div class="ProPic" style="background-image">
+			<div class="ProPic " style="background-image:url('{{ asset('img/profile.jpg') }} ')">
 			</div>
 			@endif
-		</div>
+		
 
 	</div>
 
-	<div class="row Prodetail ">
+	<div class=" cont row ">
 
-		<div class="small-12 columns ">
+		<!-- <div class="small-12 columns "> -->
 
 			<!-- personal details here -->
-			<div class=" ProDetails panel">
+	
 
-				<div class="row">
-					<div class="small-8 columns">
+		
+					<div class="small-8 columns ProDetails panel">
 
-						<div class="row"> 
+						<div class="column row"> 
 
-							<div class="small-12 columns">
+							
 
 								<!-- details about service provided by person -->
 								<h4><b>About Mr. {{$user->name}}</b></h4>
@@ -69,7 +69,7 @@
 								</P>
 								@endif
 
-							</div>
+							
 						</div>
 
 
@@ -108,7 +108,7 @@
 									@if(isset($profile->phone_num))
 									<li class="fi-megaphone"> Mobile: {{$profile->phone_num}} </li>
 									@else
-									<li class="fi-megaphone"> Mobile: please set your mobile number </li>
+									<li class="fa fa-phone"> Mobile: please set your mobile number </li>
 									@endif
 								</ul>
 
@@ -122,11 +122,12 @@
 
 
 						</div>
-
+						<div class="column row">
 
 						<a href="#" class="button success radius">Contact </a>
 
-						<a href="#" data-reveal-id="myModal1" class="button secondary radious right">Edit Info</a>
+						<a href="#" data-toggle="myModal1" class="button secondary float-right ">Edit Info</a> 
+						</div>
 
 
 
@@ -134,13 +135,15 @@
 
 					<!-- best seller info -->
 					<div class="small-4 columns"> 
-						<h5><b>Mr. Name Of Person's Best Seller</b></h5>
+					<div class="column row text-center ">
+						<p><h5><b>Mr. Name Of Person's Best Seller</b></h5></p>
+						</div>
 						<div class="item">
 							<img src="img/mdA.jpg">
 
 						</div>
 
-						<div class="panel">
+						<div class="pa">
 							<h5>Item Name</h5>
 							<h6 class="subheader">$000.00</h6>
 						</div>
@@ -149,9 +152,9 @@
 
 
 
-					<div class="small-4 colums">
+					<!-- <div class="small-4 colums">
 						@if (count($errors) > 0)
-						<!-- Form Error List -->
+						
 						<div class="alert alert-danger">
 							<strong>Whoops! Something went wrong!</strong>
 
@@ -164,30 +167,26 @@
 							</ul>
 						</div>
 						@endif
-					</div>
+					</div> -->
 
-				</div>
+				<!-- </div>
+ -->
 
 
 
-			</div>
+	
 
 		</div>
 
-	</div>
 
 </div>
 
 
 
 
-
-
-<!-- modal content -->
-
-<div id="myModal1" class="reveal-modal " data-reveal aria-labelledby="login or sign up" aria-hidden="true" role="dialog" style="display: none">
+<div id="myModal1" class="reveal large " data-reveal >
 	<div class="row">
-		<div class="large-8 columns auth-plain small-centered text-center">
+		<div class="large-12 columns auth-plain small-centered text-center">
 			<div class="signup-panel left-solid">
 				<p class="welcome">Edit Personal Information</p>
 
@@ -229,7 +228,7 @@
 
 					
 
-					<button type="submit" class="btn  success radius">Save </button>
+					<button type="submit" class="button  success ">Save </button>
 
 
 				</form>
@@ -242,7 +241,9 @@
 		
 
 	</div>
-	<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+	<button class="close-button" data-close aria-label="Close reveal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
 </div>
 
 
@@ -552,12 +553,12 @@
 
 
 
-<script src="js/vendor/jquery.js"></script>
+<script src="js/jquery.js"></script>
 <script >
 var e=$('.ProDetails').outerHeight();	
 
-$('.cont').height(e+15);
-// 
+$('.cont').height(e);
+
 //alert(e);
 
 </script>

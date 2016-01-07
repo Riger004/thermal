@@ -42,7 +42,7 @@
          <div class="row column ">
           <div class="top-bar-left">
             <ul class="dropdown menu" data-dropdown-menu>
-              <li class="menu-text"><a href="/">FiverrLike</a></li>
+              <li class="menu-text"><a href="./">FiverrLike</a></li>
               <!-- <li class="has-submenu">
                 <a href="#">One</a>
                 <ul class="submenu menu vertical" data-submenu>
@@ -101,12 +101,12 @@
                                       
                                         
                                         <li>
-                                            <a href="pro">My Profile</a>
+                                            <a href="profile">My Profile</a>
                                         </li>
                                       
 
                                         <li>
-                                            <a href="#">Log Out</a>
+                                            <a href="logout">Log Out</a>
                                         </li>
                                 
                             </ul>
@@ -476,7 +476,7 @@ $(document).ready(function() {
       paginationSpeed : 600,
       singleItem:true,
       transitionStyle : "fadeUp",
-      autoPlay : 2000 
+      autoPlay : 5000 
       
       
       // "singleItem:true" is a shortcut for:

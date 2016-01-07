@@ -29,13 +29,22 @@ Route::get('/', function () {
     return view('prac.home');
 });
 
+Route::get('/demo', function () {
+    return view('prac.demoProfile');
+});
 
 
 
 
-Route::get('/create', function () {
+Route::get('create', function () {
     return view('prac.gigg_creation');
 });
+
+
+Route::get('pro', function () {
+    return view('prac.profile');
+});
+
 
 
 
