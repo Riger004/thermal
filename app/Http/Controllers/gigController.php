@@ -17,6 +17,7 @@ class gigController extends Controller
     public function index()
     {
         //
+        return view('prac.gigg_creation');
     }
 
     /**
