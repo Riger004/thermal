@@ -7,19 +7,12 @@
 */
 
 
-
-/*for navigation*/
-
-/*.top-bar-section li a:not(.button) {
-    background: blue !important;   
+.panel{
+  background-color: #DFFEFE;
+  padding: 25px;
 }
-.top-bar-section li a:not(.mainBar):hover {
-    background:red;
-    color: white;
-    }
 
-*/
-/*navigation ends*/
+
 .top-bar {
     position: relative;
     z-index: 10000;

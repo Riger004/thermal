@@ -50,7 +50,7 @@
 	
 
 		
-					<div class="small-8 columns ProDetails panel">
+					<div class="small-8 columns ProDetails ">
 
 						<div class="column row"> 
 
@@ -278,7 +278,7 @@
 
 				</div>
 
-				<div class="panel">
+				<div class="">
 					<h5>Item Name</h5>
 					<h6 class="subheader">$000.00</h6>
 				</div>
@@ -290,7 +290,7 @@
 				</div>
 
 
-				<div class="panel">
+				<div class="">
 					<h5>Item Name</h5>
 					<h6 class="subheader">$000.00</h6>
 				</div>
@@ -301,7 +301,7 @@
 					<img src="img/lgC.jpg">
 				</div>
 
-				<div class="panel">
+				<div class="">
 					<h5>Item Name</h5>
 					<h6 class="subheader">$000.00</h6>
 				</div>
@@ -312,7 +312,7 @@
 					<img src="img/lgB.jpg">
 				</div>
 
-				<div class="panel">
+				<div class="">
 					<h5>Item Name</h5>
 					<h6 class="subheader">$000.00</h6>
 				</div>
@@ -322,7 +322,7 @@
 					<img src="img/smA.jpg">
 				</div>
 
-				<div class="panel">
+				<div class="">
 					<h5>Item Name</h5>
 					<h6 class="subheader">$000.00</h6>
 				</div>
@@ -332,7 +332,7 @@
 					<img src="img/lgB.jpg">
 				</div>
 
-				<div class="panel">
+				<div class="">
 					<h5>Item Name</h5>
 					<h6 class="subheader">$000.00</h6>
 				</div>
@@ -364,7 +364,7 @@
 <!-- reviews starts -->
 
 
-<div class="row giggs panel clearfix">
+<div class="row giggs  clearfix">
 
 
 	<div class="small-12 columns  ">
@@ -385,34 +385,38 @@
 				
 				<div class="row panel callout radius">
 					
-					<div class="small-12 large-12 columns testimonial">
-						<div class="quote text-justify">
-							<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
-						</div>
-						<div class="student">
-							<div > <img class="photo" src="img/profile.jpg"></div>
-							<p>John Doe</p>
-							<p>Important person, some Company</p>
-						</div>
-						<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
-					</div>
+					<blockquote>
+  							Those people who think they  are a great annoyance to those of us who do.
+	  					<cite>
+	  						<div class="student">
+								<div > <img class="photo" src="img/profile.jpg"></div>
+								<p>John Doe</p>
+								<p>Ice Land</p>
+							</div>
+
+						</cite>
+					</blockquote>
+						
+						<div><span class="right "><h6 class="subheader">15 Days ago</h6></span></div>
 					
 				</div>   
 
 
 				<div class="row panel callout radius">
 					
-					<div class="small-12 large-12 columns testimonial">
-						<div class="quote text-justify">
-							<p>Lorem ipsum dolor i, sit amet ullamcorper purus dui sit amet augue. Donec aliquet diam ut neque mattis, eu tristique sem rutrum.</p>
-						</div>
-						<div class="student">
-							<div > <img class="photo" src="img/profile.jpg"></div>
-							<p>John Doe</p>
-							<p>Important person, some Company</p>
-						</div>
-						<div><span class="right "><h4 class="subheader"><small>9 Days ago</small></h4></span></div>
-					</div>
+					<blockquote>
+  							Those people who think they know everything are ao do.
+	  					<cite>
+	  						<div class="student">
+								<div > <img class="photo" src="img/profile.jpg"></div>
+								<p>John Doe</p>
+								<p>Ice Land</p>
+							</div>
+
+						</cite>
+					</blockquote>
+						
+						<div><span class="right "><h6 class="subheader">15 Days ago</h6></span></div>
 					
 				</div>
 
@@ -420,17 +424,19 @@
 
 				<div class="row panel callout radius">
 					
-					<div class="small-12 large-12 columns testimonial">
-						<div class="quote text-justify">
-							<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
-						</div>
-						<div class="student">
-							<div > <img class="photo" src="img/profile.jpg"></div>
-							<p>John Doe</p>
-							<p>Important person, some Company</p>
-						</div>
-						<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
-					</div>
+					<blockquote>
+  							Those people who think they know everyth are a great annoyance are a great annoyance are a great annoyance are a great annoyance ing are a great annoyance to those of us who do.
+	  					<cite>
+	  						<div class="student">
+								<div > <img class="photo" src="img/profile.jpg"></div>
+								<p>John Doe</p>
+								<p>Ice Land</p>
+							</div>
+
+						</cite>
+					</blockquote>
+						
+						<div><span class="right "><h6 class="subheader">15 Days ago</h6></span></div>
 					
 				</div>   
 
@@ -438,17 +444,19 @@
 
 				<div class="row panel callout radius">
 					
-					<div class="small-12 large-12 columns testimonial">
-						<div class="quote text-justify">
-							<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
-						</div>
-						<div class="student">
-							<div > <img class="photo" src="img/profile.jpg"></div>
-							<p>John Doe</p>
-							<p>Important person, some Company</p>
-						</div>
-						<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
-					</div>
+					<blockquote>
+  							Those people who think they know everything aare a great annoyance are a great annoyance re a great annoyance to those of us who do.
+	  					<cite>
+	  						<div class="student">
+								<div > <img class="photo" src="img/profile.jpg"></div>
+								<p>John Doe</p>
+								<p>Ice Land</p>
+							</div>
+
+						</cite>
+					</blockquote>
+						
+						<div><span class="right "><h6 class="subheader">15 Days ago</h6></span></div>
 					
 				</div>   
 
@@ -464,15 +472,19 @@
 				<div class="row panel callout radius">
 					
 					<div class="small-12 large-12 columns testimonial">
-						<div class="quote text-justify">
-							<p>Lorem ipsum dolor i, sit amet ullamcorper purus dui sit amet augue. Donec aliquet diam ut neque mattis, eu tristique sem rutrum.</p>
-						</div>
-						<div class="student">
-							<div > <img class="photo" src="img/profile.jpg"></div>
-							<p>John Doe</p>
-							<p>Important person, some Company</p>
-						</div>
-						<div><span class="right "><h4 class="subheader"><small>9 Days ago</small></h4></span></div>
+						<blockquote>
+  							Those people who think they kat annoyance to those of us who do.
+	  					<cite>
+	  						<div class="student">
+								<div > <img class="photo" src="img/profile.jpg"></div>
+								<p>John Doe</p>
+								<p>Ice Land</p>
+							</div>
+
+						</cite>
+					</blockquote>
+						
+						<div><span class="right "><h6 class="subheader">15 Days ago</h6></span></div>
 					</div>
 					
 				</div>
@@ -481,33 +493,19 @@
 				<div class="row panel callout radius">
 					
 					<div class="small-12 large-12 columns testimonial">
-						<div class="quote text-justify">
-							<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
-						</div>
-						<div class="student">
-							<div > <img class="photo" src="img/profile.jpg"></div>
-							<p>John Doe</p>
-							<p>Important person, some Company</p>
-						</div>
-						<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
-					</div>
-					
-				</div>
+						<blockquote>
+  							Those people who think they know are a great annoyance everything are a great annoyance to those of us who do.
+	  					<cite>
+	  						<div class="student">
+								<div > <img class="photo" src="img/profile.jpg"></div>
+								<p>John Doe</p>
+								<p>Ice Land</p>
+							</div>
 
-
-
-				<div class="row panel callout radius">
-					
-					<div class="small-12 large-12 columns testimonial">
-						<div class="quote text-justify">
-							<p>Lorem ipsum dolor i, sit amet ullamcorper purus dui sit amet augue. Donec aliquet diam ut neque mattis, eu tristique sem rutrum.</p>
-						</div>
-						<div class="student">
-							<div > <img class="photo" src="img/profile.jpg"></div>
-							<p>John Doe</p>
-							<p>Important person, some Company</p>
-						</div>
-						<div><span class="right "><h4 class="subheader"><small>9 Days ago</small></h4></span></div>
+						</cite>
+					</blockquote>
+						
+						<div><span class="right "><h6 class="subheader">15 Days ago</h6></span></div>
 					</div>
 					
 				</div>
@@ -517,16 +515,42 @@
 				<div class="row panel callout radius">
 					
 					<div class="small-12 large-12 columns testimonial">
-						<div class="quote text-justify">
-							<p>Lorem ipsum dolor sit amet, eu tristique sem rutrum.</p>
-						</div>
-						<div class="student">
-							<div > <img class="photo" src="img/profile.jpg"></div>
-							<p>John Doe</p>
-							<p>Important person, some Company</p>
-						</div>
-						<div><span class="right "><h4 class="subheader"><small>15 Days ago</small></h4></span></div>
+
+					<blockquote>
+  							Those people who think they know everythingare a great annoyance are a great annoyance  are a great annoyance to those of us who do.
+	  					<cite>
+	  						<div class="student">
+								<div > <img class="photo" src="img/profile.jpg"></div>
+								<p>John Doe</p>
+								<p>Ice Land</p>
+							</div>
+
+						</cite>
+					</blockquote>
+						
+						<div><span class="right "><h6 class="subheader">15 Days ago</h6></span></div>
 					</div>
+					
+				</div>
+
+
+
+				<div class="row panel callout radius">
+					
+					<div class="small-12 large-12 columns testimonial">
+						<blockquote>
+  							Those people who think they know everything are a great annoyance to those of us who do.
+	  					<cite>
+	  						<div class="student">
+								<div > <img class="photo" src="img/profile.jpg"></div>
+								<p>John Doe</p>
+								<p>Ice Land</p>
+							</div>
+
+						</cite>
+					</blockquote>
+						
+						<div><span class="right "><h6 class="subheader">15 Days ago</h6></span></div>
 					
 				</div>      
 
@@ -541,7 +565,7 @@
 
 
 
-
+      </div>
 
 	</div>
 
