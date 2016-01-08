@@ -41,7 +41,7 @@
 
 
 
-<div class="row pad_top panel ">
+<div class="row pad_top  ">
 
    
     <!-- gigg display-->
@@ -57,52 +57,67 @@
 
 
         </div>
-        <div class="row recent">
-            <div class="large-3 small-6 columns ">
-                <div class="item">
+
+ <hr>
+
+        <div class="row giggPanel panel" data-equalizer>
+            <div class="large-3 small-6 columns  gigg service" >
+                <div class="item service-icon-box">
                     <img src="img/profile.jpg">
 
                 </div>
 
-                <div class="panel">
-                    <h5>Item Name</h5>
-                    <h6 class="subheader">$000.00</h6>
+                <div class="service-heading" data-equalizer-watch>
+                    <h5>I will test android, iPhone application or game</h5>
+                    <h6 class="subheader">$5</h6>
                 </div>
             </div>
 
-            <div class="large-3 small-6 columns  ">
+            <div class="large-3 small-6 columns  gigg" >
                 <div class="item">
                     <img src="img/mdA.jpg">
                 </div>
 
 
-                <div class="panel">
-                    <h5>Item Name</h5>
-                    <h6 class="subheader">$000.00</h6>
+                <div class="" data-equalizer-watch>
+                    <h5>I will record a young adult MALE voice over within 24 hours</h5>
+                    <h6 class="subheader">$9.5</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns gigg" >
 
                 <div class="item">
                     <img src="img/lgC.jpg">
                 </div>
 
-                <div class="panel">
-                    <h5>Item Name</h5>
-                    <h6 class="subheader">$000.00</h6>
+                <div class="" data-equalizer-watch>
+                    <h5>I will record  greeting</h5>
+                    <h6 class="subheader">$3</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns gigg lastGigg" >
 
                 <div class="item">
                     <img src="img/lgB.jpg">
                 </div>
 
-                <div class="panel">
-                    <h5>Item Name</h5>
-                    <h6 class="subheader">$000.00</h6>
+                <div class="" data-equalizer-watch>
+                    <h5>I will record a young adult MALE voice over within 24 hours</h5>
+                    <h6 class="subheader">$15</h6>
                 </div>
             </div>
+
+        
+
+             <div class="column row  text-center viewMore">
+
+        <a class="large button success  hollow" href="#">View More</a>
+
+        </div>
+
+            </div>
+
+       
             
         </div>
 
@@ -125,48 +140,53 @@
 
 
         </div>
-        <div class="row ">
-            <div class="large-3 small-6 columns ">
+
+         <hr>
+
+         <div class="panel giggPanel">
+
+        <div class="row  ">
+            <div class="large-3 small-6 columns gigg">
                 <div class="item">
                     <img src="img/profile.jpg">
 
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
 
-            <div class="large-3 small-6 columns  ">
+            <div class="large-3 small-6 columns  gigg">
                 <div class="item">
                     <img src="img/mdA.jpg">
                 </div>
 
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
 
                 <div class="item">
                     <img src="img/lgC.jpg">
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
 
                 <div class="item">
                     <img src="img/lgB.jpg">
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
@@ -181,47 +201,47 @@
 
 
         <div class="row ">
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
                 <div class="item">
                     <img src="img/profile.jpg">
 
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
 
-            <div class="large-3 small-6 columns  ">
+            <div class="large-3 small-6 columns  gigg  ">
                 <div class="item">
                     <img src="img/mdA.jpg">
                 </div>
 
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
 
                 <div class="item">
                     <img src="img/lgC.jpg">
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
 
                 <div class="item">
                     <img src="img/lgB.jpg">
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
@@ -235,47 +255,47 @@
 
 
         <div class="row ">
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
                 <div class="item">
                     <img src="img/profile.jpg">
 
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
 
-            <div class="large-3 small-6 columns  ">
+            <div class="large-3 small-6 columns  gigg  ">
                 <div class="item">
                     <img src="img/mdA.jpg">
                 </div>
 
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
 
                 <div class="item">
                     <img src="img/lgC.jpg">
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
 
                 <div class="item">
                     <img src="img/lgB.jpg">
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
@@ -289,47 +309,47 @@
 
 
         <div class="row ">
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
                 <div class="item">
                     <img src="img/profile.jpg">
 
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
 
-            <div class="large-3 small-6 columns  ">
+            <div class="large-3 small-6 columns  gigg  ">
                 <div class="item">
                     <img src="img/mdA.jpg">
                 </div>
 
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
 
                 <div class="item">
                     <img src="img/lgC.jpg">
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
             </div>
-            <div class="large-3 small-6 columns ">
+            <div class="large-3 small-6 columns  gigg ">
 
                 <div class="item">
                     <img src="img/lgB.jpg">
                 </div>
 
-                <div class="panel">
+                <div class="">
                     <h5>Item Name</h5>
                     <h6 class="subheader">$000.00</h6>
                 </div>
@@ -338,11 +358,21 @@
         </div>
 
 
+        <div class="column row  text-center viewMore">
+
+        <a class="large button success  hollow" href="#">View More</a>
+
+        </div>
 
 
+    </div>
+
+
+
+<!-- 
         <div class="row">
             <div class="large-12 columns">
-                <div class="panel">
+                <div class="">
                     <div class="row">
                         <div class="large-2 small-6 columns"><img
                                 src="http://placehold.it/300x300&amp;text=Site%20Owner"></div>
@@ -356,9 +386,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
+
+
+
     </div>
-</div>
+
 
 @stop
 

@@ -51,7 +51,11 @@ elixir(function(mix) {
        foundationJsFolder + 'foundation.util.nest.js',
        foundationJsFolder + 'foundation.util.box.js',
        foundationJsFolder + 'foundation.util.keyboard.js',
-       foundationJsFolder + 'foundation.util.motion.js',
+       foundationJsFolder + 'foundation.util.motion.js', 
+       foundationJsFolder + 'foundation.equalizer.js',
+       foundationJsFolder + 'foundation.sticky.js',
+       
+
        // This file initializes foundation
        'start_foundation.js'
     ]);

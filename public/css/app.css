@@ -7285,7 +7285,7 @@ table.hover tr:nth-of-type(even):hover {
 .title-bar {
   background: #054242;
   color: #fefefe;
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
 
 .title-bar::before,
@@ -7300,7 +7300,7 @@ table.hover tr:nth-of-type(even):hover {
 
 .title-bar .menu-icon {
   margin-left: 0.25rem;
-  margin-right: 0.5rem;
+  margin-right: 0.7rem;
 }
 
 .title-bar-left {
@@ -7423,7 +7423,7 @@ table.hover tr:nth-of-type(even):hover {
 }
 
 .top-bar {
-  padding: 0.5rem;
+  padding: 0.65rem;
 }
 
 .top-bar::before,
@@ -12015,7 +12015,7 @@ table.hover tr:nth-of-type(even):hover {
 .title-bar {
   background: #054242;
   color: #fefefe;
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
 
 .title-bar::before,
@@ -12030,7 +12030,7 @@ table.hover tr:nth-of-type(even):hover {
 
 .title-bar .menu-icon {
   margin-left: 0.25rem;
-  margin-right: 0.5rem;
+  margin-right: 0.7rem;
 }
 
 .title-bar-left {
@@ -12153,7 +12153,7 @@ table.hover tr:nth-of-type(even):hover {
 }
 
 .top-bar {
-  padding: 0.5rem;
+  padding: 0.65rem;
 }
 
 .top-bar::before,

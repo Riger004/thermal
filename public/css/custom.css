@@ -5,18 +5,50 @@
 2nd color:#8A99F5 ;
 3rd color : #FDEECF ;
 */
-
-
+.fixed{
+  background-color: black;
+}
 .panel{
   background-color: #DFFEFE;
-  padding: 25px;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.pan{
+
+  background-color: #DFFEFE;
 }
 
+.padTop{
+ padding-top: 20px;
+}
+
+.padBottom{
+ padding-bottom: 20px;
+}
 
 .top-bar {
     position: relative;
     z-index: 10000;
 }
+
+
+.top-bar li a:hover {
+  background: #9EDBFA;                             //p3
+  border:1px solid #054242;                        //p1
+} 
+
+
+.uy li a:hover {
+  background: #DFFEFE !important;                             //p3
+  border:1px solid #054242;                        //p1
+} 
+.vv li a:hover {
+  background: #DFFEFE;                             //p2
+  border:1px solid #054242;                        //p1
+} 
+
+
 /*.vv{
    position: relative;
     z-index: 100;
@@ -133,7 +165,7 @@
 .pad_top {
 
 
-    padding-top: 40px;
+    margin-top: 80px;
 }
 
 .meta_p{
@@ -159,12 +191,38 @@
 
 
 
-.giggItem{
+.gigg{
 
-
+ border:7px solid #DFFEFE;                                             //p2
+ padding: 35px;
+ background-color: white;
 
 }
 
+
+/*.gigg :hover{
+
+    background-color: green;  
+
+}
+*/
+.gigg img{
+
+ padding-top: 10px;
+ margin-bottom: 10px;
+}
+
+
+.lastGigg{
+ margin-bottom:20px; 
+
+
+}
+.viewMore{
+
+ margin-top: 20px;
+
+}
 /*for gig title placeholder
 
 
@@ -174,6 +232,11 @@
 .form_title:-moz-placeholder { font-size: 18pt; color: #8e898d; }
 
  */
+.tty{
+  color: #054242;                                                   //p1
+  font-size: 270%;
+}
+
 
 .form_title{
     height: 100px;
@@ -335,7 +398,7 @@
   border: 1px solid #ccc;
   padding: 15px;
   margin-top: 50px;
-   margin-bottom: 300px;
+   margin-bottom: 200px;
   
 }
 .signup-panel i {
@@ -486,6 +549,7 @@ input.inline, label.inline {
 .tredPad{
 
 padding-bottom: 20px;
+color: #054242;                                                     //p1
 
 }
 
@@ -619,13 +683,7 @@ h2 {
 }
 
 
-.recent{
 
-	padding-bottom: 20px;
-	border-style: none;
-    border-bottom: 5px double grey;
-
-}
 
 
 
@@ -637,7 +695,10 @@ h2 {
 
 
 
-
+.giggPanel{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 
 
 
@@ -786,3 +847,50 @@ h2 {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*gigg hover effects*/
+
+
+.service {
+  
+  
+
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .service .service-icon-box {
+ 
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .service .service-heading {
+    position: relative;
+    ;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+ 
+  .service .service-icon-box > img.service-icon {
+    }
+  .service:hover {
+      border:1px solid #9EDBFA;
+       cursor: pointer;
+     }
+  .service:hover .service-icon-box {
+    top: 0px; }
+  .service:hover .service-heading {
+    top: 0px; }
+
+
+    /*hover ends*/

@@ -79,7 +79,7 @@
                        </li>
         
 
-                       <li >
+                       <li class="uy" >
 
                                     <a href="#" class="topbarPa" >&nbsp;&nbsp;Profile Options&nbsp;&nbsp;</a>
                                     <ul  class="dropdown menu zz" data-dropdown-menu>
@@ -101,7 +101,7 @@
                                       
                                         
                                         <li>
-                                            <a href="profile">My Profile</a>
+                                            <a href="pro">My Profile</a>
                                         </li>
                                       
 
@@ -124,12 +124,13 @@
          </div>
         </div>
 
+<div class="pan">
+<div class="row show-for-medium "  >
+		<div class="small-12 columns "   >
 
 
-<div class="row show-for-medium " >
-		<div class="small-12 columns "  >
 			
-				<ul class=" dropdown vv menu expanded text-center" data-dropdown-menu data-options="closingTime:50">
+				<ul class=" dropdown vv menu expanded text-center " data-dropdown-menu data-options="closingTime:50" >
 				  
 
 				  <li>
@@ -221,11 +222,12 @@
 				  <li><a href="#">Other</a></li>
 				 
 				</ul>
+        
 
 		</div>
 </div>
 
-
+</div>
 
 
 <!-- sub menu for small devices -->
@@ -353,13 +355,14 @@
 
 <!-- modal content -->
 
-<div class="reveal medium" id="exampleModal11" data-reveal>
+<div class="reveal medium panel" id="exampleModal11" data-reveal>
 <div class="row columns text-center"><span class=" subheader"><h3>Login to Fiverr</h3></span>
 </div>
+<hr>
    
                 <form method="POST" action="auth/login" enctype="multipart/form-data">
                     {{ csrf_field() }}
-                    <div class="row collapse">
+                    <div class="row collapse padTop">
                         <div class="small-2  columns text-center">
                             <span class="prefix "><i class="fi-torso-female"></i></span>
                         </div>
