@@ -15,19 +15,22 @@ class GigTable extends Migration
         //
         Schema::create('gigs',function(Blueprint $table){
             $table->increments('id');
-            $table->integer('profile_id')->index();
+            $table->integer('user_id')->index();
             $table->string('title',80);
             $table->longText('description',250);
             $table->string('gig_photo');
             $table->string('main_category');
             $table->string('sub_category');
-            $table->string('expertise');
             $table->string('tag');
 
-            $table->float('rating');
+            $table->float('rating')->nullable();
             // within how many days the gig_creator will complete the task
             $table->integer('duration');
             $table->float('amount');
+
+            $table->integer('quick_delivery')->nullable();
+
+            $table->float('quick_amount')->nullable();
             
             $table->string('requirements');
 

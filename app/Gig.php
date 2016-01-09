@@ -13,36 +13,16 @@ class Gig extends Model
 	protected $primaryKey='id';
 
 
-	protected $fillable = ['profile_id', 'title','description', 'video','gig_gallery','duration','amount'];
+	protected $fillable = ['title','description', 'gig_photo','main_category','sub_category',
+							'tag','duration','amount','quick_delivery','quick_amount','requirements'];
 
 	
 	//creating the relationship
-	public function profiles(){
-		return $this->belongsTo('App\profiles','id');
+	public function user(){
+		return $this->belongsTo('App\User','id');
 	}
 
-	public function comments_gig(){
-		return $this->hasMany('App\Comment','gig_id');
-	}
-
-
-	public function hire_gig(){
-		return $this->hasMany('App\hire','gig_id');
-	}
-
-	public function tag(){
-		return $this->hasMany('App\tags','gig_id');
-	}
-
-	public function category(){
-
-        return $this->hasOne('App\category','gig_id');
-    }
-
-
-    public function photo(){
-		return $this->hasMany('App\gig_photo','gig_id');    	
-    }
+	
 
 
 }

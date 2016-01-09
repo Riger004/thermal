@@ -15,7 +15,7 @@
 		<hr>
 		</div>
 
-			<form method="POST" action="/gigs" enctype="multipart/form-data" class="giggsCr ">
+			<form method="POST" action="/gig_create" enctype="multipart/form-data" class="giggsCr ">
 			    {{ csrf_field() }}
 			    <div class="row">
 
@@ -23,7 +23,7 @@
 			            <label for="right-label" class="right tty">GIG TITLE</label>
 			        </div>
 			        <div class="small-9 small-centered columns title">
-			            <input type="text" id="right-label" placeholder="I will do ...">
+			            <input type="text" id="right-label" name="title" placeholder="I will do ..." value="{{ old('title') }}">
 			        </div>
 
 
@@ -37,14 +37,14 @@
 			        </div>
 			        <div class="small-3 columns">
 
-			            <select class="subheader" id="mySelect" onchange="myFunction()">
+			            <select class="subheader" id="mySelect" onchange="myFunction()" name="main_category">
 			            	<option value="">SELECT CATAGORY</option>
-			                <option value="university">University Students</option>
-			                <option value="graphics">Graphics and design</option>
-			                <option value="online">Online Marketing</option>
-			                <option value="writing">Writing</option>
-			                <option value="programming">Programming and Tech</option>
-			                <option value="business">Business</option>
+			                <option value="University_Students">University Students</option>
+			                <option value="Graphics_and_design">Graphics and design</option>
+			                <option value="Online_Marketing">Online Marketing</option>
+			                <option value="Writing">Writing</option>
+			                <option value="Programming_and_Tech">Programming and Tech</option>
+			                <option value="Business">Business</option>
 			                <option value="other">Other</option>
 			            </select>
 
@@ -53,7 +53,7 @@
 
 			        <div class="small-3 columns float-right">
 
-			            <select class="subheader" id="selectNumber">
+			            <select class="subheader" id="selectNumber" name="sub_category">
 			                <option value="">SELECT SUB-CATAGORY</option>
 			                
 			            </select>
@@ -69,7 +69,7 @@
 			            <label for="right-label" class="right tty">COVER PHOTO</label>
 			        </div>
 			        <div class="small-9 small-centered columns desc">
-			            <input type="file" class=" button primary hollow" name="pic" accept="image/*">
+			            <input type="file" class=" button primary hollow" name="gig_photo" value="{{ old('gig_photo') }}" accept="image/*">
 			        </div>
 
 
@@ -85,7 +85,7 @@
 			            <label for="right-label" class="right tty">DESCRIPTION</label>
 			        </div>
 			        <div class="small-9 small-centered columns desc">
-			            <textarea style=" height: 150px;" placeholder="Descriptions "></textarea>
+			            <textarea name="description" style=" height: 150px;" placeholder="Descriptions " value="{{ old('description') }}"></textarea>
 			        </div>
 
 
@@ -151,7 +151,7 @@
 			            <label for="right-label" class="right tty">TAGS</label>
 			        </div>
 			        <div class="small-9 small-centered columns ">
-			            <input type="text" id="right-label">
+			            <input type="text" name="tag" id="right-label" value="{{ old('tag') }}">
 			        </div>
 
 
@@ -174,7 +174,7 @@
 				        <div class="column row collapse">
 					        <div class="large-4 columns float-left">
 
-					            <select  class="subheader">
+					            <select  class="subheader" name="amount">
 					            	<option value="">SELECT PRICE</option>
 					                <option value="250">250 tk</option>
 					                <option value="500">500 tk</option>
@@ -190,7 +190,7 @@
 
 					        <div class="large-4 columns float-right">
 
-					            <select class="subheader" >
+					            <select class="subheader" name="duration" >
 					            	<option  value="">SELECT DELIVERY TIME</option>
 					                <option value="1">1 Day Delivery</option>
 					                <option value="2">2 Day Delivery</option>
@@ -254,7 +254,7 @@
 
 
 							<div class="small-3 columns">
-				        		<select class="subheader" >
+				        		<select class="subheader" name="quick_delivery">
 					            	<option  value="">SELECT DAYS</option>
 					                <option value="1">1 Day </option>
 					                <option value="2">2 Days </option>
@@ -301,7 +301,7 @@
 
 					            <div class="small-3 columns">
 
-					             <select  class="subheader">
+					             <select  class="subheader" name="quick_amount">
 					            	<option value="">SELECT PRICE</option>
 					                <option value="250">250 tk</option>
 					                <option value="500">500 tk</option>
@@ -341,7 +341,7 @@
 			        <div class="small-9 small-centered columns subheader ">
 			        <P>Tell your buyer what you need to get started</P>
 
-			            <input type="text" style=" height: 80px;" id="right-label" placeholder="for example dimensions , specifications .. ">
+			            <input type="text" name="requirements" style=" height: 80px;" id="right-label" placeholder="for example dimensions , specifications .. " value="{{ old('description') }}">
 			        </div>
 
 
@@ -354,14 +354,27 @@
 			    <div class="row padTop">
 			        <div class="small-2 small-centered columns">
 
-			            <a href="#" class="large button success hollow ">Publish</a>
+			            <button type="submit" class="button  success ">Publish </button>
 
 			        </div>
 			    </div>
 
 
 			</form>
+				@if (count($errors) > 0)
+			<!-- Form Error List -->
+			<div class="alert alert-danger">
+				<strong>Whoops! Something went wrong!</strong>
 
+				<br><br>
+
+				<ul>
+					@foreach ($errors->all() as $error)
+					<li>{{ $error }}</li>
+					@endforeach
+				</ul>
+			</div>
+			@endif
 		</div>
 
 </div>
@@ -386,12 +399,12 @@ $('#selectNumber')
     .empty()
     .append('<option selected="selected" value="whatever">SELECT SUB-CATAGORY</option>');
 
-   			var university =["Presentations and infographics","Creative Writing","Resumes and cover letter","Research and summaries","Virtual Assistant"];
-   			var graphics =["Social Media design","Photoshop editing","Presentations and infographics","T-shirt design","Logo design"];
-    		var online =["SEO","Social Marketing","Blog mentions","Reviews","Video marketing","Fan Pages","Domain Research","Web analytics"];
-    		var writing =["Creative Writing","Articles and Blog posts","Resumes and cover letter","Research and summaries","Legal Writing"];
-    		var programming =["WordPress","Web programming","Ecommerce","Website builder","Support and IT","Databases"];
-    		var business=["Business plan","Presentations","Virtual Assistant"];
+   			var University_Students =["Presentations and infographics","Creative Writing","Resumes and cover letter","Research and summaries","Virtual Assistant"];
+   			var Graphics_and_design =["Social Media design","Photoshop editing","Presentations and infographics","T-shirt design","Logo design"];
+    		var Online_Marketing =["SEO","Social Marketing","Blog mentions","Reviews","Video marketing","Fan Pages","Domain Research","Web analytics"];
+    		var Writing =["Creative Writing","Articles and Blog posts","Resumes and cover letter","Research and summaries","Legal Writing"];
+    		var Programming_and_Tech =["WordPress","Web programming","Ecommerce","Website builder","Support and IT","Databases"];
+    		var Business=["Business plan","Presentations","Virtual Assistant"];
     		var other=[];
 var loop =eval(x).length;
 
