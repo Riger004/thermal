@@ -34,24 +34,6 @@ Route::get('/', function () {
     return view('prac.home');
 });
 
-Route::get('/demo', function () {
-    return view('prac.demoProfile');
-});
-
-
-
-
-Route::get('create', function () {
-    return view('prac.gigg_creation');
-});
-
-
-//Route::resource('profile','testController');
-Route::resource('profile','profileController');
-
-Route::get('about','testController@index');
-
-
 
 // Authentication routes...
 //Route::get('auth/login', 'Auth\AuthController@getLogin');
@@ -79,6 +61,30 @@ Route::get('auth/facebook/callback', 'Auth\AuthController@handleProviderCallback
 //auth for google
 Route::get('auth/google', 'Auth\AuthController@redirectToProvider_google');
 Route::get('auth/google/callback', 'Auth\AuthController@handleProviderCallback_google');
+
+
+
+
+//Route::resource('profile','testController');
+Route::resource('profile','profileController');
+
+//route for gig create
+Route::resource('gig_create','gigController');
+
+Route::get('about','testController@index');
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

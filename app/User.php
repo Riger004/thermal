@@ -44,4 +44,9 @@ class User extends Model implements AuthenticatableContract,
     }
 
 
+    public function gig_create(){
+
+        return $this->hasMany('App\Gig','user_id');
+    }
+
 }
