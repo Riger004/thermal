@@ -24,6 +24,10 @@ Route::get('/register', function () {
 });
 
 
+Route::get('/gigg', function () {
+    return view('prac.gigg');
+});
+
 
 // temp profile
 Route::get('/', function () {

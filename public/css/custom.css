@@ -5,18 +5,21 @@
 2nd color:#8A99F5 ;
 3rd color : #FDEECF ;
 */
+
 .fixed{
   background-color: black;
 }
 .panel{
-  background-color: #DFFEFE;
-  padding: 20px;
+  background-color: #EEFFFF;                     //p2
+  padding: 30px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
+
 .pan{
 
-  background-color: #DFFEFE;
+  background-color: #EEFFFF; 
 }
 
 .padTop{
@@ -34,7 +37,7 @@
 
 
 .top-bar li a:hover {
-  background: #9EDBFA;                             //p3
+  background: #BBFFBB;                             //p3
   border:1px solid #054242;                        //p1
 } 
 
@@ -44,7 +47,7 @@
   border:1px solid #054242;                        //p1
 } 
 .vv li a:hover {
-  background: #DFFEFE;                             //p2
+  background: #EEFFFF;                              //p2
   border:1px solid #054242;                        //p1
 } 
 
@@ -87,6 +90,12 @@
 }
 
 
+.border{
+  border:2px solid #BBFFBB;
+  margin-left: 20px;
+}
+
+
 .vv{
   position: relative;
   z-index: 10;
@@ -107,6 +116,11 @@
   padding-top: .8em !important;
 
  
+}
+
+
+.showGig{
+
 }
 
 
@@ -189,14 +203,31 @@
 }
 
 
+.bord{
+  /* box-sizing: border-box;*/
+   border:2px solid  #BBFFBB; 
+   padding: 5px;
+   background-color: white; 
+   margin-bottom: 10px;
 
+  /* padding: 5px;*/
+ 
+}
+
+
+.bord:hover{
+  
+   border:2px solid  rgba(5, 66, 66, .4);
+  background-color:  #EEFFFF; 
+ 
+}
 
 .gigg{
 
- border:7px solid #DFFEFE;                                             //p2
- padding: 35px;
- background-color: white;
-
+    /*border:2px solid  green; */                                           //p2
+/* margin: 20px;*/
+/* background-color: white;
+*/
 }
 
 
@@ -208,7 +239,7 @@
 */
 .gigg img{
 
- padding-top: 10px;
+ margin-top: 0px;
  margin-bottom: 10px;
 }
 
@@ -321,10 +352,14 @@
 
 
 .footer {
-  background-color: #292c2f;
+  background-color: #BBFFBB;                                           //p3
   text-align: center;
   font-size: 1.2rem;
-  padding: 4rem; }
+  padding: 4rem;
+  color:  #054242;                                                      //p1
+}
+
+
   .footer .inline-list a {
     display: inline-block;
     width: 2rem;
@@ -335,19 +370,24 @@
     color: #fff;
     text-align: center;
     line-height: 35px;
-    margin: 0 3px 0 0; }
+    margin: 0 3px 0 0; 
+  }
   .footer .contact {
     list-style-type: none;
     margin: 0;
     text-align: left;
-    color: #fff; }
+   
+     }
     .footer .contact li {
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+       color: #054242;                            //p1
+    }
       .footer .contact li p {
-        padding-left: 5rem; }
+        padding-left: 5rem; 
+      }
     .footer .contact i {
       position: absolute;
-      background-color: #33383b;
+      background-color:   #EEFFFF;                    //p2
       color: #fff;
       font-size: 2rem;
       border-radius: 50%;
@@ -359,29 +399,32 @@
     color: #8f9296;
     font-size: 0.875rem;
     margin: 0 0 1rem 0; }
-  .footer .about {
-    color: #92999f;
-    font-size: 0.875rem;
-    margin: 0 0 1rem 0; }
+ 
   .footer .footer-links a {
     list-style: none;
     font-weight: normal;
     color: #fff;
     padding: 3rem 0 2rem;
     margin: 0;
-    font-size: 0.875rem; }
+    font-size: 0.875rem; 
+
+  }
     .footer .footer-links a::after {
       content: "•";
-      padding: 0 0.2rem 0 0.4rem; }
+      padding: 0 0.2rem 0 0.4rem; 
+    }
     .footer .footer-links a:last-child::after {
       content: "";
-      padding: 0 0.4rem 0 0.8rem; }
+      padding: 0 0.4rem 0 0.8rem; 
+    }
   @media only screen and (min-width: 40.063em) {
     .footer p {
       text-align: left; }
     .footer .social {
       text-align: left;
-      margin: 0; }
+      margin: 0; 
+
+    }
     .footer .contact {
       text-align: left; }
       .footer .contact > i {
@@ -442,10 +485,10 @@ input.inline, label.inline {
 
 
 .browse{
-  color:  #DFFEFE;                                                   //p2
+  color:  #EEFFFF;                                                    //p2
 }
 .buy{
-  color: #9EDBFA;                                                   //p3
+  color: #BBFFBB;                                                   //p3
 }
 
 .done{
@@ -475,7 +518,7 @@ input.inline, label.inline {
     font-size: 450%;
     font-weight: 900;
     line-height: 130%;
-    color: #DFFEFE;
+    color: #EEFFFF; 
 
 }
 .ProRate{
@@ -672,7 +715,11 @@ h2 {
     height: auto;
 }
 
-
+#owl-gigg .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .homeHero{
     position:absolute;
     z-index:3;
@@ -865,16 +912,18 @@ h2 {
 /*gigg hover effects*/
 
 
-.service {
+/*.service {
   
   
 
   -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease; 
+}
   .service .service-icon-box {
  
     -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease;
+     }
   .service .service-heading {
     position: relative;
     ;
@@ -884,13 +933,13 @@ h2 {
   .service .service-icon-box > img.service-icon {
     }
   .service:hover {
-      border:1px solid #9EDBFA;
+      
        cursor: pointer;
      }
   .service:hover .service-icon-box {
     top: 0px; }
   .service:hover .service-heading {
     top: 0px; }
-
+*/
 
     /*hover ends*/

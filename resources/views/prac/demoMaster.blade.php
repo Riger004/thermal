@@ -82,31 +82,31 @@
                        <li class="uy" >
 
                                     <a href="#" class="topbarPa" >&nbsp;&nbsp;Profile Options&nbsp;&nbsp;</a>
-                                    <ul  class="dropdown menu zz" data-dropdown-menu>
+                                    <ul  class="dropdown menu zz text-center" data-dropdown-menu>
                                         
                                         
                                         <li>
-                                            <a href="#">DashBoard</a>
+                                            <a href="#" ><span class="subheader">DashBoard</span></a>
                                         </li>
                                       
 
                                          <li>
-                                            <a href="create">My Giggs</a>
+                                            <a href="create" ><span class="subheader">My Giggs</span></a>
                                         </li>
 
 
                                         <li>
-                                            <a href="create">Create Giggs</a>
+                                            <a href="create"><span class="subheader">Create Giggs</span></a>
                                         </li>
                                       
                                         
                                         <li>
-                                            <a href="pro">My Profile</a>
+                                            <a href="pro"><span class="subheader">My Profile</span></a>
                                         </li>
                                       
 
                                         <li>
-                                            <a href="logout">Log Out</a>
+                                            <a href="logout"><span class="subheader">Log Out</span></a>
                                         </li>
                                 
                             </ul>
@@ -424,29 +424,25 @@
 <footer class="footer">
   <div class="row">
     <div class="small-12 medium-6 large-5 columns">
-      <p class="logo"><i class="fi-shield"></i> STARWARS</p> 
+      <p class="logo"><i class="fi-shield"></i> FiverrLike</p> 
       <p class="footer-links">
         <a href="#">Home</a>
-        <a href="#">Blog</a>
-        <a href="#">Pricing</a>
         <a href="#">About</a>
-        <a href="#">Faq</a>
         <a href="#">Contact</a>
       </p>
-      <p class="copywrite">Copywrite not copywrite © 2015</p>
+      <p class="copywrite">Copywrite not copywrite © 2016</p>
     </div>
     <div class="small-12 medium-6 large-4 columns">
       <ul class="contact">
-        <li><p><i class="fi-marker"></i>1595 Spring Street New Britain, CT 06051</p></li>
-        <li><p><i class="fi-telephone"></i>+1-656-453-9966</p></li>
-        <li><p><i class="fi-mail"></i>contact@emperor.com</p></li>
+        <li><p><i class="fi-marker"></i>Dhaka,Bangladesh</p></li>
+        <li><p><i class="fi-telephone"></i>0171400000</p></li>
+        <li><p><i class="fi-mail"></i>contact@fiverrLike.com</p></li>
       </ul>
     </div>
     <div class="small-12 medium-12 large-3 columns">
-      <p class="about">About Star Wars</p>
-      <p class="about subheader">Strike me down, and I will become more powerful than you could possibly imagine.</p>
-      <ul class="inline-list social">
-        <a href="#"><i class="fi-social-facebook"></i></a>
+      <p class="about">About FiverrLikes</p>
+      <ul class="inline-list social ">
+        <a href="#"><i class="fi-social-facebook" ></i></a>
         <a href="#"><i class="fi-social-twitter"></i></a>
         <a href="#"><i class="fi-social-linkedin"></i></a>
         <a href="#"><i class="fi-social-github"></i></a>
@@ -480,6 +476,27 @@ $(document).ready(function() {
       singleItem:true,
       transitionStyle : "fadeUp",
       autoPlay : 5000 
+      
+      
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+
+
+   $("#owl-gigg").owlCarousel({
+
+      navigation : true, // Show next and prev buttons
+
+      slideSpeed : 900,
+      paginationSpeed : 600,
+      singleItem:true,
+      transitionStyle : "fadeUp",
+      autoPlay : false 
       
       
       // "singleItem:true" is a shortcut for:

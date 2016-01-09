@@ -6004,7 +6004,7 @@ select[multiple] {
 
 .dropdown-pane {
   background-color: #fefefe;
-  border: 2px solid #9EDBFA;
+  border: 2px solid #BBFFBB;
   display: block;
   padding: 1rem;
   position: absolute;
@@ -6055,7 +6055,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #9EDBFA transparent transparent;
+  border-color: #BBFFBB transparent transparent;
   border-top-style: solid;
   position: absolute;
   top: 0.825rem;
@@ -6068,7 +6068,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #9EDBFA transparent transparent;
+  border-color: transparent #BBFFBB transparent transparent;
   border-right-style: solid;
   float: left;
   margin-left: 0;
@@ -6081,7 +6081,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #9EDBFA;
+  border-color: transparent transparent transparent #BBFFBB;
   border-left-style: solid;
 }
 
@@ -6110,8 +6110,8 @@ select[multiple] {
   left: 100%;
   min-width: 200px;
   z-index: 1;
-  background: #9EDBFA;
-  border: 0px solid #9EDBFA;
+  background: #BBFFBB;
+  border: 0px solid #BBFFBB;
   margin-top: 0px;
 }
 
@@ -7442,7 +7442,7 @@ table.hover tr:nth-of-type(even):hover {
 }
 
 .top-bar a {
-  color: #DFFEFE;
+  color: #EEFFFF;
 }
 
 .top-bar input {
@@ -10734,7 +10734,7 @@ select[multiple] {
 
 .dropdown-pane {
   background-color: #fefefe;
-  border: 2px solid #9EDBFA;
+  border: 2px solid #BBFFBB;
   display: block;
   padding: 1rem;
   position: absolute;
@@ -10785,7 +10785,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #9EDBFA transparent transparent;
+  border-color: #BBFFBB transparent transparent;
   border-top-style: solid;
   position: absolute;
   top: 0.825rem;
@@ -10798,7 +10798,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #9EDBFA transparent transparent;
+  border-color: transparent #BBFFBB transparent transparent;
   border-right-style: solid;
   float: left;
   margin-left: 0;
@@ -10811,7 +10811,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #9EDBFA;
+  border-color: transparent transparent transparent #BBFFBB;
   border-left-style: solid;
 }
 
@@ -10840,8 +10840,8 @@ select[multiple] {
   left: 100%;
   min-width: 200px;
   z-index: 1;
-  background: #9EDBFA;
-  border: 0px solid #9EDBFA;
+  background: #BBFFBB;
+  border: 0px solid #BBFFBB;
   margin-top: 0px;
 }
 
@@ -12172,7 +12172,7 @@ table.hover tr:nth-of-type(even):hover {
 }
 
 .top-bar a {
-  color: #DFFEFE;
+  color: #EEFFFF;
 }
 
 .top-bar input {
