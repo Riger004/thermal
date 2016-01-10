@@ -13,7 +13,7 @@
 <div class="row padTop ">
 
     <!-- gigg show-->
-    <div class="small-8 columns panel showGig">
+    <div class="large-8 columns  showGig panel">
         <div class=" column row">
             
                 <p class="text-left">
@@ -23,7 +23,7 @@
 
         </div>
 
-        <div class="column row">
+        <div class="column row ">
           
             <span class="float-left subheader"><small>Catagory /  Sub Catagory</small></span>
             <span class="float-right subheader fi-clock"><small> 4 Days On Average</small></span>
@@ -109,8 +109,200 @@
         </div>
 
 
+        
 
-        <div class=" column row ">
+
+
+
+
+
+    </div>
+
+
+
+    <!-- extras -->
+
+
+
+
+
+    <!-- order & seller -->
+    <div class="small-4 columns show-for-large ">
+
+    <div class="border ">
+
+
+        <div class=" row  ">
+
+            <div class="">
+                <div class="small-8 columns ">
+                     <a href="#" class=" button expanded large success hollow" style="margin-right:5px">Order Now ( $5 )  </a>
+                </div>
+                <div class="small-4 columns ">
+                    <a href="#" class=" button expanded large success  hollow"> <i class="fi-shopping-cart"></i></a>
+                </div>
+            </div>    
+
+          
+
+        </div>   
+          
+          <div class=" row">
+          <div class="small-6 columns">
+                <span class=" subheader float-left">Basic Gig Quantity</span>
+          </div>
+            
+
+              <div class="small-6 columns float-right">
+                   <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+
+              </div>
+
+          </div>
+
+        </div>
+
+
+
+
+        <!-- rating -->
+
+
+        <div class="border ">
+
+
+           
+          
+          <div class=" row">
+              <div class="small-8 columns">
+                <span class="  subheader float-left">5585 Buyer Reviews</span>
+              </div>
+              <div class="small-4 columns">
+                     <span class=" small-6 columns subheader  stat">4.9</span>
+               </div>
+
+              
+
+          </div>
+
+
+
+          <hr>
+
+          <div class=" row">
+              <div class="small-8 columns">
+                <span class="  subheader float-left">Oredr In Queue</span>
+              </div>
+              <div class="small-4 columns">
+                     <span class=" small-6 columns subheader  stat">9</span>
+               </div>
+
+              
+
+          </div>
+
+          
+
+        </div>
+
+        <!-- social -->
+
+        <div class="border">
+        <div class="row">
+            <div class="small-12  columns">
+              <p class="about text-center subheader">Share this gig with others </p>
+              <ul class="inline-list gigg-social ">
+                <a href="#"><i class="fi-social-facebook" ></i></a>
+                <a href="#"><i class="fi-social-twitter"></i></a>
+                <a href="#"><i class="fi-social-linkedin"></i></a>
+                <a href="#"><i class="fi-social-github"></i></a>
+              </ul>
+            </div>
+
+              
+          </div>
+
+          </div>
+
+
+
+          <!-- gigg owner -->
+
+          <div class="border">
+                <div class="row">
+                    <div class="small-12  columns  ">
+                     <a href=""><img src="img/profile.jpg" class="float-center center gigg-pro-img"></a> 
+                    </div>
+
+
+                    <div class="small-12  columns text-center  p1">
+                       <h6>Mr. NameOf Person</h6>
+
+                    </div>
+
+
+                    <div class="small-12  columns  p1">
+                    <hr>
+                       <div class="row padTop">
+                           <div class="small-6 columns ">
+                              <span class="subheader">From<br></span> 
+                               <span class=" subheader">Papua new guinea</span> 
+                           </div>
+                           <div class="small-6 columns ">
+                              <span class="subheader">Positive Rating<br></span> 
+                               <span class=" subheader">99%</span>
+                           </div>
+                       </div>
+
+                       <div class="row padTop">
+                           <div class="small-6 columns ">
+                              <span class="subheader">Speaks<br></span> 
+                               <span class=" subheader">English</span> 
+                           </div>
+                           <div class="small-6 columns padBottom ">
+                              <span class="subheader">Avg. Response Time<br></span> 
+                               <span class=" subheader">7 Hrs.</span>
+                           </div>
+                           <hr>
+                       </div>
+                       
+                       
+                       <div class="column row subheader padBottom padTop">
+                           <h6>I am a native male New Yorker and have been the voice of Pandora, Skype, Ben & Jerry's, Ikea, and Lego to name a few. I record on top notch professional equipment and am here to bring only the best to Fiverr! I am your Voice!</h6>
+                       </div>
+
+                       <div class="column row">
+                           
+                           <a href="" class="button hollow primary">Learn More</a>
+                           <a href="" class="button hollow success float-right">Contact Me</a>
+                       </div>
+
+                    </div>
+
+                      
+                </div>
+
+          </div>
+
+
+
+
+    </div>
+
+
+    <!-- extras -->
+<div class="large-8 columns  showGig panel flearfix float-left ">
 
             <p class="">
             <h4><b>Check Out My Extras</b></h4>
@@ -120,10 +312,10 @@
 
             <form>
               <div class="row">
-                <div class="small-3 columns">
-                  <label  class="float-left">Basic Gig Quantity</label>
+                <div class="small-6 columns">
+                  <label  class="float-left checkText">Basic Gig Quantity</label>
                 </div>
-                <div class="small-6 columns float-right">
+                <div class="small-4 columns float-right">
                    <select>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -140,43 +332,238 @@
               </div>
 
 
-              <div class="column row">
-                <input id="extraFast" type="checkbox"><label for="checkbox12">Extra Fast Delivery at 2 Days For extra 250tk</label>
+              <div class=" row">
+
+
+               <div class="small-8 columns ">
+                     <input id="extraFast" type="checkbox"><label for="checkbox12"><span class="checkText">Extra Fast Delivery at 2 Days For extra 250tk</span></label>
+               </div>
+                <div class="small-4 columns">
+                    
+                    
+                       <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                      </select>
+              
+     
+                </div>
+               
               </div>
+            <div class=" row">
+
+
+                           <div class="small-8 columns ">
+                                 <input id="extraFast" type="checkbox"><label for="checkbox12"><span class="checkText">I will do web design for extra 5 dolloar</span></label>
+                           </div>
+                            <div class="small-4 columns">
+                                
+                                
+                                   <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                  </select>
+                          
+                 
+                            </div>
+                           
+              </div>
+
+
+              <div class=" row">
+
+
+                           <div class="small-8 columns ">
+                                 <input id="extraFast" type="checkbox"><label for="checkbox12"><span class="checkText">I will do web design for extra 5 dolloar</span></label>
+                           </div>
+                            <div class="small-4 columns">
+                                
+                                
+                                   <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                  </select>
+                          
+                 
+                            </div>
+                           
+              </div>
+
+
+              <!-- order button -->
+              <div class="row">
+
+                
+
+            <div class="">
+                <div class="small-8 columns ">
+                     <a href="#" class=" button expanded large success hollow" >Order Now ( $5 )  </a>
+                </div>
+                <div class="small-4 columns ">
+                    <a href="#" class=" button expanded large success hollow "> <i class="fi-shopping-cart"></i></a>
+                </div>
+
+               </div>  
+                  
+             </div>
+
             </form>
         </div>
 
 
-    </div>
-
-
-    <!-- order & seller -->
-    <div class="small-4 columns ">
+    <!-- extras end -->
 
 
 
+    <!-- for small devices -->
 
-        <div class=" row  padTop">
+    <div class="small-12 columns hide-for-large ">
 
-        <div class="padTop">
-        <div class="small-8 columns ">
-             <a href="#" class=" button expanded large success chartButton " style="margin-right:5px">Order Now ( $5 )  </a>
-        </div>
-        <div class="small-4 columns ">
-            <a href="#" class=" button expanded large success chartButton "> <i class="fi-shopping-cart"></i></a>
-        </div>
-        </div>    
+    <div class="border ">
 
-          
 
            
           
+          <div class=" row">
+              <div class="small-8 columns">
+                <span class="  subheader float-left">5585 Buyer Reviews</span>
+              </div>
+              <div class="small-4 columns">
+                     <span class=" small-6 columns subheader  stat">4.9</span>
+               </div>
+
+              
+
+          </div>
+
+
+
+          <hr>
+
+          <div class=" row">
+              <div class="small-8 columns">
+                <span class="  subheader float-left">Oredr In Queue</span>
+              </div>
+              <div class="small-4 columns">
+                     <span class=" small-6 columns subheader  stat">9</span>
+               </div>
+
+              
+
+          </div>
+
+          
 
         </div>
+
+        <!-- social -->
+
+        <div class="border marginBottom ">
+        <div class="row">
+            <div class="small-12  columns ">
+              <p class="about text-center subheader">Share this gig with others </p>
+              <ul class="inline-list gigg-social ">
+                <a href="#"><i class="fi-social-facebook" ></i></a>
+                <a href="#"><i class="fi-social-twitter"></i></a>
+                <a href="#"><i class="fi-social-linkedin"></i></a>
+                <a href="#"><i class="fi-social-github"></i></a>
+              </ul>
+            </div>
+
+              
+          </div>
+
+          </div>
+
+
+          <!-- about gigg owner -->
+
+
+           <div class="border">
+                <div class="row">
+                    <div class="small-12  columns  ">
+                     <a href=""><img src="img/profile.jpg" class="float-center center gigg-pro-img"></a> 
+                    </div>
+
+
+                    <div class="small-12  columns text-center  p1">
+                       <h6>Mr. NameOf Person</h6>
+
+                    </div>
+
+
+                    <div class="small-12  columns  p1">
+                    <hr>
+                       <div class="row padTop">
+                           <div class="small-6 columns ">
+                              <span class="subheader">From<br></span> 
+                               <span class=" subheader">Papua new guinea</span> 
+                           </div>
+                           <div class="small-6 columns ">
+                              <span class="subheader">Positive Rating<br></span> 
+                               <span class=" subheader">99%</span>
+                           </div>
+                       </div>
+
+                       <div class="row padTop">
+                           <div class="small-6 columns ">
+                              <span class="subheader">Speaks<br></span> 
+                               <span class=" subheader">English</span> 
+                           </div>
+                           <div class="small-6 columns padBottom ">
+                              <span class="subheader">Avg. Response Time<br></span> 
+                               <span class=" subheader">7 Hrs.</span>
+                           </div>
+                           <hr>
+                       </div>
+                       
+                    
+
+                       <div class="column row">
+                           
+                           <a href="" class="button hollow primary">Learn More</a>
+                           <a href="" class="button hollow success float-right">Contact Me</a>
+                       </div>
+
+                    </div>
+
+                      
+                </div>
+
+          </div>
+
 
 
 
     </div>
+
+
+
+    <!-- small devices ends -->
 
 
 </div>

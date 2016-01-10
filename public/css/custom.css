@@ -92,9 +92,44 @@
 
 .border{
   border:2px solid #BBFFBB;
-  margin-left: 20px;
+   margin-top: 1.7rem;
+  padding: 20px;
 }
 
+.p1{
+  color: #054242;
+}
+
+.p2{
+   color: #EEFFFF; 
+}
+
+
+.p3{
+   color:  #BBFFBB;  
+}
+
+
+.marginBottom{
+  margin-bottom: 20px;
+}
+
+.checkText{
+  font-size: 110%;
+  color: grey;
+
+}
+.gigg-social{
+  text-align: center;
+  font-size: xx-large;
+}
+
+.gigg-pro-img {
+  height:100px;
+  width: 100px;
+  margin-bottom: 15px;
+  border-radius: 20%;
+}
 
 .vv{
   position: relative;
