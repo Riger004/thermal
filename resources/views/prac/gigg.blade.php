@@ -566,7 +566,510 @@
     <!-- small devices ends -->
 
 
-</div>
+
+
+    <div class="large-8 columns  showGig panel floar-left">
+        <div class=" column row">
+            
+                <span class="float-left">
+                  <h4><b> 34 Reviews</b></h4>
+                </span> >
+                   
+               <span class="float-right  subheader">
+                    <h4><b> Rating : <span class="stat">4.8</span></b></h4>
+                    
+                </span>
+
+
+        </div>
+
+   <!-- comments start -->
+        <div class="column row">
+
+
+        <!-- 1st comment -->
+
+          <div class="  callout radius ">
+                
+                <blockquote>
+                  Those people who think they  are a great annoyance to those of us who do.
+                  <cite>
+                    <div class="student">
+                      <div > <img class="photo" src="img/profile.jpg"></div>
+                      <p>John Doe</p>
+                      <p>Ice Land</p>
+                    </div>
+
+                  </cite>
+
+                   <p>YesterDay</p>
+                </blockquote>
+                
+               <!-- sellers reply -->
+               <div class="row">
+                <div class="small-8 columns float-right">
+                    <blockquote>
+                  Thanks for yor review
+                  <cite>
+                    <div class="student">
+                      <div > <img class="photo" src="img/profile.jpg"></div>
+                      <p>Sellers Reply</p>
+                    </div>
+
+                  </cite>
+
+            
+                </blockquote>
+
+                  
+                </div>
+                 
+
+               </div>
+                
+              </div>
+
+              <!-- 2nd comment -->
+
+
+              <div class="  callout radius ">
+                
+                <blockquote>
+                  Those people who think they  are a great annoyance to those of us who do.
+                  <cite>
+                    <div class="student">
+                      <div > <img class="photo" src="img/profile.jpg"></div>
+                      <p>John Doe</p>
+                      <p>Ice Land</p>
+                    </div>
+
+                  </cite>
+                </blockquote>
+                
+                <div><span class="right "><h6 class="subheader">15 Days ago</h6></span></div>
+                
+              </div>
+
+
+              <!-- 3rd cpmment -->
+               <div class="  callout radius ">
+                
+                <blockquote>
+                  Those people who think they  are a great annoyance to those of us who do.
+                  <cite>
+                    <div class="student">
+                      <div > <img class="photo" src="img/profile.jpg"></div>
+                      <p>John Doe</p>
+                      <p>Ice Land</p>
+                    </div>
+
+                  </cite>
+
+                   <p>YesterDay</p>
+                </blockquote>
+                
+               <!-- sellers reply -->
+               <div class="row">
+                <div class="small-8 columns float-right">
+                    <blockquote>
+                  Thanks for yor review
+                  <cite>
+                    <div class="student">
+                      <div > <img class="photo" src="img/profile.jpg"></div>
+                      <p>Sellers Reply</p>
+                    </div>
+
+                  </cite>
+
+            
+                </blockquote>
+
+                  
+                </div>
+                 
+
+               </div>
+                
+              </div>
+
+
+
+              <!-- ---------- -->
+          
+
+        </div>
+
+
+        <!-- comments end -->
+
+
+
+       </div>
+
+       <!-- reviews area ends -->
+
+        <hr>
+
+
+        <div class="row panel">
+
+
+          <div class=" column row">
+            
+                <span class="float-left padBottom">
+                  <h4><b> More Gigg From Mr. NameOf SomeOne</b></h4>
+                </span> 
+
+        </div>
+
+         <!-- four gigg starts -->
+
+        <div class="row  " data-equalizer>
+
+                <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/lgB.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h5>I will test android, iPhone application or game</h5></div>
+
+                          <div class="row">
+                           
+                              
+                            <div class="small-6 columns">
+                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+                            </div>
+
+
+                            <div class="small-6 columns">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+           
+
+                
+
+                    <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/lgC.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h5>I will test android, l test android l test android iPhone application or game</h5></div>
+
+                          <div class="row">
+                           
+                              
+                            <div class="small-6 columns">
+                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+                            </div>
+
+
+                            <div class="small-6 columns">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+                   
+
+                   <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/lgB.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h5>I will test android,  or game</h5></div>
+
+                          <div class="row">
+                           
+                              
+                            <div class="small-6 columns">
+                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+                            </div>
+
+
+                            <div class="small-6 columns">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+                   
+
+                   <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/profile.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h5>I will test android, iPhone game</h5></div>
+
+                          <div class="row">
+                           
+                              
+                            <div class="small-6 columns">
+                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+                            </div>
+
+
+                            <div class="small-6 columns">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+
+         
+        </div>
+
+
+        <!-- four gigg ends -->
+
+
+        <div class="column row  text-center viewMore">
+
+        <a class="large button success  hollow" href="#">View More</a>
+
+        </div>
+
+          
+
+
+        </div>
+
+
+     
+
+      <!-- here catagory gigg -->
+
+
+
+      <div class="row panel">
+
+
+          <div class=" column row">
+            
+                <span class="float-left padBottom">
+                  <h4><b> Recommended for you in catagory/Sub-Catagory</b></h4>
+                </span> 
+
+        </div>
+
+         <!-- four gigg starts -->
+
+        <div class="row  " data-equalizer>
+
+                <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/lgB.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h5>I will test android, iPhone application or game</h5></div>
+
+                          <div class="row">
+                           
+                              
+                            <div class="small-6 columns">
+                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+                            </div>
+
+
+                            <div class="small-6 columns">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+           
+
+                
+
+                    <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/lgC.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h5>I will test android, l test android l test android iPhone application or game</h5></div>
+
+                          <div class="row">
+                           
+                              
+                            <div class="small-6 columns">
+                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+                            </div>
+
+
+                            <div class="small-6 columns">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+                   
+
+                   <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/lgB.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h5>I will test android,  or game</h5></div>
+
+                          <div class="row">
+                           
+                              
+                            <div class="small-6 columns">
+                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+                            </div>
+
+
+                            <div class="small-6 columns">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+                   
+
+                   <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/profile.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h5>I will test android, iPhone game</h5></div>
+
+                          <div class="row">
+                           
+                              
+                            <div class="small-6 columns">
+                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+                            </div>
+
+
+                            <div class="small-6 columns">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+
+         
+        </div>
+
+
+        <!-- four gigg ends -->
+
+
+        <div class="column row  text-center viewMore">
+
+        <a class="large button success  hollow" href="#">View More</a>
+
+        </div>
+
+          
+
+
+        </div>
+
+
+<!-- catagory gig ends -->
+
+      
+         
+
+      
+
+     </div>
+
+
+
 
 
 
