@@ -896,7 +896,7 @@
 
 
 
-      <div class="row panel">
+      <div class="small-12 columns panel">
 
 
           <div class=" column row">
