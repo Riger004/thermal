@@ -137,11 +137,11 @@
 				  		<a href="#" >University Students</a>
 
         				<ul class=" vertical menu" >
-        				  <li><a href="#">Presentations and infographics</a></li>
-        				  <li><a href="#">Creative Writing</a></li>
-        				  <li><a href="#">Resumes and cover letter</a></li>
-        				  <li><a href="#">Research and summaries</a></li>
-        				  <li><a href="#">Virtual Assistant</a></li>
+        				  <li><a href="catagory">Presentations and infographics</a></li>
+        				  <li><a href="catagory">Creative Writing</a></li>
+        				  <li><a href="catagory">Resumes and cover letter</a></li>
+        				  <li><a href="catagory">Research and summaries</a></li>
+        				  <li><a href="catagory">Virtual Assistant</a></li>
         				</ul>
 
 				  </li>
@@ -151,11 +151,11 @@
 				  		<a href="#">Graphics and design</a>
 
 				<ul class="nested vertical menu">
-				  <li><a href="#">Social Media design</a></li>
-				  <li><a href="#">Photoshop editing</a></li>
-				  <li><a href="#">Presentations and infographics</a></li>
-				  <li><a href="#">T-shirt design</a></li>
-				  <li><a href="#">Logo design</a></li>
+				  <li><a href="catagory">Social Media design</a></li>
+				  <li><a href="catagory">Photoshop editing</a></li>
+				  <li><a href="catagory">Presentations and infographics</a></li>
+				  <li><a href="catagory">T-shirt design</a></li>
+				  <li><a href="catagory">Logo design</a></li>
 				</ul>
 
 				  </li>
@@ -165,14 +165,14 @@
 				  		<a href="#" >Online Marketing</a>
 
 				<ul class="nested vertical menu">
-				  <li><a href="#">SEO</a></li>
-				  <li><a href="#">Social Marketing</a></li>
-				  <li><a href="#">Blog mentions</a></li>
-				  <li><a href="#">Reviews</a></li>
-				  <li><a href="#">Video marketing</a></li>
-				  <li><a href="#">Fan Pages</a></li>
-				  <li><a href="#">Domain Research</a></li>
-				  <li><a href="#">Web analytics</a></li>
+				  <li><a href="catagory">SEO</a></li>
+				  <li><a href="catagory">Social Marketing</a></li>
+				  <li><a href="catagory">Blog mentions</a></li>
+				  <li><a href="catagory">Reviews</a></li>
+				  <li><a href="catagory">Video marketing</a></li>
+				  <li><a href="catagory">Fan Pages</a></li>
+				  <li><a href="catagory">Domain Research</a></li>
+				  <li><a href="catagory">Web analytics</a></li>
 				</ul>
 
 				  </li>
@@ -183,11 +183,11 @@
 				  		<a href="#" >Writing</a>
 
 				<ul class="nested vertical menu" >
-				  <li><a href="#">Creative Writing</a></li>
-				  <li><a href="#">Articles and Blog posts</a></li>
-				  <li><a href="#">Resumes and cover letter</a></li>
-				  <li><a href="#">Research and summaries</a></li>
-				  <li><a href="#">Legal Writing</a></li>
+				  <li><a href="catagory">Creative Writing</a></li>
+				  <li><a href="catagory">Articles and Blog posts</a></li>
+				  <li><a href="catagory">Resumes and cover letter</a></li>
+				  <li><a href="catagory">Research and summaries</a></li>
+				  <li><a href="catagory">Legal Writing</a></li>
 				</ul>
 
 				  </li>
@@ -197,12 +197,12 @@
 				  		<a href="#" >Programming and Tech</a>
 
 				<ul class="nested vertical menu" >
-				  <li><a href="#">WordPress</a></li>
-				  <li><a href="#">Web programming</a></li>
-				  <li><a href="#">Ecommerce</a></li>
-				  <li><a href="#">Website builder</a></li>
-				  <li><a href="#">Support and IT</a></li>
-				  <li><a href="#">Databases</a></li>
+				  <li><a href="catagory">WordPress</a></li>
+				  <li><a href="catagory">Web programming</a></li>
+				  <li><a href="catagory">Ecommerce</a></li>
+				  <li><a href="catagory">Website builder</a></li>
+				  <li><a href="catagory">Support and IT</a></li>
+				  <li><a href="catagory">Databases</a></li>
 				</ul>
 
 				  </li>
@@ -211,15 +211,15 @@
 				  		<a href="#" >Business</a>
 
 				<ul  class="nested vertical menu" >
-				  <li><a href="#">Business plan</a></li>
-				  <li><a href="#">Presentations</a></li>
-				  <li><a href="#">Virtual Assistant</a></li>
+				  <li><a href="catagory">Business plan</a></li>
+				  <li><a href="catagory">Presentations</a></li>
+				  <li><a href="catagory">Virtual Assistant</a></li>
 				  
 				</ul>
 
 				  </li>
 
-				  <li><a href="#">Other</a></li>
+				  <li><a href="catagory">Other</a></li>
 				 
 				</ul>
         
@@ -243,11 +243,11 @@
                         <a href="#" >University Students</a>
 
                         <ul class=" vertical menu" >
-                          <li><a href="#">Presentations and infographics</a></li>
-                          <li><a href="#">Creative Writing</a></li>
-                          <li><a href="#">Resumes and cover letter</a></li>
-                          <li><a href="#">Research and summaries</a></li>
-                          <li><a href="#">Virtual Assistant</a></li>
+                          <li><a href="catagory">Presentations and infographics</a></li>
+                          <li><a href="catagory">Creative Writing</a></li>
+                          <li><a href="catagory">Resumes and cover letter</a></li>
+                          <li><a href="catagory">Research and summaries</a></li>
+                          <li><a href="catagory">Virtual Assistant</a></li>
                         </ul>
 
                   </li>
@@ -257,11 +257,11 @@
                         <a href="#">Graphics and design</a>
 
                 <ul class="nested vertical menu">
-                  <li><a href="#">Social Media design</a></li>
-                  <li><a href="#">Photoshop editing</a></li>
-                  <li><a href="#">Presentations and infographics</a></li>
-                  <li><a href="#">T-shirt design</a></li>
-                  <li><a href="#">Logo design</a></li>
+                  <li><a href="catagory">Social Media design</a></li>
+                  <li><a href="catagory">Photoshop editing</a></li>
+                  <li><a href="catagory">Presentations and infographics</a></li>
+                  <li><a href="catagory">T-shirt design</a></li>
+                  <li><a href="catagory">Logo design</a></li>
                 </ul>
 
                   </li>
@@ -271,14 +271,14 @@
                         <a href="#" >Online Marketing</a>
 
                 <ul class="nested vertical menu">
-                  <li><a href="#">SEO</a></li>
-                  <li><a href="#">Social Marketing</a></li>
-                  <li><a href="#">Blog mentions</a></li>
-                  <li><a href="#">Reviews</a></li>
-                  <li><a href="#">Video marketing</a></li>
-                  <li><a href="#">Fan Pages</a></li>
-                  <li><a href="#">Domain Research</a></li>
-                  <li><a href="#">Web analytics</a></li>
+                  <li><a href="catagory">SEO</a></li>
+                  <li><a href="catagory">Social Marketing</a></li>
+                  <li><a href="catagory">Blog mentions</a></li>
+                  <li><a href="catagory">Reviews</a></li>
+                  <li><a href="catagory">Video marketing</a></li>
+                  <li><a href="catagory">Fan Pages</a></li>
+                  <li><a href="catagory">Domain Research</a></li>
+                  <li><a href="catagory">Web analytics</a></li>
                 </ul>
 
                   </li>
@@ -301,11 +301,11 @@
                       <a href="#" ><span class="xx">Writing</span></a> 
 
                 <ul class="nested vertical menu" >
-                  <li><a href="#">Creative Writing</a></li>
-                  <li><a href="#">Articles and Blog posts</a></li>
-                  <li><a href="#">Resumes and cover letter</a></li>
-                  <li><a href="#">Research and summaries</a></li>
-                  <li><a href="#">Legal Writing</a></li>
+                  <li><a href="catagory">Creative Writing</a></li>
+                  <li><a href="catagory">Articles and Blog posts</a></li>
+                  <li><a href="catagory">Resumes and cover letter</a></li>
+                  <li><a href="catagory">Research and summaries</a></li>
+                  <li><a href="catagory">Legal Writing</a></li>
                 </ul>
 
                   </li>
@@ -318,12 +318,12 @@
                         <a href="#" >Programming and Tech</a>
 
                 <ul class="nested vertical menu" >
-                  <li><a href="#">WordPress</a></li>
-                  <li><a href="#">Web programming</a></li>
-                  <li><a href="#">Ecommerce</a></li>
-                  <li><a href="#">Website builder</a></li>
-                  <li><a href="#">Support and IT</a></li>
-                  <li><a href="#">Databases</a></li>
+                  <li><a href="catagory">WordPress</a></li>
+                  <li><a href="catagory">Web programming</a></li>
+                  <li><a href="catagory">Ecommerce</a></li>
+                  <li><a href="catagory">Website builder</a></li>
+                  <li><a href="catagory">Support and IT</a></li>
+                  <li><a href="catagory">Databases</a></li>
                 </ul>
 
                   </li>
@@ -332,15 +332,15 @@
                         <a href="#" >Business</a>
 
                 <ul  class="nested vertical menu" >
-                  <li><a href="#">Business plan</a></li>
-                  <li><a href="#">Presentations</a></li>
-                  <li><a href="#">Virtual Assistant</a></li>
+                  <li><a href="catagory">Business plan</a></li>
+                  <li><a href="catagory">Presentations</a></li>
+                  <li><a href="catagory">Virtual Assistant</a></li>
                   
                 </ul>
 
                   </li>
 
-                  <li><a href="#">Other</a></li>
+                  <li><a href="catagory">Other</a></li>
                  
                 </ul>
 

@@ -24,10 +24,6 @@ Route::get('/register', function () {
 });
 
 
-Route::get('/gigg', function () {
-    return view('prac.gigg');
-});
-
 
 // temp profile
 Route::get('/', function () {
@@ -75,6 +71,14 @@ Route::get('about','testController@index');
 
 
 
+Route::get('/catagory', function (){
+    return view('prac.catagory-landing');
+});
+
+
+Route::get('/gigg', function () {
+    return view('prac.gigg');
+});
 
 
 

@@ -27,7 +27,7 @@
 }
 
 .padBottom{
- padding-bottom: 20px;
+ padding-bottom: 20px !important;
 }
 
 .top-bar {
@@ -117,6 +117,13 @@
 .checkText{
   font-size: 110%;
   color: grey;
+
+}
+
+
+
+.shopCatag{
+  border-right: 1px solid grey;
 
 }
 .gigg-social{
@@ -241,7 +248,9 @@
 .bord{
   /* box-sizing: border-box;*/
    border:2px solid  #BBFFBB; 
+
    padding: 5px;
+
    background-color: white; 
    margin-bottom: 10px;
 
@@ -261,8 +270,9 @@
 
     /*border:2px solid  green; */                                           //p2
 /* margin: 20px;*/
-/* background-color: white;
-*/
+/* background-color: white;*/
+
+
 }
 
 
