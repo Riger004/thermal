@@ -109,6 +109,14 @@
         </div>
 
 
+<!-- shown only for own giggs -->
+        <div class="column row  text-center viewMore">
+
+        <a class="large button subheader  hollow" href="#">Edit Gigg</a>
+
+        </div>
+
+
         
 
 
