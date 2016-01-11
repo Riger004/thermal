@@ -17,7 +17,7 @@
         <div class=" column row">
             
                 <p class="text-left">
-                    <h4><b>I will write A UNIQUE And Original 500 Words Article</b></h4>
+                    <h4><b><span class="p1">I will write A UNIQUE And Original 500 Words Article</span></b></h4>
 
                 </p>
 
@@ -51,7 +51,7 @@
         <div class=" column row ">
 
             <p class="">
-            <h4><b>About This Gig</b></h4>
+            <h4><b><span class="p1">About This Gig</span></b></h4>
 
             </p>
 
@@ -313,7 +313,7 @@
 <div class="large-8 columns  showGig panel flearfix float-left ">
 
             <p class="">
-            <h4><b>Check Out My Extras</b></h4>
+            <h4><b><span class="p1">Check Out My Extras</span></b></h4>
 
             </p>
 
@@ -580,8 +580,8 @@
         <div class=" column row">
             
                 <span class="float-left">
-                  <h4><b> 34 Reviews</b></h4>
-                </span> >
+                  <h4><b><span class="p1"> 34 Reviews</span></b></h4>
+                </span> 
                    
                <span class="float-right  subheader">
                     <h4><b> Rating : <span class="stat">4.8</span></b></h4>
@@ -725,7 +725,7 @@
           <div class=" column row">
             
                 <span class="float-left padBottom">
-                  <h4><b> More Gigg From Mr. NameOf SomeOne</b></h4>
+                  <h4><b> <span class="p1">More Gigg From Mr. NameOf SomeOne</span></b></h4>
                 </span> 
 
         </div>
@@ -902,7 +902,7 @@
           <div class=" column row">
             
                 <span class="float-left padBottom">
-                  <h4><b> Recommended for you in catagory/Sub-Catagory</b></h4>
+                  <h4><b><span class="p1"> Recommended for you in catagory/Sub-Catagory</span></b></h4>
                 </span> 
 
         </div>
