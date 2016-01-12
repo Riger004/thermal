@@ -142,7 +142,7 @@
 }
 
 
-.catagoryTitle{
+.categoryTitle{
     position: absolute;
     z-index:1003;
     top:17%; /* change to whatever you want */

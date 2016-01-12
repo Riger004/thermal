@@ -7,9 +7,9 @@
 
 @section('body')
 
-  <div class="column row catagoryTitle"> 
-	       <span class="subTit">Sub-Catagory<br></span>
-	       <span class="catTit">In Catagory</span>
+  <div class="column row categoryTitle"> 
+	       <span class="subTit">Sub-category<br></span>
+	       <span class="catTit">In category</span>
 
 	     </div>
 
@@ -27,7 +27,7 @@
             <div id="owl-gigg" class="owl-carousel owl-theme">
 
                   
-                  <div class="item"><img src="img/catagory.jpg" alt="Mirror Edge"></div>
+                  <div class="item"><img src="img/category.jpg" alt="Mirror Edge"></div>
                   
  
             </div>
@@ -50,7 +50,7 @@
             <hr>
 
             <div class=" column row padBottom">
-            	<a href="#">All in Catagory</a>
+            	<a href="#">All in category</a>
             </div>
 
 
