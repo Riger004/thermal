@@ -120,10 +120,13 @@
 
 }
 
-
+.active{
+  color: green;
+  border-bottom: 2px solid green;
+}
 
 .shopCatag{
-  border-right: 1px solid grey;
+//  border-right: 1px solid grey;
 
 }
 .gigg-social{
@@ -136,6 +139,28 @@
   width: 100px;
   margin-bottom: 15px;
   border-radius: 20%;
+}
+
+
+.catagoryTitle{
+    position: absolute;
+    z-index:1003;
+    top:17%; /* change to whatever you want */
+    left:20%; /* change to whatever you want */
+   
+
+}
+
+.subTit{
+  font-size: 250%;
+  font-weight: 900;
+  color:#BBFFBB; 
+}
+
+.catTit{
+   font-size: 150%;
+  font-weight: 800;
+  color: #EEFFFF;
 }
 
 .vv{

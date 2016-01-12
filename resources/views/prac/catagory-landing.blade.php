@@ -7,12 +7,18 @@
 
 @section('body')
 
+  <div class="column row catagoryTitle"> 
+	       <span class="subTit">Sub-Catagory<br></span>
+	       <span class="catTit">In Catagory</span>
 
+	     </div>
 
+ 
 <div class="row padTop ">
 
+	   
 
-
+   
 <!-- cover photo -->
 
 	 <div class="small-12 columns"> 
@@ -35,7 +41,7 @@
         <div class="small-12 columns"> 
             
         <div class="row">
-        	<div class="small-2 columns panel shopCatag">
+        	<div class="small-3 large-2 columns panel shopCatag">
         		<!-- left side filter starts -->
 
         	<p class="">
@@ -43,18 +49,54 @@
             </p>
             <hr>
 
+            <div class=" column row padBottom">
+            	<a href="#">All in Catagory</a>
+            </div>
+
+
+            <form>
+			  <div class="column row ">
+			    
+			  	<label> <span class="subheader">Delivery Time</span></label>
+				  
+			    <input type="radio" name="pokemon" value="24" id="pokemonRed" required><label for="pokemonRed">Up to 24 hours</label> <br>
+			    <input type="radio" name="pokemon" value="3d" id="pokemonBlue"><label for="pokemonBlue">Up to 3 days</label> <br>
+			    <input type="radio" name="pokemon" value="7d" id="pokemonYellow"><label for="pokemonYellow">Up to 7 days</label> <br>
+			    <input type="radio" name="pokemon" value="any" id="pokemonYellow"><label for="pokemonYellow">Any</label>
+
+			  </div>
+
+
+			  <div class="column row  padTop">
+			    
+			  	<label> <span class="subheader">Seller Level</span></label>
+				  
+		
+
+ 				<input type="radio" name="pokemon" value="new" id="pokemonRed" required><label for="pokemonRed">New Seller</label> <br>
+			    <input type="radio" name="pokemon" value="1" id="pokemonBlue"><label for="pokemonBlue">Level One</label> <br>
+			    <input type="radio" name="pokemon" value="2" id="pokemonYellow"><label for="pokemonYellow">Level Two</label> <br>
+			     <input type="radio" name="pokemon" value="top" id="pokemonYellow"><label for="pokemonYellow">Top Rated Seller</label>
+			 </div>
+
+			  <div class="column row  text-center viewMore">
+	             <a class="button secondary  hollow" href="#">Search</a>
+	          </div>
+
+
+			</form>
+
 
 
         		<!-- left side filter ends -->
         	</div>
 
-        	<div class="small-10 columns">
+        	<div class="small-9 large-10 columns">
         		<!-- main gigg showcase area  starts -->
         		<div class="column row">
         			<ul class="menu">
 					  <li><a href="#" class="active">High Rating</a></li>
-					  <li><a href="#">Recommended</a></li>
-					  <li><a href="#">New</a></li>
+					  <li><a href="#" class="">New</a></li>
 					</ul>
 				</div>
 
