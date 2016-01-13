@@ -37,17 +37,24 @@
 
 
 .top-bar li a:hover {
-  background: #BBFFBB;                             //p3
+  background: #002200 ;                          //p3
   border:1px solid #054242;                        //p1
 } 
 
 
 .uy li a:hover {
   background: #DFFEFE !important;                             //p3
-  border:1px solid #054242;                        //p1
+  border:1px solid #054242;  
+  
 } 
+
+.uy a :hover{
+  color: #054242 !important;
+}
+
 .vv li a:hover {
-  background: #EEFFFF;                              //p2
+  background: #EEFFFF;   
+                           //p2
   border:1px solid #054242;                        //p1
 } 
 
@@ -80,6 +87,7 @@
   
 }
 
+
 .topbarPa{
   margin-right: 15px;
 }
@@ -91,7 +99,7 @@
 
 
 .border{
-  border:2px solid #BBFFBB;
+  border:2px solid rgba(0%,40%,60%,.3);
    margin-top: 1.7rem;
   padding: 20px;
 }
@@ -106,7 +114,7 @@
 
 
 .p3{
-   color:  #BBFFBB;  
+   color:  #006699;  
 }
 
 
@@ -120,7 +128,7 @@
 
 }
 
-.active{
+.actv{
   color: green;
   border-bottom: 2px solid green;
 }
@@ -144,7 +152,7 @@
 
 .categoryTitle{
     position: absolute;
-    z-index:1003;
+    z-index:3;
     top:17%; /* change to whatever you want */
     left:20%; /* change to whatever you want */
    
@@ -154,7 +162,7 @@
 .subTit{
   font-size: 250%;
   font-weight: 900;
-  color:#BBFFBB; 
+  color:#006699; 
 }
 
 .catTit{
@@ -175,7 +183,7 @@
 }
 
 .vertical :not(:last-child) a{
-  border-bottom:1px dotted #4CA8E5 ;
+  border-bottom:2px solid rgba(0%,40%,60%,.3) ;
 }
 
 
@@ -272,7 +280,7 @@
 
 .bord{
   /* box-sizing: border-box;*/
-   border:2px solid  #BBFFBB; 
+   border:2px solid  rgba(0%,40%,60%,.3); 
 
    padding: 5px;
 
@@ -286,7 +294,7 @@
 
 .bord:hover{
   
-   border:2px solid  rgba(5, 66, 66, .4);
+   border:2px solid  rgba(5, 66, 66, .6);
   background-color:  #EEFFFF; 
  
 }
@@ -422,7 +430,7 @@
 
 
 .footer {
-  background-color: #BBFFBB;                                           //p3
+  background-color: #006699;                                           //p3
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem;
@@ -558,7 +566,7 @@ input.inline, label.inline {
   color:  #EEFFFF;                                                    //p2
 }
 .buy{
-  color: #BBFFBB;                                                   //p3
+  color: #006699;                                                   //p3
 }
 
 .done{

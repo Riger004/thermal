@@ -6004,7 +6004,7 @@ select[multiple] {
 
 .dropdown-pane {
   background-color: #fefefe;
-  border: 2px solid #BBFFBB;
+  border: 2px solid #054242;
   display: block;
   padding: 1rem;
   position: absolute;
@@ -6055,7 +6055,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #BBFFBB transparent transparent;
+  border-color: #006699 transparent transparent;
   border-top-style: solid;
   position: absolute;
   top: 0.825rem;
@@ -6068,7 +6068,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #BBFFBB transparent transparent;
+  border-color: transparent #006699 transparent transparent;
   border-right-style: solid;
   float: left;
   margin-left: 0;
@@ -6081,7 +6081,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #BBFFBB;
+  border-color: transparent transparent transparent #006699;
   border-left-style: solid;
 }
 
@@ -6110,8 +6110,8 @@ select[multiple] {
   left: 100%;
   min-width: 200px;
   z-index: 1;
-  background: #BBFFBB;
-  border: 0px solid #BBFFBB;
+  background: #054242;
+  border: 0px solid #054242;
   margin-top: 0px;
 }
 
@@ -10734,7 +10734,7 @@ select[multiple] {
 
 .dropdown-pane {
   background-color: #fefefe;
-  border: 2px solid #BBFFBB;
+  border: 2px solid #054242;
   display: block;
   padding: 1rem;
   position: absolute;
@@ -10785,7 +10785,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #BBFFBB transparent transparent;
+  border-color: #006699 transparent transparent;
   border-top-style: solid;
   position: absolute;
   top: 0.825rem;
@@ -10798,7 +10798,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #BBFFBB transparent transparent;
+  border-color: transparent #006699 transparent transparent;
   border-right-style: solid;
   float: left;
   margin-left: 0;
@@ -10811,7 +10811,7 @@ select[multiple] {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #BBFFBB;
+  border-color: transparent transparent transparent #006699;
   border-left-style: solid;
 }
 
@@ -10840,8 +10840,8 @@ select[multiple] {
   left: 100%;
   min-width: 200px;
   z-index: 1;
-  background: #BBFFBB;
-  border: 0px solid #BBFFBB;
+  background: #054242;
+  border: 0px solid #054242;
   margin-top: 0px;
 }
 

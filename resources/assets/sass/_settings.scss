@@ -46,7 +46,7 @@
 // ---------
 $p1: #054242;
 $p2: #EEFFFF;        //#DFFEFE;
-$p3: #BBFFBB;                  //#9EDBFA;
+$p3: #006699;                // #BBFFBB;                  //#9EDBFA;
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -289,7 +289,7 @@ $drilldown-background: $white;
 // ------------
 
 $dropdown-padding: 1rem;
-$dropdown-border: 2px solid $p3;
+$dropdown-border: 2px solid $p1;
 $dropdown-font-size: 16rem;
 $dropdown-width: 300px;
 $dropdown-radius: $global-radius;
@@ -305,8 +305,8 @@ $dropdown-sizes: (
 $dropdownmenu-arrows: true;
 $dropdownmenu-arrow-color: $p3;
 $dropdownmenu-min-width: 200px;
-$dropdownmenu-background: $p3;
-$dropdownmenu-border: 0px solid $p3;
+$dropdownmenu-background: $p1;
+$dropdownmenu-border: 0px solid $p1;
 
 // 18. Flex Video
 // --------------

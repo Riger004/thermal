@@ -74,7 +74,7 @@
                         <li>
                             <a href="#" ><i class="fi-mail ico"></i></a>
                             <ul class="dropdown menu " data-dropdown-menu>
-                                <li><a href="#" class="">Shopping Cart</a></li>  
+                                <li><a href="#" class="">Messages</a></li>  
                             </ul>
                        </li>
         
@@ -86,27 +86,27 @@
                                         
                                         
                                         <li>
-                                            <a href="#" ><span class="subheader">DashBoard</span></a>
+                                            <a href="#" ><span class="p2">DashBoard</span></a>
                                         </li>
                                       
 
                                          <li>
-                                            <a href="create" ><span class="subheader">My Giggs</span></a>
+                                            <a href="create" ><span class="p2">My Giggs</span></a>
                                         </li>
 
 
                                         <li>
-                                            <a href="create"><span class="subheader">Create Giggs</span></a>
+                                            <a href="create"><span class="p2">Create Giggs</span></a>
                                         </li>
                                       
                                         
                                         <li>
-                                            <a href="pro"><span class="subheader">My Profile</span></a>
+                                            <a href="pro"><span class="p2">My Profile</span></a>
                                         </li>
                                       
 
                                         <li>
-                                            <a href="logout"><span class="subheader">Log Out</span></a>
+                                            <a href="logout"><span class="p2">Log Out</span></a>
                                         </li>
                                 
                             </ul>

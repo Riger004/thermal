@@ -13,7 +13,7 @@
 
 	     </div>
 
- 
+
 <div class="row padTop ">
 
 	   
@@ -95,7 +95,7 @@
         		<!-- main gigg showcase area  starts -->
         		<div class="column row">
         			<ul class="menu">
-					  <li><a href="#" class="active">High Rating</a></li>
+					  <li><a href="#" class="actv">High Rating</a></li>
 					  <li><a href="#" class="">New</a></li>
 					</ul>
 				</div>
