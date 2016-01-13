@@ -76,9 +76,7 @@ Route::get('/catagory', function (){
 });
 
 
-Route::get('/gigg', function () {
-    return view('prac.gigg');
-});
+
 
 
 

@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 use Auth;
 use App\User;
 use App\profiles;
+use App\Gig;
 
 class profileController extends Controller
 {
@@ -29,11 +30,13 @@ class profileController extends Controller
         //
         $user=Auth::user();
         $profile=profiles::where('user_id',$user->id)->first();
+        $gig=Gig::where('user_id',$user->id)->get();
+
 
         if($profile===null){
             return view('prac.profile',compact('user'));
         }else{
-            return view('prac.profile',compact('user','profile'));
+            return view('prac.profile',compact('user','profile','gig'));
         }
         
     }
@@ -170,4 +173,33 @@ class profileController extends Controller
     {
         //
     }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

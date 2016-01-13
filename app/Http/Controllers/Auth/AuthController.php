@@ -90,7 +90,7 @@ class AuthController extends Controller
             Auth::Login($this->create($data));
         }
 
-        return redirect('/about');
+        return redirect('/');
 
         // $user->token;
     }
@@ -119,10 +119,10 @@ class AuthController extends Controller
             Auth::Login($this->create($data));
         }
 
-        return redirect('/about');
+        return redirect('/');
 
         // $user->token;
     }
-    protected $redirectPath = '/about';
+    protected $redirectPath = '/';
     protected $loginPath = '/';
 }

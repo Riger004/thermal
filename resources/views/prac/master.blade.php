@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/foundation-icons.css" /> -->
 
 <!-- new sass -->
-    <link rel="stylesheet" href="css/app.css"/>
-    <link rel="stylesheet" href="css/custom.css"/> 
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+    <link rel="stylesheet" href="/css/custom.css"/> 
+    <link rel="stylesheet" href="/css/font-awesome.min.css"/>
 
 
     <!-- Basic stylesheet -->

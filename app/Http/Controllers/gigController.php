@@ -7,8 +7,10 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Auth;
+use Crypt;
 use App\User;
 use App\Gig;
+use App\profiles;
 
 class gigController extends Controller
 {
@@ -107,6 +109,20 @@ class gigController extends Controller
     public function show($id)
     {
         //
+        $dycrypt=Crypt::decrypt($id);
+        //$profile=profiles::where('id',$user->id)->first();
+
+        $gig_user=Gig::where('id',$dycrypt)->first();
+
+        $profile=profiles::where('user_id',$gig_user->user_id)->first();
+
+        $user=User::where('id',$gig_user->user_id)->first();
+
+        return view('prac.gigg',compact('gig_user','user','profile'));
+        
+        //return $profile;
+
+
     }
 
     /**
