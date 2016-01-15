@@ -25,7 +25,7 @@
 
         <div class="column row ">
           
-            <span class="float-left subheader"><small>Catagory /  Sub Catagory</small></span>
+            <span class="float-left subheader"><small>category /  Sub category</small></span>
             <span class="float-right subheader fi-clock"><small> 4 Days On Average</small></span>
 
         </div>
@@ -892,7 +892,7 @@
 
      
 
-      <!-- here catagory gigg -->
+      <!-- here category gigg -->
 
 
 
@@ -902,7 +902,7 @@
           <div class=" column row">
             
                 <span class="float-left padBottom">
-                  <h4><b><span class="p1"> Recommended for you in catagory/Sub-Catagory</span></b></h4>
+                  <h4><b><span class="p1"> Recommended for you in category/Sub-category</span></b></h4>
                 </span> 
 
         </div>
@@ -1067,7 +1067,7 @@
         </div>
 
 
-<!-- catagory gig ends -->
+<!-- category gig ends -->
 
       
          

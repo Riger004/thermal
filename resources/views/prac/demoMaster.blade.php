@@ -421,32 +421,43 @@
 
 
 
-<footer class="footer">
+<footer class="footer text-left">
   <div class="row">
-    <div class="small-12 medium-6 large-5 columns">
+    <div class="small-12 medium-6 large-5 columns wew">
       <p class="logo"><i class="fi-shield"></i> FiverrLike</p> 
       <p class="footer-links">
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
       </p>
+
+      <p class="developer"><small>Developed By</small> <span class="brand"><a href="#">BrandName</a></span></p>
       <p class="copywrite">Copywrite not copywrite © 2016</p>
     </div>
-    <div class="small-12 medium-6 large-4 columns">
+    <div class="small-12 medium-6 large-4 columns ">
       <ul class="contact">
         <li><p><i class="fi-marker"></i>Dhaka,Bangladesh</p></li>
         <li><p><i class="fi-telephone"></i>0171400000</p></li>
-        <li><p><i class="fi-mail"></i>contact@fiverrLike.com</p></li>
+        <li><p><i class="fi-mail "></i>contact@fiverrLike.com</p></li>
       </ul>
     </div>
-    <div class="small-12 medium-12 large-3 columns">
-      <p class="about">About FiverrLikes</p>
+    <div class="small-12 medium-12 large-3 columns ">
+    <div class="">
+      <p class="about ">About FiverrLikes</p>
+
+    </div>
+      
+
+    <div class="">
+      
       <ul class="inline-list social ">
         <a href="#"><i class="fi-social-facebook" ></i></a>
         <a href="#"><i class="fi-social-twitter"></i></a>
         <a href="#"><i class="fi-social-linkedin"></i></a>
         <a href="#"><i class="fi-social-github"></i></a>
       </ul>
+    </div>
+      
     </div>
   </div>
 </footer>

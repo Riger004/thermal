@@ -53,7 +53,8 @@ elixir(function(mix) {
        foundationJsFolder + 'foundation.util.keyboard.js',
        foundationJsFolder + 'foundation.util.motion.js', 
        foundationJsFolder + 'foundation.equalizer.js',
-       foundationJsFolder + 'foundation.sticky.js',
+       foundationJsFolder + 'foundation.sticky.js',   
+       foundationJsFolder + 'foundation.tooltip.js', 
        
 
        // This file initializes foundation

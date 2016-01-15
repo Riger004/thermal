@@ -6,6 +6,34 @@
 3rd color : #FDEECF ;
 */
 
+.owl-carousel{
+  position: relative;
+  
+}
+
+..posit{
+  position: relative;
+}
+.padpad{
+  padding-top: 15px;
+}
+.mainContent{
+  z-index: 44;
+  position: absolute;
+
+  left:0; 
+  right:0;
+
+ border: 5px solid gray;
+ background-color: white;
+ border-radius: 15px;
+
+}
+
+.fuu{
+  position: relative;
+}
+
 .fixed{
   background-color: black;
 }
@@ -87,6 +115,21 @@
   
 }
 
+.developer{
+  color: #EEFFFF; 
+}
+
+.brand a{
+  font-weight: 600;
+  font-size: large;
+  color: green;
+  padding: 5px;
+}
+
+.brand  a:hover{
+  background-color: rgba(5, 66, 66 ,.4);;
+  
+}
 
 .topbarPa{
   margin-right: 15px;
@@ -391,6 +434,9 @@
     font-size: x-large;
   }
 
+  .logo{
+    color:#EEFFFF;
+  }
   #exampleModal11{
 
   }
@@ -431,7 +477,7 @@
 
 .footer {
   background-color: #006699;                                           //p3
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
   padding: 4rem;
   color:  #054242;                                                      //p1
@@ -457,17 +503,18 @@
    
      }
     .footer .contact li {
+
       margin-bottom: 2rem;
-       color: #054242;                            //p1
+       color:#EEFFFF;                            //p1
     }
       .footer .contact li p {
         padding-left: 5rem; 
       }
     .footer .contact i {
       position: absolute;
-      background-color:   #EEFFFF;                    //p2
+      background-color:   #054242;                    //p2
       color: #fff;
-      font-size: 2rem;
+      font-size: 1.5rem;
       border-radius: 50%;
       line-height: 1;
       margin: 0 0 0 -4rem;
@@ -496,6 +543,9 @@
       padding: 0 0.4rem 0 0.8rem; 
     }
   @media only screen and (min-width: 40.063em) {
+    .contact p{
+      text-align: left !important;
+    }
     .footer p {
       text-align: left; }
     .footer .social {
@@ -598,6 +648,11 @@ input.inline, label.inline {
     line-height: 130%;
     color: #EEFFFF; 
 
+}
+
+.about{
+
+  color: #EEFFFF;
 }
 .ProRate{
 
@@ -845,43 +900,6 @@ h2 {
 
 
 
-/* for small and medium screen */
-@media screen and (max-width: 63.9375em) {
-
- 
-
-.heroText{
-  padding-top: 0px;
-  padding-bottom: 80px;
-  line-height: 40px;
-  color: white;
-
-}
-
-
-
-
-
-.ProName{
-  
-    font-size: 170%;
-    font-weight: 700;
-    line-height: 90%;
-
-}
-
-.homeHero{
-   
-    top:9rem; /* change to whatever you want */
-   
-}
-
-
-
-
-
-}
-
 
 
 
@@ -891,7 +909,6 @@ h2 {
 @media screen and (max-width: 40em) {
 
  
-
 
 
 .ProName{
@@ -915,14 +932,14 @@ h2 {
 
 
 
+/* for small and medium screen */
+@media screen and (max-width: 63.9375em) {
 
-
-/*mediam to large*/
-
-
-@media screen and (min-width: 63.9375em) and (max-width: 74.9375em) {
-
-
+ 
+.contact li{
+  text-align: left;
+  margin-left: 10%;
+}
 
 .heroText{
   padding-top: 0px;
@@ -933,6 +950,40 @@ h2 {
 }
 
 
+.ProName{
+  
+    font-size: 170%;
+    font-weight: 700;
+    line-height: 90%;
+
+}
+
+.homeHero{
+   
+    top:9rem; /* change to whatever you want */
+   
+}
+
+}
+
+
+
+/*mediam to large*/
+
+
+@media screen and (min-width: 63.9375em) and (max-width: 74.9375em) {
+
+.wew p{
+  text-align: left;
+}
+
+.heroText{
+  padding-top: 0px;
+  padding-bottom: 80px;
+  line-height: 40px;
+  color: white;
+
+}
 
 
 
@@ -961,8 +1012,10 @@ h2 {
 
 
 @media screen and (min-width: 1200px) and (max-width: 1633px) {
-
-
+/*
+.mainContent{
+  top: 620px;
+}*/
 .homeHero{
    
     top:4rem; /* change to whatever you want */
@@ -975,49 +1028,23 @@ h2 {
 
 
 
+@media screen and (min-width: 1633px)  {
 
-
-
-
-
-
-
-
-
-
-
-
-/*gigg hover effects*/
-
-
-/*.service {
-  
-  
-
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; 
+/*.mainContent{
+  top: 30%;
 }
-  .service .service-icon-box {
- 
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-     }
-  .service .service-heading {
-    position: relative;
-    ;
-    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
- 
-  .service .service-icon-box > img.service-icon {
-    }
-  .service:hover {
-      
-       cursor: pointer;
-     }
-  .service:hover .service-icon-box {
-    top: 0px; }
-  .service:hover .service-heading {
-    top: 0px; }
+
 */
 
-    /*hover ends*/
+}
+
+
+
+
+
+
+
+
+
+
+
