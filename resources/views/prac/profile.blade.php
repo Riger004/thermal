@@ -274,86 +274,36 @@
 
 			<div class="row giggPadd ">
 				<div class="small-12 columns  ">
-					<p><h4><b>Mr. Name Of Person's Giggs </b></h4></p>
+					<p><h4><b>{{$user->name}}'s Giggs </b></h4></p>
 				</div>
 			</div>
 
 			<!-- giggs item start -->
 
 
+			@if(isset($gig))
 
 
+			@foreach($gig as $gigs )
+			<a href="/gig_create/<?php echo Crypt::encrypt($gigs->id)?>">
+				<div class="col ">
+					<div class="large-4 small-6 columns giggItem ">
+						<div class="item">
+							<img src="{{$gigs->gig_photo}}">
 
-			<div class="row ">
-				<div class="large-4 small-6 columns giggItem ">
-					<div class="item">
-						<img src="img/profile.jpg">
+						</div>
 
+						<div class="">
+							<h5>{{$gigs->title}}</h5>
+							<h6 class="subheader">Tk {{$gigs->amount}}</h6>
+						</div>
 					</div>
 
-					<div class="">
-						<h5>Item Name</h5>
-						<h6 class="subheader">$000.00</h6>
-					</div>
 				</div>
+			</a>
+			@endforeach
 
-				<div class="large-4 small-6 columns giggItem ">
-					<div class="item">
-						<img src="img/mdA.jpg">
-					</div>
-
-
-					<div class="">
-						<h5>Item Name</h5>
-						<h6 class="subheader">$000.00</h6>
-					</div>
-				</div>
-				<div class="large-4 small-6 columns giggItem">
-
-					<div class="item">
-						<img src="img/lgC.jpg">
-					</div>
-
-					<div class="">
-						<h5>Item Name</h5>
-						<h6 class="subheader">$000.00</h6>
-					</div>
-				</div>
-				<div class="large-4 small-6 columns giggItem">
-
-					<div class="item">
-						<img src="img/lgB.jpg">
-					</div>
-
-					<div class="">
-						<h5>Item Name</h5>
-						<h6 class="subheader">$000.00</h6>
-					</div>
-				</div>
-				<div class="large-4 small-6 columns giggItem">
-					<div class="item">
-						<img src="img/smA.jpg">
-					</div>
-
-					<div class="">
-						<h5>Item Name</h5>
-						<h6 class="subheader">$000.00</h6>
-					</div>
-				</div>
-				<div class="large-4 small-6 columns giggItem">
-					<div class="item">
-						<img src="img/lgB.jpg">
-					</div>
-
-					<div class="">
-						<h5>Item Name</h5>
-						<h6 class="subheader">$000.00</h6>
-					</div>
-				</div>
-				
-			</div>
-
-			
+			@endif
 
 
 

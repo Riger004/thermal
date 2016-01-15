@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/foundation-icons.css" /> -->
 
 <!-- new sass -->
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/custom.css"> 
-    <link rel="stylesheet" href="css/foundation-icons.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/custom.css"> 
+    <link rel="stylesheet" href="/css/foundation-icons.css">
 
 
     <!-- Basic stylesheet -->
@@ -77,48 +77,50 @@
                                 <li><a href="#" class="">Messages</a></li>  
                             </ul>
                        </li>
-        
+                      
+                      @if(Auth::check())
 
                        <li class="uy" >
 
-                                    <a href="#" class="topbarPa" >&nbsp;&nbsp;Profile Options&nbsp;&nbsp;</a>
+                                    <a href="#" class="topbarPa" >&nbsp;&nbsp;Hello {{Auth::user()->name}}&nbsp;&nbsp;</a>
                                     <ul  class="dropdown menu zz text-center" data-dropdown-menu>
                                         
                                         
                                         <li>
                                             <a href="#" ><span class="p2">DashBoard</span></a>
                                         </li>
-                                      
 
-                                         <li>
-                                            <a href="create" ><span class="p2">My Giggs</span></a>
-                                        </li>
 
 
                                         <li>
-                                            <a href="create"><span class="p2">Create Giggs</span></a>
+                                            <a href="/gig_create"><span class="p2">Create Giggs</span></a>
+
                                         </li>
                                       
                                         
                                         <li>
-                                            <a href="pro"><span class="p2">My Profile</span></a>
+
+                                            <a href="/profile"><span class="p2">My Profile</span></a>
+
                                         </li>
                                       
 
                                         <li>
-                                            <a href="logout"><span class="p2">Log Out</span></a>
+
+                                            <a href="/auth/logout"><span class="p2">Log Out</span></a>
+
                                         </li>
                                 
                             </ul>
                             
                         </li>
-
+                        @else
                         <li><a href="#" class=" button success hollow topbarPa" data-toggle="exampleModal11">&nbsp;Login&nbsp;</a></li>
 
                         <li><a class="signup button success " href="register" >&nbsp;Sign Up&nbsp;</a></li>
 
 
-
+                        @endif
                     </ul>
           </div>
          </div>
