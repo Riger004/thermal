@@ -72,9 +72,9 @@
                        </li>
 
                         <li>
-                            <a href="#" ><i class="fi-mail ico"></i></a>
+                            <a href="messages" ><i class="fi-mail ico"></i></a>
                             <ul class="dropdown menu " data-dropdown-menu>
-                                <li><a href="#" class="">Messages</a></li>  
+                                <li><a href="" class="">Messages</a></li>  
                             </ul>
                        </li>
                       
@@ -234,7 +234,7 @@
 
 <!-- sub menu for small devices -->
 
-
+<div class="panA">
 <div class="row hide-for-medium " >
         <div class="small-12 columns "  >
             
@@ -350,7 +350,7 @@
 </div>
 
 
-
+</div>
 
 
 

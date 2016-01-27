@@ -106,7 +106,7 @@
 
                 
 
-                    <a href="gigg">
+                    <a href="/gigg">
 
                
                     <div class="medium-3 small-6 columns  gigg service" >
@@ -739,20 +739,40 @@
 // alert(e);
 
  //record the elem so you don't crawl the DOM everytime  
-var $el = $('.item');  //record the elem so you don't crawl the DOM everytime  
-var bottom = $el.position().top + $el.outerHeight(true);
+// var $el = $('.item');  //record the elem so you don't crawl the DOM everytime  
+// var bottom = $el.position().top + $el.outerHeight(true);
 
-// var bottom =  document.getElementById(".owl-height").height;
+// // var bottom =  document.getElementById(".owl-height").height;
 
-alert(bottom);
+// alert(bottom);
+
+// var img = document.getElementById('.owl-theme'); 
+//or however you get a handle to the IMG
+ 
 
 
-$(".mainContent").css('top', bottom + "px");
+
+
+ 
+
+   $(window).load(function() {
+    var menuS = $('.panA').outerHeight();
+var menuL = $('.pan').outerHeight();
+var toop = menuL +menuS + 60;
+
+ // var height = $('#owl-demo').height();
+ var height = $(" .item > img ").innerHeight();
+  // var height=document.getElementById('.item').naturalHeight;
+
+height=height+toop -50;
+$(".mainContent").css('top', height + "px");
 
 // footer fix
   var e=$('.mainContent').outerHeight();   
 
-    $('.fuu').height(e);
+    $('.fuu').height(e +toop -160);
+
+});
 
 </script>
 

@@ -391,7 +391,7 @@
 							Those people who think they know everyth are a great annoyance are a great annoyance are a great annoyance are a great annoyance ing are a great annoyance to those of us who do.
 							<cite>
 								<div class="student">
-									<div > <img class="photo" src="img/profile.jpg"></div>
+									<div > <img class="photo" src="/img/profile.jpg"></div>
 									<p>John Doe</p>
 									<p>Ice Land</p>
 								</div>
@@ -411,7 +411,7 @@
 							Those people who think they know everything aare a great annoyance are a great annoyance re a great annoyance to those of us who do.
 							<cite>
 								<div class="student">
-									<div > <img class="photo" src="img/profile.jpg"></div>
+									<div > <img class="photo" src="/img/profile.jpg"></div>
 									<p>John Doe</p>
 									<p>Ice Land</p>
 								</div>
@@ -439,7 +439,7 @@
 								Those people who think they kat annoyance to those of us who do.
 								<cite>
 									<div class="student">
-										<div > <img class="photo" src="img/profile.jpg"></div>
+										<div > <img class="photo" src="/img/profile.jpg"></div>
 										<p>John Doe</p>
 										<p>Ice Land</p>
 									</div>
@@ -460,7 +460,7 @@
 								Those people who think they know are a great annoyance everything are a great annoyance to those of us who do.
 								<cite>
 									<div class="student">
-										<div > <img class="photo" src="img/profile.jpg"></div>
+										<div > <img class="photo" src="/img/profile.jpg"></div>
 										<p>John Doe</p>
 										<p>Ice Land</p>
 									</div>
@@ -483,7 +483,7 @@
 								Those people who think they know everythingare a great annoyance are a great annoyance  are a great annoyance to those of us who do.
 								<cite>
 									<div class="student">
-										<div > <img class="photo" src="img/profile.jpg"></div>
+										<div > <img class="photo" src="/img/profile.jpg"></div>
 										<p>John Doe</p>
 										<p>Ice Land</p>
 									</div>
@@ -505,7 +505,7 @@
 								Those people who think they know everything are a great annoyance to those of us who do.
 								<cite>
 									<div class="student">
-										<div > <img class="photo" src="img/profile.jpg"></div>
+										<div > <img class="photo" src="/img/profile.jpg"></div>
 										<p>John Doe</p>
 										<p>Ice Land</p>
 									</div>

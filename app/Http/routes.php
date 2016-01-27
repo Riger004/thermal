@@ -23,6 +23,14 @@ Route::get('/register', function () {
     return view('auth.register');
 });
 
+Route::get('/messages', function () {
+    return view('prac.messages');
+});
+
+Route::get('/gigg', function () {
+    return view('prac.gigg');
+});
+
 
 
 // temp profile

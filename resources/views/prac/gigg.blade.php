@@ -709,152 +709,154 @@
 
   </div>
 
-  <!-- four gigg starts -->
+   <!-- four gigg starts -->
 
-  <div class="row  " data-equalizer>
+        <div class="row  " data-equalizer>
 
-    <a href="gigg">
+                <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/lgB.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h6>I will test android, iPhone application or game</h6></div>
+
+                         <div class=" column row">
+                           
+                              
+                            <span class="float-left">
+                                 <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
+                            </span>
 
 
-      <div class="medium-3 small-6 columns  gigg service" >
-       <div class="bord">
-        <div class="item service-icon-box">
-          <img src="img/lgB.jpg">
+                            <span class="float-right">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </span>
 
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+           
+
+                
+
+                    <a href="/gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/lgC.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h6>I will test android, l test android l test android iPhone application or game</h6></div>
+
+                         <div class=" column row">
+                           
+                              
+                            <span class="float-left">
+                                 <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
+                            </span>
+
+
+                            <span class="float-right">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+                   
+
+                   <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/lgB.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h6>I will test android,  or game</h6></div>
+
+                         <div class=" column row">
+                           
+                              
+                            <span class="float-left">
+                                 <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
+                            </span>
+
+
+                            <span class="float-right">
+                                 <h5 class="subheader text-right">$5</h5>
+                             </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+                   
+
+                   <a href="gigg">
+
+               
+                    <div class="medium-3 small-6 columns  gigg service" >
+                       <div class="bord">
+                        <div class="item service-icon-box">
+                            <img src="img/profile.jpg">
+
+                        </div>
+
+                        <div class="service-heading" data-equalizer-watch>
+
+                          <div class=" column row"> <h6>I will test android, iPhone game</h6></div>
+
+                          <div class="row">
+                           
+                              
+                            <div class="small-6 columns">
+                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+                            </div>
+
+
+                            <div class="small-6 columns">
+                                 <h6 class="subheader text-right">$5</h6>
+                             </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    </a>
+
+         
         </div>
 
-        <div class="service-heading" data-equalizer-watch>
 
-          <div class=" column row"> <h5>I will test android, iPhone application or game</h5></div>
-
-          <div class="row">
+        <!-- four gigg ends -->
 
 
-            <div class="small-6 columns">
-             <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
-           </div>
-
-
-           <div class="small-6 columns">
-             <h5 class="subheader text-right">$5</h5>
-           </div>
-
-         </div>
-       </div>
-     </div>
-   </div>
-
- </a>
-
-
-
-
- <a href="gigg">
-
-
-  <div class="medium-3 small-6 columns  gigg service" >
-   <div class="bord">
-    <div class="item service-icon-box">
-      <img src="img/lgC.jpg">
-
-    </div>
-
-    <div class="service-heading" data-equalizer-watch>
-
-      <div class=" column row"> <h5>I will test android, l test android l test android iPhone application or game</h5></div>
-
-      <div class="row">
-
-
-        <div class="small-6 columns">
-         <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
-       </div>
-
-
-       <div class="small-6 columns">
-         <h5 class="subheader text-right">$5</h5>
-       </div>
-
-     </div>
-   </div>
- </div>
-</div>
-
-</a>
-
-
-<a href="gigg">
-
-
-  <div class="medium-3 small-6 columns  gigg service" >
-   <div class="bord">
-    <div class="item service-icon-box">
-      <img src="img/lgB.jpg">
-
-    </div>
-
-    <div class="service-heading" data-equalizer-watch>
-
-      <div class=" column row"> <h5>I will test android,  or game</h5></div>
-
-      <div class="row">
-
-
-        <div class="small-6 columns">
-         <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
-       </div>
-
-
-       <div class="small-6 columns">
-         <h5 class="subheader text-right">$5</h5>
-       </div>
-
-     </div>
-   </div>
- </div>
-</div>
-
-</a>
-
-
-<a href="gigg">
-
-
-  <div class="medium-3 small-6 columns  gigg service" >
-   <div class="bord">
-    <div class="item service-icon-box">
-      <img src="img/profile.jpg">
-
-    </div>
-
-    <div class="service-heading" data-equalizer-watch>
-
-      <div class=" column row"> <h5>I will test android, iPhone game</h5></div>
-
-      <div class="row">
-
-
-        <div class="small-6 columns">
-         <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
-       </div>
-
-
-       <div class="small-6 columns">
-         <h5 class="subheader text-right">$5</h5>
-       </div>
-
-     </div>
-   </div>
- </div>
-</div>
-
-</a>
-
-
-</div>
-
-
-<!-- four gigg ends -->
 
 
 <div class="column row  text-center viewMore">
@@ -874,10 +876,7 @@
 <!-- here catagory gigg -->
 
 
-<<<<<<< HEAD
-      <!-- here category gigg -->
-=======
->>>>>>> origin/master
+
 
 <div class="small-12 columns panel">
 
@@ -888,13 +887,7 @@
       <h4><b><span class="p1"> Recommended for you in catagory/Sub-Catagory</span></b></h4>
     </span> 
 
-<<<<<<< HEAD
-          <div class=" column row">
-            
-                <span class="float-left padBottom">
-                  <h4><b><span class="p1"> Recommended for you in category/Sub-category</span></b></h4>
-                </span> 
-=======
+
   </div>
 
   <!-- four gigg starts -->
@@ -908,7 +901,7 @@
        <div class="bord">
         <div class="item service-icon-box">
           <img src="img/lgB.jpg">
->>>>>>> origin/master
+
 
         </div>
 
