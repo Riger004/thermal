@@ -329,6 +329,10 @@
 
    background-color: white; 
    margin-bottom: 10px;
+       -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
 
   /* padding: 5px;*/
  
@@ -339,6 +343,11 @@
   
    border:2px solid  rgba(5, 66, 66, .6);
   background-color:  #EEFFFF; 
+  -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
  
 }
 
@@ -474,92 +483,94 @@
 /*footer */
 
 
-
 .footer {
-  background-color: #006699;                                           //p3
-  text-align: left;
+  background-color: #006699;
+  text-align: center;
   font-size: 1.2rem;
-  padding: 4rem;
-  color:  #054242;                                                      //p1
-}
-
-
-  .footer .inline-list a {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
-    background-color: #33383b;
-    border-radius: 2px;
-    font-size: 1.5rem;
-    color: #fff;
-    text-align: center;
-    line-height: 35px;
-    margin: 0 3px 0 0; 
-  }
-  .footer .contact {
-    list-style-type: none;
-    margin: 0;
-    text-align: left;
-   
-     }
-    .footer .contact li {
-
-      margin-bottom: 2rem;
-       color:#EEFFFF;                            //p1
-    }
-      .footer .contact li p {
-        padding-left: 5rem; 
-      }
-    .footer .contact i {
-      position: absolute;
-      background-color:   #054242;                    //p2
-      color: #fff;
-      font-size: 1.5rem;
-      border-radius: 50%;
-      line-height: 1;
-      margin: 0 0 0 -4rem;
-      vertical-align: middle;
-      padding: .25em .45em; }
-  .footer .copywrite {
+  padding: 4rem; }
+  .footer p.slogan {
+    color: #8d9093;
+    font-size: 1.8rem;
+    margin: 0 0 1rem; }
+  .footer p.copywrite {
     color: #8f9296;
     font-size: 0.875rem;
-    margin: 0 0 1rem 0; }
+    margin: 0; }
  
-  .footer .footer-links a {
-    list-style: none;
-    font-weight: normal;
-    color: #fff;
-    padding: 3rem 0 2rem;
-    margin: 0;
-    font-size: 0.875rem; 
-
-  }
-    .footer .footer-links a::after {
-      content: "•";
-      padding: 0 0.2rem 0 0.4rem; 
-    }
-    .footer .footer-links a:last-child::after {
-      content: "";
-      padding: 0 0.4rem 0 0.8rem; 
-    }
-  @media only screen and (min-width: 40.063em) {
-    .contact p{
-      text-align: left !important;
-    }
-    .footer p {
-      text-align: left; }
-    .footer .social {
-      text-align: left;
-      margin: 0; 
-
-    }
-    .footer .contact {
-      text-align: left; }
-      .footer .contact > i {
-        margin-right: 1rem; } }
 
 
 
+    .footer  i {
+  font-size: 4rem; 
+
+}
+
+.footer hr{
+  width: 250px;
+}
+
+.icon-button {
+  border-radius: 5rem;
+  width:5rem;
+  height: 5rem;
+  margin: 35px 25px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 4rem;
+  background: #EEFFFF; }
+  .icon-button span {
+    display: block;
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: all 0.3s; }
+  .icon-button:hover span {
+    display: block;
+    border-radius: 3.6rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: -1.8rem; }
+  .icon-button i {
+    background: none;
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    z-index: 10;
+    line-height: 5rem;
+    transition: all 0.3s; }
+
+.twitter span {
+  background-color: #4099ff; }
+
+.facebook span {
+  background-color: #3B5998; }
+
+.gplus span {
+  background-color: #db5a3c; }
+
+.icon-button .fi-social-twitter {
+  color: #4099ff; }
+
+.icon-button .fi-social-facebook {
+  color: #3b5998; }
+
+.icon-button .fi-social-google-plus {
+  color: #db5a3c; }
+
+.icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-social-google-plus {
+  color: white;
+  font-size: 4rem;
+  line-height: 3.9rem; }
+
+.developer{
+  padding: 20px;
+}
 
 /*registration form*/
 
@@ -1263,3 +1274,49 @@ h2 {
 
 
 
+/*home three section*/
+
+.features {
+  text-align: center; }
+  .features hr {
+    width: 50%;
+    margin: 1rem auto; }
+
+    .features h3 {
+      color: green;
+    }
+  .features .round-icon {
+    background-color: #054242;
+    border-radius: 70%;
+    display: table;
+    height: 100px;
+    margin: -61px auto 1rem;
+    width: 100px;
+    font-size: 4rem; }
+    .features .round-icon span {
+      color: #fff;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+  @media only screen and (max-width: 40em) {
+    .features .columns {
+      margin-bottom: 5rem; } }
+
+
+
+/*brand*/
+
+.brand1{
+  color: green;
+
+}
+
+.cartItem img{
+  height: 150px;
+  width: 200px;
+}
+
+.cartItem:after img{
+  content: "s";
+  padding: 20px;
+}

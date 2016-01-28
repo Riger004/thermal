@@ -27,6 +27,10 @@ Route::get('/messages', function () {
     return view('prac.messages');
 });
 
+Route::get('/cart', function () {
+    return view('prac.shoppingCart');
+});
+
 Route::get('/gigg', function () {
     return view('prac.gigg');
 });
