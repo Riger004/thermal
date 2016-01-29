@@ -198,7 +198,7 @@
   z-index:3;
   top:17%; /* change to whatever you want */
   left:20%; /* change to whatever you want */
-  
+
 
 }
 
@@ -233,7 +233,7 @@
 .sub-nav{
   padding-top: .8em !important;
 
-  
+
 }
 
 
@@ -249,12 +249,12 @@
 }
 
 .sub-nav a:hover{
-  
+
   color: green !important;
-  
+
 }
 .sub-nav a{
-  
+
 /*	margin-left: 0px !important;
 	margin-right: 0px !important;
 	padding-right: 5px !important;
@@ -335,12 +335,12 @@
   transition: .4s ease-in-out;
 
   /* padding: 5px;*/
-  
+
 }
 
 
 .bord:hover{
-  
+
  border:2px solid  rgba(5, 66, 66, .6);
  background-color:  #EEFFFF; 
  -webkit-transform: scale(1.05);
@@ -455,7 +455,7 @@
    color:#d50f25;
    border-color: #d50f25;
  }
- 
+
  .split.button.google span:after {
   border: none;
   font-family: "foundation-icons";
@@ -496,7 +496,7 @@
         color: #8f9296;
         font-size: 0.875rem;
         margin: 0; }
-        
+
 
 
 
@@ -581,7 +581,7 @@
                                 padding: 15px;
                                 margin-top: 50px;
                                 margin-bottom: 200px;
-                                
+
                               }
                               .signup-panel i {
                                 font-size: 30px;
@@ -599,7 +599,7 @@
                               .signup-panel p {
                                 font-size: 13px;
                                 font-weight: 200;
-                                
+
                               }
 
 
@@ -608,7 +608,7 @@
                                 vertical-align:middle;
                                 margin-top:0px;
                                 margin-bottom:0px;
-                                
+
                               }
 
                               .forPass{
@@ -638,7 +638,7 @@
 
                                background-repeat: no-repeat;
                                background-size:  100% 400px;
-                               
+
 
 
                              }
@@ -653,7 +653,7 @@
 
                              }
                              .ProName{
-                               
+
                               font-size: 450%;
                               font-weight: 900;
                               line-height: 130%;
@@ -709,19 +709,19 @@
                            }
 
                            .ProDetails{
-                             
+
                             position: absolute;
                             left: 0px;
                             top: -25px;
                             z-index: 1;
                             padding-top: 120px;
-                            
+
                           }
 
 
                           .giggs{
-                           
-                           
+
+
 
                           }
 
@@ -870,7 +870,7 @@
                           top:15rem; /* change to whatever you want */
                           left:25%; /* change to whatever you want */
                           width: 50%;
-                          
+
                         }
 
 
@@ -919,15 +919,15 @@
 
                       @media screen and (max-width: 40em) {
 
-                       
+
 
 
                         .ProName{
-                          
+
                           font-size: 100%;
                           font-weight: 900;
                           line-height: 20%;
-                          
+
                         }
 
 
@@ -946,7 +946,7 @@
                       /* for small and medium screen */
                       @media screen and (max-width: 63.9375em) {
 
-                       
+
                         .contact li{
                           text-align: left;
                           margin-left: 10%;
@@ -962,7 +962,7 @@
 
 
                         .ProName{
-                          
+
                           font-size: 170%;
                           font-weight: 700;
                           line-height: 90%;
@@ -970,9 +970,9 @@
                         }
 
                         .homeHero{
-                         
+
                           top:9rem; /* change to whatever you want */
-                          
+
                         }
 
                       }
@@ -999,7 +999,7 @@
 
 
                         .ProName{
-                          
+
                           font-size: 300%;
                           font-weight: 700;
                           line-height: 90%;
@@ -1007,9 +1007,9 @@
                         }
 
                         .homeHero{
-                         
+
                           top:12rem; /* change to whatever you want */
-                          
+
                         }
 
 
@@ -1028,9 +1028,9 @@
   top: 620px;
   }*/
   .homeHero{
-   
+
     top:4rem; /* change to whatever you want */
-    
+
   }
 
 
@@ -1319,9 +1319,14 @@
 
             .cartItem p{
               content: "s";
-              
+
             }
 
             .cartbody{
               min-height: 600px;
             }
+
+
+          .albumTop{
+            padding-top: 40px;
+          }

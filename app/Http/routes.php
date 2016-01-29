@@ -27,6 +27,9 @@ Route::get('/messages', function () {
     return view('prac.messages');
 });
 
+Route::get('/album', function () {
+    return view('prac.gigg_creation_album');
+});
 
 
 Route::get('/cart', function () {

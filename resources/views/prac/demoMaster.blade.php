@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="{{ URL::asset('owl-carousel/owl.theme.css') }}"> 
     <link rel="stylesheet" href="{{ URL::asset('owl-carousel/owl.transitions.css') }}"> 
     <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-
-    <script type="text/javascript" src="{{ URL::asset('js/vendor/modernizr.js') }}"></script>
    
     
 </head>
@@ -393,7 +391,7 @@
         <hr>
 
         <p class="developer"> <span class="subheader">Developed by </span> <a href="#" class="brand1">BrandName</a></p>
-      <p class="copywrite"> Copywrite not copypwrite © 2015</p>
+      <p class="copywrite"> Copywrite © 2015</p>
     </div>
   </div>
 </footer>
@@ -403,11 +401,7 @@
 </body>
 
 
-<!-- 
-<script src="js/all.js"></script> -->
 <script type="text/javascript" src="{{ URL::asset('js/all.js') }}"></script>
-
-<!-- <script src="owl-carousel/owl.carousel.js"></script> -->
 <script type="text/javascript" src="{{ URL::asset('owl-carousel/owl.carousel.js') }}"></script>
 
 <script >

@@ -63,22 +63,6 @@
 			    </div>
 
 
-			    <div class="row padTop padBottom">
-
-			        <div class="small-3 columns ">
-			            <label for="right-label" class="right tty">COVER PHOTO</label>
-			        </div>
-			        <div class="small-9 small-centered columns desc">
-			            <input type="file" class=" button primary hollow" name="gig_photo" value="{{ old('gig_photo') }}" accept="image/*">
-			        </div>
-
-
-			    </div>
-
-
-			    <!-- photo upload here -->
-
-
 			     <div class="row">
 
 			        <div class="small-3 columns ">
@@ -291,13 +275,15 @@
 			    <div class="row padTop">
 			        <div class="small-2 small-centered columns">
 
-			            <button type="submit" class="button  success ">Publish </button>
+			            <a href="album"  class="button  success ">Almost There ! </a>
 
 			        </div>
 			    </div>
 
 
 			</form>
+
+			  
 				@if (count($errors) > 0)
 			<!-- Form Error List -->
 			<div class="alert alert-danger">
@@ -370,9 +356,13 @@ function valueChanged()
 }
 
 
-$(function(){
-    $('.answer').hide();
-    
+
+
+$(document).ready(function(){
+
+
+  $('.answer').hide();
+
 });
 
 
