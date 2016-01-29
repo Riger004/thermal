@@ -119,6 +119,8 @@ class gigController extends Controller
         $user=User::where('id',$gig_user->user_id)->first();
 
         return view('prac.gigg',compact('gig_user','user','profile'));
+
+        
         
         //return $profile;
 

@@ -6,32 +6,20 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>FiverrLike | @yield('title')</title>
-  <!--   <link rel="stylesheet" href="css/foundation.css"/>
-    <link rel="stylesheet" href="css/custom.css"/>
-    <link rel="stylesheet" href="css/foundation-icons.css" /> -->
 
-<!-- new sass -->
-    <link rel="stylesheet" href="/css/app.css">
-    <link rel="stylesheet" href="/css/custom.css"> 
-    <link rel="stylesheet" href="/css/foundation-icons.css">
-
-
-    <!-- Basic stylesheet -->
-	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-	 
-	 <!-- Default Theme -->
-	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
-    <link rel="stylesheet" href="owl-carousel/owl.transitions.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}"> 
+    <link rel="stylesheet" href="{{ URL::asset('css/custom.css') }}"> 
+    <link rel="stylesheet" href="{{ URL::asset('css/foundation-icons.css') }}"> 
+    <link rel="stylesheet" href="{{ URL::asset('owl-carousel/owl.carousel.css') }}"> 
+    <link rel="stylesheet" href="{{ URL::asset('owl-carousel/owl.theme.css') }}"> 
+    <link rel="stylesheet" href="{{ URL::asset('owl-carousel/owl.transitions.css') }}"> 
     <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 
-<!--  <script src="js/vendor/modernizr.js"></script> -->
+    <script type="text/javascript" src="{{ URL::asset('js/vendor/modernizr.js') }}"></script>
    
     
 </head>
 <body>
-
-
-
 
         <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
           <button class="menu-icon" type="button" data-toggle></button>
@@ -43,16 +31,6 @@
           <div class="top-bar-left">
             <ul class="dropdown menu" data-dropdown-menu>
               <li class="menu-text"><a href="./">FiverrLike</a></li>
-              <!-- <li class="has-submenu">
-                <a href="#">One</a>
-                <ul class="submenu menu vertical" data-submenu>
-                  <li><a href="#">One</a></li>
-                  <li><a href="#">Two</a></li>
-                  <li><a href="#">Three</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Two</a></li>
-              <li><a href="#">Three</a></li> -->
             </ul>
           </div>
           <div class="top-bar-right">
@@ -90,21 +68,17 @@
                                             <a href="#" ><span class="p2">DashBoard</span></a>
                                         </li>
 
-
-
                                         <li>
                                             <a href="/gig_create"><span class="p2">Create Giggs</span></a>
 
                                         </li>
-                                      
-                                        
+                                                                          
                                         <li>
 
                                             <a href="/profile"><span class="p2">My Profile</span></a>
 
                                         </li>
                                       
-
                                         <li>
 
                                             <a href="/auth/logout"><span class="p2">Log Out</span></a>
@@ -119,7 +93,6 @@
 
                         <li><a class="signup button success " href="register" >&nbsp;Sign Up&nbsp;</a></li>
 
-
                         @endif
                     </ul>
           </div>
@@ -127,17 +100,14 @@
         </div>
 
 <div class="pan">
-<div class="row show-for-medium "  >
-		<div class="small-12 columns "   >
-
+<div class="row show-for-medium " >
+		<div class="small-12 columns ">
 
 			
 				<ul class=" dropdown vv menu expanded text-center " data-dropdown-menu data-options="closingTime:50" >
 				  
-
 				  <li>
 				  		<a href="#" >University Students</a>
-
         				<ul class=" vertical menu" >
         				  <li><a href="catagory">Presentations and infographics</a></li>
         				  <li><a href="catagory">Creative Writing</a></li>
@@ -147,7 +117,6 @@
         				</ul>
 
 				  </li>
-
 
 				  <li>
 				  		<a href="#">Graphics and design</a>
@@ -161,7 +130,6 @@
 				</ul>
 
 				  </li>
-
 
 				   <li>
 				  		<a href="#" >Online Marketing</a>
@@ -179,8 +147,6 @@
 
 				  </li>
 
-
-
 				  <li>
 				  		<a href="#" >Writing</a>
 
@@ -194,7 +160,6 @@
 
 				  </li>
 				  
-
 				  <li>
 				  		<a href="#" >Programming and Tech</a>
 
@@ -225,7 +190,6 @@
 				 
 				</ul>
         
-
 		</div>
 </div>
 
@@ -240,7 +204,6 @@
             
                 <ul class=" dropdown v1 menu float-center text-center" data-dropdown-menu ata-dropdown-menu data-options="closingTime:50">
                   
-
                   <li>
                         <a href="#" >University Students</a>
 
@@ -254,7 +217,6 @@
 
                   </li>
 
-
                   <li>
                         <a href="#">Graphics and design</a>
 
@@ -267,7 +229,6 @@
                 </ul>
 
                   </li>
-
 
                    <li>
                         <a href="#" >Online Marketing</a>
@@ -285,9 +246,7 @@
 
                   </li>
 
-                  </ul>
-
-                 
+                  </ul>               
 
         </div>
 </div>
@@ -311,12 +270,7 @@
                 </ul>
 
                   </li>
-                  
-
-                 
-                  
-
-                  <li>
+               <li>
                         <a href="#" >Programming and Tech</a>
 
                 <ul class="nested vertical menu" >
@@ -410,9 +364,6 @@
 
 
 
-
-
-
 <!-- main body here-->
 
 
@@ -452,10 +403,12 @@
 </body>
 
 
+<!-- 
+<script src="js/all.js"></script> -->
+<script type="text/javascript" src="{{ URL::asset('js/all.js') }}"></script>
 
-<script src="js/all.js"></script>
-
-<script src="owl-carousel/owl.carousel.js"></script>
+<!-- <script src="owl-carousel/owl.carousel.js"></script> -->
+<script type="text/javascript" src="{{ URL::asset('owl-carousel/owl.carousel.js') }}"></script>
 
 <script >
     

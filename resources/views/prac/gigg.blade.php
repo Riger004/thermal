@@ -9,7 +9,6 @@
 
 <!--code starts here-->
 
-
 <div class="row padTop ">
 
   <!-- gigg show-->
@@ -22,7 +21,6 @@
       </p>
 
     </div>
-
 
     <div class="column row ">
 
@@ -39,114 +37,98 @@
 
         <div class="item"><img src="{{$gig_user->gig_photo}}" alt="Mirror Edge"></div>
 
-     </div>
-
-   </div>
-
-
-
-   <div class=" column row ">
-
-    <p class="">
-      <h4><b><span class="p1">About This Gig</span></b></h4>
-
-    </p>
-
-
-    <p class="text-justify">
-
-      {{$gig_user->description}}
-
-    </p>
-
-    <h4 class="text-justify">
-      Requirements: <br>
-
-    </h4>
-
-    <P class="text-justify">
-      {{$gig_user->requirements}}
-    </P> 
-
-    @if($gig_user->main_category=='Programming_and_Tech')
-    <h5> Programming language</h5>
-    <P>{{$gig_user->tag}}</P>
-    @endif
-
-
-  </div>
-
-
-  <!-- shown only for own giggs -->
-  @if(Auth::user()->id==$user->id)
-  <div class="column row  text-center viewMore">
-
-    <a class="large button subheader  hollow" href="#">Edit Gigg</a>
-
-  </div>
-  @endif
-
-
-
-
-
-
-
-
-</div>
-
-
-
-<!-- extras -->
-
-
-
-
-
-<!-- order & seller -->
-<div class="small-4 columns show-for-large ">
-
-  <div class="border ">
-
-
-    <div class=" row  ">
-
-      <div class="">
-        <div class="small-8 columns ">
-         <a href="#" class=" button expanded large success hollow" style="margin-right:5px">Order Now tk: {{$gig_user->amount}}   </a>
-       </div>
-       <div class="small-4 columns ">
-        <a href="#" class=" button expanded large success  hollow"> <i class="fi-shopping-cart"></i></a>
       </div>
-    </div>    
 
-
-
-  </div>   
-
-  <div class=" row">
-    <div class="small-6 columns">
-      <span class=" subheader float-left">Basic Gig Quantity</span>
     </div>
 
+    <div class=" column row ">
 
-    <div class="small-6 columns float-right">
-     <select>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-    </select>
+      <p class="">
+        <h4><b><span class="p1">About This Gig</span></b></h4>
+
+      </p>
+
+
+      <p class="text-justify">
+
+        {{$gig_user->description}}
+
+      </p>
+
+      <h4 class="text-justify">
+        Requirements: <br>
+
+      </h4>
+
+      <P class="text-justify">
+        {{$gig_user->requirements}}
+      </P> 
+
+      @if($gig_user->main_category=='Programming_and_Tech')
+      <h5> Programming language</h5>
+      <P>{{$gig_user->tag}}</P>
+      @endif
+
+    </div>
+
+    <!-- shown only for own giggs -->
+    @if(Auth::user()->id==$user->id)
+    <div class="column row  text-center viewMore">
+
+      <a class="large button subheader  hollow" href="#">Edit Gigg</a>
+
+    </div>
+    @endif
 
   </div>
 
-</div>
+
+  <!-- extras -->
+
+  <!-- order & seller -->
+  <div class="small-4 columns show-for-large ">
+
+    <div class="border ">
+
+
+      <div class=" row  ">
+
+        <div class="">
+          <div class="small-8 columns ">
+           <a href="#" class=" button expanded large success hollow" style="margin-right:5px">Order Now tk: {{$gig_user->amount}}   </a>
+         </div>
+         <div class="small-4 columns ">
+          <a href="#" class=" button expanded large success  hollow"> <i class="fi-shopping-cart"></i></a>
+        </div>
+      </div>    
+
+
+
+    </div>   
+
+    <div class=" row">
+      <div class="small-6 columns">
+        <span class=" subheader float-left">Basic Gig Quantity</span>
+      </div>
+
+
+      <div class="small-6 columns float-right">
+       <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+
+    </div>
+
+  </div>
 
 </div>
 
@@ -220,12 +202,12 @@
   <div class="row">
     <div class="small-12  columns  ">
       @if(isset($profile->profile_pic))
-     <a href=""><img src="{{$profile->profile_pic}}" class="float-center center gigg-pro-img"></a> 
-     @endif
-   </div>
+      <a href=""><img src="{{$profile->profile_pic}}" class="float-center center gigg-pro-img"></a> 
+      @endif
+    </div>
 
 
-   <div class="small-12  columns text-center  p1">
+    <div class="small-12  columns text-center  p1">
      <h6>{{$user->name}}</h6>
 
    </div>
@@ -263,8 +245,8 @@
 
 <div class="column row subheader padBottom padTop">
   @if(isset($profile->about))
- <h6>{{$profile->about}}</h6>
- @endif
+  <h6>{{$profile->about}}</h6>
+  @endif
 </div>
 
 <div class="column row">
@@ -709,152 +691,152 @@
 
   </div>
 
-   <!-- four gigg starts -->
+  <!-- four gigg starts -->
 
-        <div class="row  " data-equalizer>
+  <div class="row  " data-equalizer>
 
-                <a href="gigg">
+    <a href="gigg">
 
-               
-                    <div class="medium-3 small-6 columns  gigg service" >
-                       <div class="bord">
-                        <div class="item service-icon-box">
-                            <img src="img/lgB.jpg">
+     
+      <div class="medium-3 small-6 columns  gigg service" >
+       <div class="bord">
+        <div class="item service-icon-box">
+          <img src="img/lgB.jpg">
 
-                        </div>
-
-                        <div class="service-heading" data-equalizer-watch>
-
-                          <div class=" column row"> <h6>I will test android, iPhone application or game</h6></div>
-
-                         <div class=" column row">
-                           
-                              
-                            <span class="float-left">
-                                 <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
-                            </span>
-
-
-                            <span class="float-right">
-                                 <h5 class="subheader text-right">$5</h5>
-                             </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    </a>
-           
-
-                
-
-                    <a href="/gigg">
-
-               
-                    <div class="medium-3 small-6 columns  gigg service" >
-                       <div class="bord">
-                        <div class="item service-icon-box">
-                            <img src="img/lgC.jpg">
-
-                        </div>
-
-                        <div class="service-heading" data-equalizer-watch>
-
-                          <div class=" column row"> <h6>I will test android, l test android l test android iPhone application or game</h6></div>
-
-                         <div class=" column row">
-                           
-                              
-                            <span class="float-left">
-                                 <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
-                            </span>
-
-
-                            <span class="float-right">
-                                 <h5 class="subheader text-right">$5</h5>
-                             </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    </a>
-                   
-
-                   <a href="gigg">
-
-               
-                    <div class="medium-3 small-6 columns  gigg service" >
-                       <div class="bord">
-                        <div class="item service-icon-box">
-                            <img src="img/lgB.jpg">
-
-                        </div>
-
-                        <div class="service-heading" data-equalizer-watch>
-
-                          <div class=" column row"> <h6>I will test android,  or game</h6></div>
-
-                         <div class=" column row">
-                           
-                              
-                            <span class="float-left">
-                                 <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
-                            </span>
-
-
-                            <span class="float-right">
-                                 <h5 class="subheader text-right">$5</h5>
-                             </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    </a>
-                   
-
-                   <a href="gigg">
-
-               
-                    <div class="medium-3 small-6 columns  gigg service" >
-                       <div class="bord">
-                        <div class="item service-icon-box">
-                            <img src="img/profile.jpg">
-
-                        </div>
-
-                        <div class="service-heading" data-equalizer-watch>
-
-                          <div class=" column row"> <h6>I will test android, iPhone game</h6></div>
-
-                          <div class="row">
-                           
-                              
-                            <div class="small-6 columns">
-                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
-                            </div>
-
-
-                            <div class="small-6 columns">
-                                 <h6 class="subheader text-right">$5</h6>
-                             </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    </a>
-
-         
         </div>
 
+        <div class="service-heading" data-equalizer-watch>
 
-        <!-- four gigg ends -->
+          <div class=" column row"> <h6>I will test android, iPhone application or game</h6></div>
+
+          <div class=" column row">
+           
+            
+            <span class="float-left">
+             <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
+           </span>
+
+
+           <span class="float-right">
+             <h5 class="subheader text-right">$5</h5>
+           </span>
+
+         </div>
+       </div>
+     </div>
+   </div>
+
+ </a>
+ 
+
+ 
+
+ <a href="/gigg">
+
+   
+  <div class="medium-3 small-6 columns  gigg service" >
+   <div class="bord">
+    <div class="item service-icon-box">
+      <img src="img/lgC.jpg">
+
+    </div>
+
+    <div class="service-heading" data-equalizer-watch>
+
+      <div class=" column row"> <h6>I will test android, l test android l test android iPhone application or game</h6></div>
+
+      <div class=" column row">
+       
+        
+        <span class="float-left">
+         <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
+       </span>
+
+
+       <span class="float-right">
+         <h5 class="subheader text-right">$5</h5>
+       </span>
+
+     </div>
+   </div>
+ </div>
+</div>
+
+</a>
+
+
+<a href="gigg">
+
+ 
+  <div class="medium-3 small-6 columns  gigg service" >
+   <div class="bord">
+    <div class="item service-icon-box">
+      <img src="img/lgB.jpg">
+
+    </div>
+
+    <div class="service-heading" data-equalizer-watch>
+
+      <div class=" column row"> <h6>I will test android,  or game</h6></div>
+
+      <div class=" column row">
+       
+        
+        <span class="float-left">
+         <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
+       </span>
+
+
+       <span class="float-right">
+         <h5 class="subheader text-right">$5</h5>
+       </span>
+
+     </div>
+   </div>
+ </div>
+</div>
+
+</a>
+
+
+<a href="gigg">
+
+ 
+  <div class="medium-3 small-6 columns  gigg service" >
+   <div class="bord">
+    <div class="item service-icon-box">
+      <img src="img/profile.jpg">
+
+    </div>
+
+    <div class="service-heading" data-equalizer-watch>
+
+      <div class=" column row"> <h6>I will test android, iPhone game</h6></div>
+
+      <div class="row">
+       
+        
+        <div class="small-6 columns">
+         <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
+       </div>
+
+
+       <div class="small-6 columns">
+         <h6 class="subheader text-right">$5</h6>
+       </div>
+
+     </div>
+   </div>
+ </div>
+</div>
+
+</a>
+
+
+</div>
+
+
+<!-- four gigg ends -->
 
 
 

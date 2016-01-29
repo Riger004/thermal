@@ -16,8 +16,8 @@
 	</div>
 
 
-	<div class="row">
-		<div class="medium-8 columns padBottom">
+	<div class="row ">
+		<div class="medium-8 columns padBottom cartbody">
 
 			<!-- ordered gigg list item-->
 
