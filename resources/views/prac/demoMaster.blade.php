@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>FiverrLike | @yield('title')</title>
 
     <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}"> 
@@ -107,11 +108,11 @@
 				  <li>
 				  		<a href="#" >University Students</a>
         				<ul class=" vertical menu" >
-        				  <li><a href="catagory">Presentations and infographics</a></li>
-        				  <li><a href="catagory">Creative Writing</a></li>
-        				  <li><a href="catagory">Resumes and cover letter</a></li>
-        				  <li><a href="catagory">Research and summaries</a></li>
-        				  <li><a href="catagory">Virtual Assistant</a></li>
+        				  <li><a href="/catagory/Presentations and infographics">Presentations and infographics</a></li>
+        				  <li><a href="/catagory/Creative Writing">Creative Writing</a></li>
+        				  <li><a href="/catagory/Resumes and cover letter">Resumes and cover letter</a></li>
+        				  <li><a href="/catagory/Research and summaries">Research and summaries</a></li>
+        				  <li><a href="/catagory/Virtual Assistant">Virtual Assistant</a></li>
         				</ul>
 
 				  </li>

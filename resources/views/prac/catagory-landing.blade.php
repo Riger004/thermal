@@ -8,8 +8,8 @@
 @section('body')
 
   <div class="column row categoryTitle"> 
-	       <span class="subTit">Sub-category<br></span>
-	       <span class="catTit">In category</span>
+	       <span class="subTit">{{$meta_data->main_category}}<br></span>
+	       <span class="catTit">{{$meta_data->sub_category}}</span>
 
 	     </div>
 
@@ -27,7 +27,7 @@
             <div id="owl-gigg" class="owl-carousel owl-theme">
 
                   
-                  <div class="item"><img src="img/category.jpg" alt="Mirror Edge"></div>
+                  <div class="item"><img src="/img/launch-orbit.jpg" alt="Mirror Edge"></div>
                   
  
             </div>
@@ -109,13 +109,15 @@
 
         <div class="row  " data-equalizer>
 
-                <a href="gigg">
+            @foreach($data as $gigs)
+
+                <a href="/gig_create/<?php echo Crypt::encrypt($gigs->id)?>">
 
                
                     <div class="medium-3 small-6 columns  gigg service" >
                            <div class="bord">
                                 <div class="item service-icon-box">
-                                    <img src="img/lgB.jpg">
+                                    <img src="{{$gigs->gig_photo}}">
 
                                 </div>
 
@@ -143,108 +145,9 @@
                     </a>
            
 
-                
+                @endforeach
 
-                    <a href="gigg">
-
-               
-                    <div class="medium-3 small-6 columns  gigg service" >
-                       <div class="bord">
-                        <div class="item service-icon-box">
-                            <img src="img/lgC.jpg">
-
-                        </div>
-
-                        <div class="service-heading" data-equalizer-watch>
-
-                          <div class=" column row"> <h6>I will test android, l test android l test android iPhone application or game</h6></div>
-
-                         <div class=" column row">
-                           
-                              
-                            <span class="float-left">
-                                 <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
-                            </span>
-
-
-                            <span class="float-right">
-                                 <h5 class="subheader text-right">$5</h5>
-                             </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    </a>
-                   
-
-                   <a href="gigg">
-
-               
-                    <div class="medium-3 small-6 columns  gigg service" >
-                       <div class="bord">
-                        <div class="item service-icon-box">
-                            <img src="img/lgB.jpg">
-
-                        </div>
-
-                        <div class="service-heading" data-equalizer-watch>
-
-                          <div class=" column row"> <h6>I will test android,  or game</h6></div>
-
-                          <div class="row ">
-                           
-                              
-                            <div class="small-6 columns ">
-                                 <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
-                            </div>
-
-
-                            <div class="small-6 columns  ">
-                                 <h5 class="subheader text-right ">$5</h5>
-                             </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    </a>
-                   
-
-                   <a href="gigg">
-
-               
-                    <div class="medium-3 small-6 columns  gigg service" >
-                       <div class="bord">
-                        <div class="item service-icon-box">
-                            <img src="img/profile.jpg">
-
-                        </div>
-
-                        <div class="service-heading" data-equalizer-watch>
-
-                          <div class=" column row"> <h6>I will test android, iPhone game</h6></div>
-
-                         <div class=" column row">
-                           
-                              
-                            <span class="float-left">
-                                 <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
-                            </span>
-
-
-                            <span class="float-right">
-                                 <h5 class="subheader text-right">$5</h5>
-                             </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    </a>
+                    
 
          
         </div>

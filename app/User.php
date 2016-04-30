@@ -49,4 +49,31 @@ class User extends Model implements AuthenticatableContract,
         return $this->hasMany('App\Gig','user_id');
     }
 
+    //one to many relationship with cart
+    public function carts(){
+        return $this->hasMany('App\carts','user_id');        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

@@ -23,7 +23,6 @@
     </div>
 
     <div class="column row ">
-
       <span class="float-left subheader"><small>{{$gig_user->main_category}} / {{$gig_user->sub_category}} </small></span>
       <span class="float-right subheader fi-clock"><small>{{$gig_user->duration}} days on avegrage</small></span>
 
@@ -33,7 +32,7 @@
 
       <div id="owl-gigg" class="owl-carousel owl-theme">
 
-        
+
 
         <div class="item"><img src="{{$gig_user->gig_photo}}" alt="Mirror Edge"></div>
 
@@ -72,13 +71,16 @@
     </div>
 
     <!-- shown only for own giggs -->
-    @if(Auth::user()->id==$user->id)
+
     <div class="column row  text-center viewMore">
-
-      <a class="large button subheader  hollow" href="#">Edit Gigg</a>
-
+      @if(Auth::check())
+      @if(Auth::user()->id==$gig_user->user_id)
+     
+      <a class="large button subheader  hollow" href="/gig_create/<?php echo Crypt::encrypt($gig_user->id)?>/edit">Edit Gigg</a>
+      @endif
+      @endif
     </div>
-    @endif
+
 
   </div>
 
@@ -97,43 +99,50 @@
           <div class="small-8 columns ">
            <a href="#" class=" button expanded large success hollow" style="margin-right:5px">Order Now tk: {{$gig_user->amount}}   </a>
          </div>
-         <div class="small-4 columns ">
-          <a href="#" class=" button expanded large success  hollow"> <i class="fi-shopping-cart"></i></a>
-        </div>
-      </div>    
+
+       </div>    
 
 
 
-    </div>   
+     </div>   
 
-    <div class=" row">
+     <div class=" row">
       <div class="small-6 columns">
         <span class=" subheader float-left">Basic Gig Quantity</span>
       </div>
+      <form method="POST" action="cart/<?php echo Crypt::encrypt($gig_user->id)?>" enctype="multipart/form-data" class="giggsCr ">
+        {{ csrf_field() }}
+
+        <div class="small-6 columns float-right">
+
+         <select  class="subheader" name="quantity">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+
+        </select>
 
 
-      <div class="small-6 columns float-right">
-       <select>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-      </select>
+      </div>
+      <div class="small-4 columns ">
 
+        <input type="hidden" id="right-label" name="gig_id"  value="{{ $gig_user->id }}">
+
+        <button type="submit" class="button  success  "> <i class="fi-shopping-cart"></i></button>
+      </div>
     </div>
-
-  </div>
-
+  </form>
 </div>
 
 
-
+<div class="flash-message">
+  @if(Session::has('message'))
+<p class="alert alert-info">{{ Session::get('message') }}</p>
+@endif
+</div>
 
 <!-- rating -->
 
@@ -251,7 +260,7 @@
 
 <div class="column row">
 
- 
+
  <a href="" class="button hollow success float-right">Contact Me</a>
 </div>
 
@@ -663,7 +672,7 @@
 
 
 
-    <!-- ---------- -->
+    
 
 
   </div>
@@ -697,7 +706,7 @@
 
     <a href="gigg">
 
-     
+
       <div class="medium-3 small-6 columns  gigg service" >
        <div class="bord">
         <div class="item service-icon-box">
@@ -710,8 +719,8 @@
           <div class=" column row"> <h6>I will test android, iPhone application or game</h6></div>
 
           <div class=" column row">
-           
-            
+
+
             <span class="float-left">
              <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
            </span>
@@ -733,7 +742,7 @@
 
  <a href="/gigg">
 
-   
+
   <div class="medium-3 small-6 columns  gigg service" >
    <div class="bord">
     <div class="item service-icon-box">
@@ -746,8 +755,8 @@
       <div class=" column row"> <h6>I will test android, l test android l test android iPhone application or game</h6></div>
 
       <div class=" column row">
-       
-        
+
+
         <span class="float-left">
          <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
        </span>
@@ -767,7 +776,7 @@
 
 <a href="gigg">
 
- 
+
   <div class="medium-3 small-6 columns  gigg service" >
    <div class="bord">
     <div class="item service-icon-box">
@@ -780,8 +789,8 @@
       <div class=" column row"> <h6>I will test android,  or game</h6></div>
 
       <div class=" column row">
-       
-        
+
+
         <span class="float-left">
          <h6 class="subheader "><small>by Mr. SomeOne <br></small></h6>
        </span>
@@ -801,7 +810,7 @@
 
 <a href="gigg">
 
- 
+
   <div class="medium-3 small-6 columns  gigg service" >
    <div class="bord">
     <div class="item service-icon-box">
@@ -814,8 +823,8 @@
       <div class=" column row"> <h6>I will test android, iPhone game</h6></div>
 
       <div class="row">
-       
-        
+
+
         <div class="small-6 columns">
          <h6 class="subheader "><small>by Mr. SomeOne</small></h6>
        </div>

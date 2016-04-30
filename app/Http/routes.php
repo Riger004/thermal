@@ -12,9 +12,9 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('prac.home');
-});
+});*/
 
 
 //temp registration route
@@ -32,20 +32,14 @@ Route::get('/album', function () {
 });
 
 
-Route::get('/cart', function () {
-    return view('prac.shoppingCart');
-});
-
-Route::get('/gigg', function () {
+/*Route::get('/gigg', function () {
     return view('prac.gigg');
-});
+});*/
 
 
 
 // temp profile
-Route::get('/', function () {
-    return view('prac.home');
-});
+Route::get('/','homePage@display_gigs' );
 
 
 // Authentication routes...
@@ -84,13 +78,20 @@ Route::resource('profile','profileController');
 //route for gig create
 Route::resource('gig_create','gigController');
 
+
+//trying to experiment witht the route
 Route::get('about','testController@index');
 
+//Route::get('shwgig/{id}','homePage@show_gig');
 
 
-Route::get('/catagory', function (){
-    return view('prac.catagory-landing');
-});
+//working on the cart page now
+Route::post('gig_create/cart/{id}','cartController@store');
+
+//displaying the cart
+Route::get('cart/display','cartController@display_cart');
+
+Route::get('/catagory/{category}', 'categoryController@show');
 
 
 

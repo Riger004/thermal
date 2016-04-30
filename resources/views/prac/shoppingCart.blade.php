@@ -20,97 +20,37 @@
 		<div class="medium-8 columns padBottom cartbody">
 
 			<!-- ordered gigg list item-->
-
-
+			<?php $counter=0; ?>
+			@foreach($gigs as $gig )
 
 			<div class="row border">
 				<div class="small-12 columns cartItem padBottom ">
-					<img src="img/profile.jpg" class="float-left">
-					<p>I will create 12 Unique Slogans or Taglines For Your Business</p>
+					<img src="{{$gig->gig_photo}}" class="float-left">
+					<p>{{$gig->title}}</p>
 					<a href="#">Remove Gigg</a>
 				</div>
 				<hr>
 				<div class="clearfix">
 					<div class="small-8 columns">
-						<span class=" subheader float-left">Basic Gig Quantity</span>
+						<span class=" subheader float-left">Quantity</span>
 					</div>
 
-
-					<div class="small-4 columns float-right">
-						<select>
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5</option>
-							<option value="6">6</option>
-							<option value="7">7</option>
-							<option value="8">8</option>
-							<option value="9">9</option>
-							<option value="10">10</option>
-						</select>
-
-					</div>
+					<h5>{{$quan_array[$counter]}}</h5>
 				</div>
 				<div class=" padTop">
 					<div class="small-8 columns">
 						<span class="  subheader float-left">Total</span>
 					</div>
 					<div class="small-4 columns">
-						<span class="  subheader float-right">350tk</span>
+						<span class="  subheader float-right">{{($gig->amount)* $quan_array[$counter]}} tk</span>
 					</div>
 				</div>
 
-
+				<?php $counter++; ?>
 			</div>
 
-
+			@endforeach
 			<!-- first item ends -->
-
-			<!-- second item  -->
-
-			<div class="row border">
-				<div class="small-12 columns cartItem padBottom">
-					<img src="img/profile.jpg" class="float-left">
-					<p>I will create 12 Unique Slogans or Taglines For Your Business</p>
-					<a href="#">Remove Gigg</a>
-				</div>
-				<hr>
-				<div class="clearfix">
-					<div class="small-8 columns">
-						<span class=" subheader float-left">Basic Gig Quantity</span>
-					</div>
-
-
-					<div class="small-4 columns float-right">
-						<select>
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5</option>
-							<option value="6">6</option>
-							<option value="7">7</option>
-							<option value="8">8</option>
-							<option value="9">9</option>
-							<option value="10">10</option>
-						</select>
-
-					</div>
-				</div>
-				<div class=" padTop">
-					<div class="small-8 columns">
-						<span class="  subheader float-left">Total</span>
-					</div>
-					<div class="small-4 columns">
-						<span class="  subheader float-right">350tk</span>
-					</div>
-				</div>
-
-
-			</div>
-
-			<!-- second item ends -->
 
 		</div>
 
@@ -122,7 +62,7 @@
 					<span class="  subheader float-left">Cart subtotal</span>
 				</div>
 				<div class="small-4 columns">
-					<span class=" small-6 columns subheader float-right">300tk</span>
+					<span class=" small-6 columns subheader float-right">{{$cart_total}}tk</span>
 				</div>
 			</div>
 
@@ -141,7 +81,7 @@
 					<span class="  subheader float-left">Total</span>
 				</div>
 				<div class="small-4 columns">
-					<span class=" small-6 columns subheader float-right">350tk</span>
+					<span class=" small-6 columns subheader float-right">{{$cart_total+50}}tk</span>
 				</div>
 			</div>
 

@@ -62,7 +62,10 @@
 
 			    </div>
 
-
+			    <div class="small-3 ">
+			    	<h4>please select your gig cover picture</h4>
+			   		 <input type="file" name="gig_photo" accept="image/*">
+			    </div>
 			     <div class="row">
 
 			        <div class="small-3 columns ">
@@ -275,8 +278,9 @@
 			    <div class="row padTop">
 			        <div class="small-2 small-centered columns">
 
-			            <a href="album"  class="button  success ">Almost There ! </a>
+			            <!-- <a href="album"  class="button  success ">Almost There ! </a> -->
 
+			            <button type="submit" class="button  success  ">LOGIN </button>
 			        </div>
 			    </div>
 

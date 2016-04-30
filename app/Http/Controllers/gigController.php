@@ -20,9 +20,9 @@ class gigController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function __construct(){
+    /*public function __construct(){
         $this->middleware('auth');
-    }
+    }*/
 
     public function index()
     {
@@ -136,6 +136,9 @@ class gigController extends Controller
     public function edit($id)
     {
         //
+        $dycrypt=Crypt::decrypt($id);
+
+        return "here in the gigController edit section";
     }
 
     /**
