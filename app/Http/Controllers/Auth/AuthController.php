@@ -64,6 +64,7 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
             ]);
+        //return "testing";
     }
 
     public function redirectToProvider_facebook()
@@ -119,10 +120,12 @@ class AuthController extends Controller
             Auth::Login($this->create($data));
         }
 
-        return redirect('/');
+        return redirect('auth/login');
 
         // $user->token;
     }
+
+    
     protected $redirectPath = '/';
     protected $loginPath = '/';
 }

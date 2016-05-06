@@ -118,4 +118,15 @@ class testController extends Controller
     {
         //
     }
+
+    public function confirmEmail($token){
+
+        $user=User::whereToken($token)->firstOrFail();
+
+        $user->verified=true;
+        $user->token=null;
+        $user->save();
+
+        return $redirect = '/';
+    }
 }

@@ -51,6 +51,9 @@ Route::get('auth/logout', 'Auth\AuthController@getLogout');
 //Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
+//email confirmation
+Route::get('register/confirm/{token}', 'testController@confirmEmail');
+
 // Password reset link request routes...
 Route::get('password/email', 'Auth\PasswordController@getEmail');
 Route::post('password/email', 'Auth\PasswordController@postEmail');

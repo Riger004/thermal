@@ -4,6 +4,7 @@ namespace Illuminate\Foundation\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Mailers\AppMailer;
 
 trait RegistersUsers
 {
@@ -25,7 +26,7 @@ trait RegistersUsers
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function postRegister(Request $request)
+    public function postRegister(Request $request, AppMailer $mailer)
     {
         $validator = $this->validator($request->all());
 
@@ -35,8 +36,14 @@ trait RegistersUsers
             );
         }
 
-        Auth::login($this->create($request->all()));
+        //Auth::login($this->create($request->all()));
+        $user=$this->create($request->all());
 
-        return redirect($this->redirectPath());
+        $mailer->sendEmailConfimationTo($user);
+
+        session()->flash('message','please confirm your mail address');
+
+        //return redirect($this->redirectPath());
+        return redirect()->back(); 
     }
 }

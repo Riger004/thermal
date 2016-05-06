@@ -5,6 +5,7 @@ namespace Illuminate\Foundation\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Lang;
+use App\User;
 
 trait AuthenticatesUsers
 {
@@ -93,7 +94,12 @@ trait AuthenticatesUsers
      */
     protected function getCredentials(Request $request)
     {
-        return $request->only($this->loginUsername(), 'password');
+        //return $request->only($this->loginUsername(), 'password');
+        return [
+                'email'=>$request->input('email'),
+                'password'=>$request->input('password'),
+                'verified'=>true
+                ];
     }
 
     /**

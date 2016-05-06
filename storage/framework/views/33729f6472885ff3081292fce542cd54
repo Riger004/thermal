@@ -12,6 +12,22 @@
 <?php $__env->startSection('body'); ?>
 
 
+<?php if(count($errors)>0): ?>
+  <div class="alert alert-danger"></div>
+  <ul>
+    <?php foreach($errors->all() as $error): ?>
+      <li><?php echo e($error); ?></li>
+    <?php endforeach; ?>
+  </ul>
+<?php endif; ?>
+
+<?php if(Session()->has('message')): ?>) 
+<div class="alert alert-danger">
+  <?php echo e(Session ('message')); ?>
+
+</div>
+<?php endif; ?>
+
  <div class="row">
     <div class="small-8 columns small-centered text-center ">
       <div class="signup-panel panel">

@@ -12,6 +12,21 @@
 @section('body')
 
 
+@if (count($errors)>0)
+  <div class="alert alert-danger"></div>
+  <ul>
+    @foreach($errors->all() as $error)
+      <li>{{$error}}</li>
+    @endforeach
+  </ul>
+@endif
+
+@if(Session()->has('message'))) 
+<div class="alert alert-danger">
+  {{ Session ('message')}}
+</div>
+@endif
+
  <div class="row">
     <div class="small-8 columns small-centered text-center ">
       <div class="signup-panel panel">
