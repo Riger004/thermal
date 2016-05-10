@@ -261,7 +261,7 @@
 <div class="column row">
 
 
- <a href="" class="button hollow success float-right">Contact Me</a>
+ <a href="javascript:void(0)" class="button hollow success float-right" data-toggle="exa" id="conT">Contact me</a>
 </div>
 
 </div>
@@ -275,7 +275,39 @@
 
 
 </div>
+<!-- modal content -->
 
+    <div class="reveal medium panel" id="exa" data-reveal>
+      <div class="row columns text-center"><span class=" subheader"><h3>Send Message</h3></span>
+      </div>
+
+
+      <form method="POST" action="auth/login" enctype="multipart/form-data">
+        {{ csrf_field() }}
+
+        <div class="column row padTop msgs">
+          
+          <textarea></textarea>
+        </div>
+
+
+        <div class="row collapse padTop  text-center" >
+
+          <button type="submit" class="button  secondary hollow radius  ">Send</button>
+        </div>
+
+
+
+      </form>
+
+
+      <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+
+<!--modal content ends here-->
 
 <!-- extras -->
 <div class="large-8 columns  showGig panel flearfix float-left ">
@@ -524,7 +556,7 @@
 <div class="column row">
 
  <a href="" class="button hollow primary">Learn More</a>
- <a href="" class="button hollow success float-right">Contact Me</a>
+<a href="javascript:void(0)" class="button hollow success float-right" data-toggle="exa" id="conT">Contact me</a>
 </div>
 
 </div>
