@@ -121,11 +121,11 @@
 				  		<a href="#">Graphics and design</a>
 
 				<ul class="nested vertical menu">
-				  <li><a href="catagory">Social Media design</a></li>
-				  <li><a href="catagory">Photoshop editing</a></li>
-				  <li><a href="catagory">Presentations and infographics</a></li>
-				  <li><a href="catagory">T-shirt design</a></li>
-				  <li><a href="catagory">Logo design</a></li>
+				  <li><a href="/catagory/Social Media design">Social Media design</a></li>
+				  <li><a href="/catagory/Photoshop editing">Photoshop editing</a></li>
+				  <li><a href="/catagory/Presentations and infographics">Presentations and infographics</a></li>
+				  <li><a href="/catagory/T-shirt design">T-shirt design</a></li>
+				  <li><a href="/catagory/Logo design">Logo design</a></li>
 				</ul>
 
 				  </li>
@@ -134,14 +134,14 @@
 				  		<a href="#" >Online Marketing</a>
 
 				<ul class="nested vertical menu">
-				  <li><a href="catagory">SEO</a></li>
-				  <li><a href="catagory">Social Marketing</a></li>
-				  <li><a href="catagory">Blog mentions</a></li>
-				  <li><a href="catagory">Reviews</a></li>
-				  <li><a href="catagory">Video marketing</a></li>
-				  <li><a href="catagory">Fan Pages</a></li>
-				  <li><a href="catagory">Domain Research</a></li>
-				  <li><a href="catagory">Web analytics</a></li>
+				  <li><a href="/catagory/SEO">SEO</a></li>
+				  <li><a href="/catagory/Social Marketing">Social Marketing</a></li>
+				  <li><a href="/catagory/Blog mentions">Blog mentions</a></li>
+				  <li><a href="/catagory/Reviews">Reviews</a></li>
+				  <li><a href="/catagory/Video marketing">Video marketing</a></li>
+				  <li><a href="/catagory/Fan Pages">Fan Pages</a></li>
+				  <li><a href="/catagory/Domain Research">Domain Research</a></li>
+				  <li><a href="/catagory/Web analytics">Web analytics</a></li>
 				</ul>
 
 				  </li>

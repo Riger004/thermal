@@ -94,6 +94,8 @@ Route::post('gig_create/cart/{id}','cartController@store');
 //displaying the cart
 Route::get('cart/display','cartController@display_cart');
 
+//working on displaying the cart
+
 Route::get('/catagory/{category}', 'categoryController@show');
 
 
