@@ -282,18 +282,18 @@
       </div>
 
 
-      <form method="POST" action="auth/login" enctype="multipart/form-data">
+      <form >
         {{ csrf_field() }}
 
         <div class="column row padTop msgs">
           
-          <textarea></textarea>
+          <textarea id="message-to-send" placeholder="type your message"></textarea>
         </div>
 
 
         <div class="row collapse padTop  text-center" >
 
-          <button type="submit" class="button  secondary hollow radius  ">Send</button>
+          <button  id="sending_msg" class="button  secondary hollow radius  ">Send</button>
         </div>
 
 
@@ -1085,7 +1085,24 @@
 
 
 
+<script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
+  <script >
 
+  var to_msg = ('{{$user->email}}');
+  
+    $(document).on("click", "#sending_msg", function(event) {
+      var formData = {
+          'From'   : user_email_id_t,
+          'To'     : to_msg,
+          'msg'    : $('textarea[id=message-to-send]').val()
+        };
+      socket.emit('chat message', formData);
+          $("textarea#message-to-send").val('');
+         return false;
+    });
+
+
+</script>
 
 
 

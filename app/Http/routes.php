@@ -72,7 +72,7 @@ Route::get('auth/facebook/callback', 'Auth\AuthController@handleProviderCallback
 Route::get('auth/google', 'Auth\AuthController@redirectToProvider_google');
 Route::get('auth/google/callback', 'Auth\AuthController@handleProviderCallback_google');
 
-
+Route::get('inbox','MessageController@index');
 
 
 //Route::resource('profile','testController');

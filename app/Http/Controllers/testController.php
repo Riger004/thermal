@@ -127,6 +127,6 @@ class testController extends Controller
         $user->token=null;
         $user->save();
 
-        return $redirect = '/';
+        return view('prac.email_confirmation');
     }
 }

@@ -68,8 +68,6 @@
    #noti_Counter {
        display:block;
        position:absolute;
-       background:#E1141E;
-       color:#FFF;
        font-size:12px;
        font-weight:normal;
        padding:1px 3px;
@@ -111,8 +109,6 @@
    #msg_Counter {
        display:block;
        position:absolute;
-       background:#E1141E;
-       color:#FFF;
        font-size:12px;
        font-weight:normal;
        padding:1px 3px;
@@ -416,10 +412,10 @@
 }
 .sub-nav a{
 
-/*	margin-left: 0px !important;
-	margin-right: 0px !important;
-	padding-right: 5px !important;
-	padding-left: 0px !important;*/
+/*  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-right: 5px !important;
+  padding-left: 0px !important;*/
 
   padding-right: 1.7em !important;
   padding-left: 0px !important;
@@ -1324,18 +1320,27 @@
   padding-left: 10px;
   margin-top: 6px;
 }
+
+.fgf{
+  padding-top: 10px;
+}
 .chat .chat-header .chat-with {
   font-weight: bold;
   font-size: 16px;
 }
 .chat .chat-header .chat-num-messages {
   color: #92959E;
+  
+
 }
+.chat-num-messages {
+   margin-bottom: 6px;
+  }
 .chat .chat-header .fa-star {
   float: right;
   color: #D8DADF;
   font-size: 20px;
-  margin-top: 12px;
+  margin-top: 4px;
 }
 .chat .chat-history {
   padding: 30px 30px 20px;

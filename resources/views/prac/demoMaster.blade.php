@@ -34,6 +34,7 @@
           </div>
           <div class="top-bar-right">
                     <ul class="dropdown menu" data-dropdown-menu data-options="closingTime:50">
+                @if(Auth::check())
                         <!-- <li>
                             <a href="#" ><i class=""></i></a>
                             <ul class="dropdown menu " data-dropdown-menu>
@@ -54,14 +55,14 @@
                               <h3>Notifications</h3>
                               <div style="height:300px;">
 
-                                <div class="column row text-center">
+                                <div id="noti_msg" class="column row text-center">
 
                                   <!-- notification add -->
-                                  <small> Demo Notification : One Sale </small>
+<!--                                   <small> Demo Notification : One Sale </small>
 
                                   <hr>
 
-                                  <small> Demo Notification : Two Sale </small>
+                                  <small> Demo Notification : Two Sale </small> -->
 
                                 </div>
 
@@ -90,6 +91,7 @@
 
 
                        <li id="msg_Container" >
+                      
                           <div id="msg_Counter"></div>   <!--SHOW NOTIFICATIONS COUNT.-->
 
                           <!--A CIRCLE LIKE BUTTON TO DISPLAY NOTIFICATION DROPDOWN.-->
@@ -97,9 +99,9 @@
 
 
 
-                         
+                     
                       </li>
-
+                @endif
                       @if(Auth::check())
 
                        <li class="uy" >
@@ -125,7 +127,7 @@
 
                                         <li>
 
-                                            <a href="/auth/logout"><span class="p2">Log Out</span></a>
+                                            <a id="logout" href="/auth/logout"><span class="p2">Log Out</span></a>
 
                                         </li>
 
@@ -450,11 +452,21 @@
 <script type="text/javascript" src="{{ URL::asset('js/all.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('owl-carousel/owl.carousel.js') }}"></script>
 
+<script type="text/javascript" src="{{ URL::asset('js/node_modules/socket.io-client/socket.io.js') }}"></script>
 <script >
+      var socket={};
+      var user_email_id_t='';
+      @if (Auth::check())
+          user_email_id_t = ('{{{ Auth::user()->email }}}');
+          socket = io('http://localhost:3000',{ query: "user_id="+user_email_id_t });
+      @endif     
+      var noti_counter = 0;
+      var counter = 0;
+  $(document).ready(function() {
 
-
-
-$(document).ready(function() {
+      @if (Auth::check())
+          socket.emit('get_notification_and_msg_no',{'user_email':user_email_id_t});
+      @endif
 
   $("#owl-demo").owlCarousel({
 
@@ -499,19 +511,19 @@ $(document).ready(function() {
 
 
   // ANIMATEDLY DISPLAY THE NOTIFICATION COUNTER.
-       $('#noti_Counter')
-           .css({ opacity: 0 })
-           .text('7')              // ADD DYNAMIC VALUE (YOU CAN EXTRACT DATA FROM DATABASE OR XML).
-           .css({ top: '-10px' })
-           .animate({ top: '-2px', opacity: 1 }, 500);
+       // $('#noti_Counter')
+       //     .css({ opacity: 0 })
+       //     .text('7')              // ADD DYNAMIC VALUE (YOU CAN EXTRACT DATA FROM DATABASE OR XML).
+       //     .css({ top: '-10px' })
+       //     .animate({ top: '-2px', opacity: 1 }, 500);
 
 
 
-           $('#msg_Counter')
-           .css({ opacity: 0 })
-           .text('7')              // ADD DYNAMIC VALUE (YOU CAN EXTRACT DATA FROM DATABASE OR XML).
-           .css({ top: '-10px' })
-           .animate({ top: '-2px', opacity: 1 }, 500);
+       //     $('#msg_Counter')
+       //     .css({ opacity: 0 })
+       //     .text('7')              // ADD DYNAMIC VALUE (YOU CAN EXTRACT DATA FROM DATABASE OR XML).
+       //     .css({ top: '-10px' })
+       //     .animate({ top: '-2px', opacity: 1 }, 500);
 
        $('#noti_Button').click(function () {
 
@@ -523,7 +535,7 @@ $(document).ready(function() {
                else $('#noti_Button').css('background-color', '#FFF');        // CHANGE BACKGROUND COLOR OF THE BUTTON.
            });
 
-           $('#noti_Counter').fadeOut('slow');                 // HIDE THE COUNTER.
+           //$('#noti_Counter').fadeOut('slow');                 // HIDE THE COUNTER.
 
            return false;
        });
@@ -532,6 +544,7 @@ $(document).ready(function() {
         $('#msg_Button').click(function () {
 
            // TOGGLE (SHOW OR HIDE) NOTIFICATION WINDOW.
+          $(location).attr('href', 'inbox');
           
 
            $('#msg_Counter').fadeOut('slow');                 // HIDE THE COUNTER.
@@ -559,6 +572,79 @@ $(document).ready(function() {
            return false;       // DO NOTHING WHEN CONTAINER IS CLICKED.
        });
 
+    @if (Auth::check())
+      socket.on('get_notification_and_msg_no',function(msg) {
+        if (msg.notification_no!=0) {
+          counter=0;
+          $('#noti_Counter')
+             .css({ opacity: 0 })
+             .text(msg.notification_no) 
+             .css({ top: '-10px' })
+             .css({background:'#E1141E'})
+             .css({color:'#FFF'})
+             .animate({ top: '-2px', opacity: 1 }, 0);
+          }
+          else {
+          $('#noti_Counter')
+             .css({ opacity: 0 })
+             .text('') 
+             .css({ top: '' })
+             .css({background:''})
+             .css({color:''})
+             .animate({ top: '-2px', opacity: 1 }, 0);
+          }            
+
+        if (msg.message_no!=0) {
+          $('#msg_Counter')
+             .css({ opacity: 0 })
+             .text(msg.message_no) 
+             .css({ top: '-10px' })
+             .css({background:'#E1141E'})
+             .css({color:'#FFF'})
+             .animate({ top: '-2px', opacity: 1 }, 0);
+        }
+        else {
+            $('#msg_Counter')
+             .css({ opacity: 0 })
+             .text('') 
+             .css({ top: '' })
+             .css({background:''})
+             .css({color:''})
+             .animate({ top: '-2px', opacity: 1 }, 0);
+        }
+      });
+    @endif
+      $("#msg_Button").click(function(event) {
+          socket.emit('msg_counter_zero',{'user_email':user_email_id_t});
+          return false;
+      });
+
+
+      $("#noti_Button").click(function(event) {
+        
+        if(counter==0){
+          socket.emit('noti_counter_zero',{'user_email':user_email_id_t});
+          socket.emit('get_notification',{'user_email':user_email_id_t});
+          counter++;
+        }
+        
+          return false;
+      });
+
+      $("#logout").click(function(event) {
+        socket.emit('log_out',{'user_email':user_email_id_t});
+        return trur;
+      });
+
+    @if (Auth::check())
+      socket.on('get_noti_msg', function(msg){
+          var output = "";
+          for (var i = 0; i < msg.length; i++) {
+             output  +="<small>"+msg[i].main_msg+"</small><hr>";
+            }
+          document.getElementById('noti_msg').innerHTML = output;
+      });
+    @endif
 });
 
 </script>
