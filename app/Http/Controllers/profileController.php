@@ -10,6 +10,7 @@ use Auth;
 use App\User;
 use App\profiles;
 use App\Gig;
+use Crypt;
 
 class profileController extends Controller
 {
@@ -135,9 +136,19 @@ class profileController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($name)
+    public function show($id)
     {
-        
+        $dycrypt=Crypt::decrypt($id);
+
+        $profile=profiles::where('id',$dycrypt)->first();
+
+        $user=User::where('id',$profile->user_id)->first();
+
+        $gig=Gig::where('user_id',$user->id)->get();
+
+        return view('prac.profile',compact('user','profile','gig'));
+
+        // return $profile;
     }
 
     /**

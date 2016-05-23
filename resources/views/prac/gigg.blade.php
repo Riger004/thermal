@@ -157,7 +157,7 @@
       <span class="  subheader float-left">5585 Buyer Reviews</span>
     </div>
     <div class="small-4 columns">
-     <span class=" small-6 columns subheader  stat">4.9</span>
+     <span class=" small-6 columns subheader stat">4.9</span>
    </div>
 
 
@@ -211,7 +211,7 @@
   <div class="row">
     <div class="small-12  columns  ">
       @if(isset($profile->profile_pic))
-      <a href=""><img src="{{$profile->profile_pic}}" class="float-center center gigg-pro-img"></a> 
+      <a href="/profile/<?php echo Crypt::encrypt($profile->id)?>"><img src="{{$profile->profile_pic}}" class="float-center center gigg-pro-img"></a> 
       @endif
     </div>
 

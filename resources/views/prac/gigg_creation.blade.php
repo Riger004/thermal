@@ -280,7 +280,7 @@
 
 			            <!-- <a href="album"  class="button  success ">Almost There ! </a> -->
 
-			            <button type="submit" class="button  success  ">LOGIN </button>
+			            <button type="submit" class="button  success  ">Save</button>
 			        </div>
 			    </div>
 

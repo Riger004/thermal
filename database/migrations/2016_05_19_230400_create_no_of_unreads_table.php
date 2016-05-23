@@ -14,9 +14,9 @@ class CreateNoOfUnreadsTable extends Migration
     {
         Schema::create('no_of_unreads', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('user_id');
-            $table->integer('no_notifications');
-            $table->integer('no_messages');
+            $table->string('user_email');
+            $table->integer('no_notifications')->default(0);
+            $table->integer('no_messages')->default(0);
         });
     }
 

@@ -20,11 +20,6 @@ class categoryController extends Controller
     			->join('users','gigs.user_id', '=', 'users.id')
     			->select('users.name','users.email','gigs.*')
     			->where('gigs.sub_category',$category)->get();
-    			
-
-    	
-    	
-
 
     	return view('prac.catagory-landing',compact('data','meta_data'));
 

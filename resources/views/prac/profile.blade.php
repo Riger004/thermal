@@ -125,8 +125,11 @@
 			<div class="column row">
 
 				<a href="javascript:void(0)" class="button hollow success float-left" data-toggle="exa" id="conT">Contact me</a>
-
+				@if(Auth::check())
+				@if(Auth::user()->id==$user->id)
 				<a href="#" data-toggle="myModal1" class="button secondary float-right ">Edit Info</a> 
+				@endif
+				@endif
 			</div>
 
 			@if (count($errors) > 0)
@@ -194,39 +197,39 @@
 
 	</div>
 
-<!-- modal content -->
+	<!-- modal content -->
 
-    <div class="reveal medium panel" id="exa" data-reveal>
-      <div class="row columns text-center"><span class=" subheader"><h3>Send Message</h3></span>
-      </div>
-
-
-      <form method="POST" action="auth/login" enctype="multipart/form-data">
-        {{ csrf_field() }}
-
-        <div class="column row padTop msgs">
-          
-          <textarea></textarea>
-        </div>
+	<div class="reveal medium panel" id="exa" data-reveal>
+		<div class="row columns text-center"><span class=" subheader"><h3>Send Message</h3></span>
+		</div>
 
 
-        <div class="row collapse padTop  text-center" >
+		<form method="POST" action="auth/login" enctype="multipart/form-data">
+			{{ csrf_field() }}
 
-          <button type="submit" class="button  secondary hollow radius  ">Send</button>
-        </div>
+			<div class="column row padTop msgs">
 
-
-
-      </form>
-
-
-      <button class="close-button" data-close aria-label="Close reveal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
+				<textarea></textarea>
+			</div>
 
 
-<!--modal content ends here-->
+			<div class="row collapse padTop  text-center" >
+
+				<button type="submit" class="button  secondary hollow radius  ">Send</button>
+			</div>
+
+
+
+		</form>
+
+
+		<button class="close-button" data-close aria-label="Close reveal" type="button">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+
+
+	<!--modal content ends here-->
 
 
 	<div id="myModal1" class="reveal large " data-reveal >

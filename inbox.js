@@ -7,9 +7,9 @@ require('events').EventEmitter.prototype._maxListeners = 1000000000000000000;
 var pool = mysql.createPool({
    connectionLimit : 2000, //important
    host     : 'localhost',
-   user     : 'root',
-   password : '',
-   database : 'fiverr_phase_4',
+   user     : 'homestead',
+   password : 'secret',
+   database : 'fiver_a',
    debug    :  false
 });
 
@@ -24,7 +24,10 @@ pool.getConnection(function(err, connection) {
 
 io.on('connection', function(socket) {
 
+
   var temp_input = {'user_id':socket.handshake.query.user_id,'socket_id':socket.id};
+  
+  console.log(temp_input);
     var user_name = socket.handshake.query.user_id;
     pool.getConnection(function(err, connection) {
       connection.query('INSERT INTO temporary SET ?', temp_input, function(err, result) {
