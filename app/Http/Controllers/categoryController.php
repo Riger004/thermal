@@ -23,8 +23,6 @@ class categoryController extends Controller
 
     	return view('prac.catagory-landing',compact('data','meta_data'));
 
-    	
-    	
 
     }
 }
