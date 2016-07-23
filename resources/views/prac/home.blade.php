@@ -31,7 +31,7 @@
 
     <div  class="small-12 columns small-centered text-center heroText " >
 
-      <span class="ProName"><b>What do you need done?</b><hr> <span class="brand"><b>Find it on <span style="color:#22BB5B">Fiverr</span></b></span></span> <br>
+      <span class="ProName"><b>What do you need done?</b><hr> <span class="brand"><b>Find it on <span style="color:#22BB5B">eztaskr</span></b></span></span> <br>
 
       <span class="ProRate"><span class=" browse">Browse</span><span   class="buy">&nbsp;Buy&nbsp;</span><span class="done">Done</span> </span> 
 

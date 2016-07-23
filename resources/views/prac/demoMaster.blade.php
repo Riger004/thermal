@@ -6,7 +6,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>FiverrLike | @yield('title')</title>
+    <title>eztaskr | @yield('title')</title>
 
     <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/custom.css') }}">
@@ -29,7 +29,7 @@
          <div class="row column ">
           <div class="top-bar-left">
             <ul class="dropdown menu" data-dropdown-menu>
-              <li class="menu-text"><a href="/">FiverrLike</a></li>
+              <li class="menu-text"><a href="/">eztaskr</a></li>
             </ul>
           </div>
           <div class="top-bar-right">
@@ -358,7 +358,7 @@
 <!-- modal content -->
 
 <div class="reveal medium panel " id="exampleModal11" data-reveal>
-<div class="row columns text-center"><span class=" subheader"><h3>Login to Fiverr</h3></span>
+<div class="row columns text-center"><span class=" subheader"><h3>Login to eztaskr</h3></span>
 </div>
 <hr>
 
@@ -423,8 +423,8 @@
 <footer class="footer">
   <div class="row">
     <div class="small-12 columns">
-      <p class="slogan">FiverLike</p>
-      <p class="contact subheader">contact@fiverlike.com</p>
+      <p class="slogan">eztaskr</p>
+      <p class="contact subheader">contact@eztaskre.com</p>
 
         <a href="#" class="icon-button twitter">
           <i class="fi-social-twitter"></i><span></span>

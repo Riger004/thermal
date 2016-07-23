@@ -31,7 +31,7 @@
     <div class="small-8 columns small-centered text-center ">
       <div class="signup-panel panel">
         <div class="row columns text-center">
-        <span class=" subheader"><h3>Join Fiverr</h3></span>
+        <span class=" subheader"><h3>Join eztaskr</h3></span>
         </div>
         <hr>
         <form method="POST" action="auth/register" enctype="multipart/form-data">
